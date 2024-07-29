@@ -1,0 +1,672 @@
+Level	Rule Name	Subject	Property	Value
+ERROR	duplicate_definition	OPMI:0000458	IAO:0000115	Oliver He, Yingtong Liu
+ERROR	duplicate_definition	OPMI:0000459	IAO:0000115	Oliver He, Yingtong Liu
+ERROR	duplicate_definition	OMIT:0003470	IAO:0000115	Disorders in the processing of calcium in the body: its absorption, transport, storage, and utilization.
+ERROR	duplicate_definition	http://www.ebi.ac.uk/efo/EFO_0005769	IAO:0000115	Disorders in the processing of calcium in the body: its absorption, transport, storage, and utilization.
+ERROR	duplicate_definition	OMIT:0005305	IAO:0000115	Adjusting the quantity and quality of food intake to improve health status of an individual. This term does not include the methods of food intake (NUTRITIONAL SUPPORT).
+ERROR	duplicate_definition	OMIT:0026291	IAO:0000115	Adjusting the quantity and quality of food intake to improve health status of an individual. This term does not include the methods of food intake (NUTRITIONAL SUPPORT).
+ERROR	duplicate_label	http://purl.allotrope.org/ontologies/property#AFX_0002865	rdfs:label	imported from
+ERROR	duplicate_label	IAO:0000412	rdfs:label	imported from
+ERROR	duplicate_label	IAO:0000119	rdfs:label	definition source
+ERROR	duplicate_label	SCDO:0000340	rdfs:label	definition source
+ERROR	duplicate_label	IAO:0000115	rdfs:label	definition
+ERROR	duplicate_label	skos:definition	rdfs:label	definition
+ERROR	duplicate_label	IAO:0000232	rdfs:label	curator note
+ERROR	duplicate_label	SCDO:0000303	rdfs:label	curator note
+ERROR	illegal_use_of_built_in_vocabulary	rdf:type	rdf:type	owl:AnnotationProperty
+ERROR	missing_label	http://www.ebi.ac.uk/efo/branch_class	rdfs:label	
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software.
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software.
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.@en
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.@en
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official definition.
+ERROR	multiple_definitions	IAO:0000117	IAO:0000115	Name of editor entering the definition in the file. The definition editor is a point of contact for information regarding the term. The definition editor may be, but is not always, the author of the definition, which may have been worked upon by several people@en
+ERROR	multiple_definitions	IAO:0000117	IAO:0000115	Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people@en
+ERROR	multiple_definitions	IAO:0000118	IAO:0000115	A label for a class or property that can be used to refer to the class or property instead of the preferred rdfs:label. Alternative labels should be used to indicate community- or context-specific labels, abbreviations, shorthand forms and the like.@en
+ERROR	multiple_definitions	IAO:0000118	IAO:0000115	An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)@en
+ERROR	multiple_definitions	IAO:0000119	IAO:0000115	Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en
+ERROR	multiple_definitions	IAO:0000119	IAO:0000115	formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en
+ERROR	multiple_definitions	NCIT:A33	IAO:0000115	An association that indicates a concept is a dedicated Authorized Value concept for a specific PCDC GCT Variable.
+ERROR	multiple_definitions	NCIT:A33	IAO:0000115	An association that indicates a concept is a dedicated Permissible Value concept for a specific PCDC GCT Variable.
+ERROR	multiple_definitions	NCIT:A38	IAO:0000115	An association that shows which Authorized Values are possible for a specific PCDC OS Variable.
+ERROR	multiple_definitions	NCIT:A38	IAO:0000115	An association that shows which Permissible Values are possible for a specific PCDC OS Variable.
+ERROR	multiple_definitions	OPMI:0000458	IAO:0000115	A molecular biomarker at the DNA gene level
+ERROR	multiple_definitions	OPMI:0000458	IAO:0000115	Oliver He, Yingtong Liu
+ERROR	multiple_definitions	OPMI:0000459	IAO:0000115	A molecular biomarker at the RNA level
+ERROR	multiple_definitions	OPMI:0000459	IAO:0000115	Oliver He, Yingtong Liu
+ERROR	multiple_definitions	RO:0002161	IAO:0000115	S never_in_taxon T iff: S SubClassOf in_taxon only not T.
+ERROR	multiple_definitions	RO:0002161	IAO:0000115	"x never in taxon T if and only if T is a class, and x does not instantiate the class expression \""in taxon some T\"". Note that this is a shortcut relation, and should be used as a hasValue restriction in OWL."
+ERROR	multiple_definitions	RO:0002175	IAO:0000115	S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S
+ERROR	multiple_definitions	RO:0002175	IAO:0000115	S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0000319	IAO:0000115	A body system disease which occurs in the blood, heart, blood vessels or the lymphatic system that passes nutrients (such as amino acids and electrolytes), gases, hormones, blood cells or lymph to and from cells in the body to help fight diseases and help stabilize body temperature and pH to maintain homeostasis.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0000319	IAO:0000115	A disease involving the cardiovascular system.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0000319	IAO:0000115	A non-neoplastic or neoplastic disorder affecting the heart or the vessels (arteries, veins and lymph vessels).  Representative examples of non-neoplastic cardiovascular disorders are endocarditis and hypertension.  Representative examples of neoplastic cardiovascular disorders are endocardial myxoma and angiosarcoma. -- 2003
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0000319	IAO:0000115	A non-neoplastic or neoplastic disorder affecting the heart or the vessels (arteries, veins and lymph vessels). Representative examples of non-neoplastic cardiovascular disorders are endocarditis and hypertension. Representative examples of neoplastic cardiovascular disorders are endocardial myxoma and angiosarcoma.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0000319	IAO:0000115	Pathological conditions involving the CARDIOVASCULAR SYSTEM including the HEART; the BLOOD VESSELS; or the PERICARDIUM.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0000384	IAO:0000115	A chronic transmural inflammation that may involve any part of the DIGESTIVE TRACT from MOUTH to ANUS, mostly found in the ILEUM, the CECUM, and the COLON. In Crohn disease, the inflammation, extending through the intestinal wall from the MUCOSA to the serosa, is characteristically asymmetric and segmental. Epithelioid GRANULOMAS may be seen in some patients.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0000384	IAO:0000115	A gastrointestinal disorder characterized by chronic inflammation involving all layers of the intestinal wall, noncaseating granulomas affecting the intestinal wall and regional lymph nodes, and transmural fibrosis. Crohn disease most commonly involves the terminal ileum; the colon is the second most common site of involvement.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0000401	IAO:0000115	Diabetic nephropathy (sometimes called Kimmelstiel-Wilson syndrome) is a progressive kidney disorder caused by vascular damage to the glomerular capillaries, in patients with diabetes mellitus. It is usually manifested with nephritic syndrome and glomerulosclerosis.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0000401	IAO:0000115	Progressive kidney disorder caused by vascular damage to the glomerular capillaries, in patients with diabetes mellitus. It is usually manifested with nephritic syndrome and glomerulosclerosis.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0001361	IAO:0000115	A syndrome with pathological changes in the pulmonary arteries and impaired PULMONARY CIRCULATION that can be the result of PULMONARY HYPERTENSION. Ayerza syndrome is characterized by slowly developing ASTHMA; BRONCHITIS; DYSPNEA; and CYANOSIS in association with POLYCYTHEMIA.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0001361	IAO:0000115	Increased VASCULAR RESISTANCE in the PULMONARY CIRCULATION, usually secondary to HEART DISEASES or LUNG DISEASES.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0001361	IAO:0000115	Pulmonary arterial hypertension (PAH) is a group of diseases characterized by mean pulmonary artery pressure >20 mmHg and elevated pulmonary arterial resistance leading to right heart failure. PAH is progressive and potentially fatal. PAH may be idiopathic and/ or familial, have overt features of venous/capillary involvement (pulmonary veno-occlusive disease, PVOD/pulmonary capillary hemangiomatosis, PCH), induced by drug or toxin (drug-or toxin-induced PAH), or associated with other diseases like congenital heart disease, connective tissue disease, HIV, schistosomiasis, portal hypertension (PAH associated with other disease).
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0002950	IAO:0000115	The state or condition of having a developing embryo or fetus in the body (uterus), after union of an ovum and spermatozoon, during the period from conception to birth.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0002950	IAO:0000115	The status during which female mammals carry their developing young (EMBRYOS or FETUSES) in utero before birth, beginning from FERTILIZATION to BIRTH.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0003047	IAO:0000115	A Hepacivirus infectious disease and is_a viral hepatitis that results_in inflammation located_in liver, has_agent Hepatitis C virus, which is transmitted_by blood from an infected person enters the body of an uninfected person. The infection has_symptom fever, has_symptom fatigue, has_symptom loss of appetite, has_symptom nausea, has_symptom vomiting, has_symptom abdominal pain, has_symptom clay-colored bowel movements, has_symptom joint pain, and has_symptom jaundice.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0003047	IAO:0000115	A Hepacivirus infectious disease which is a chronic bloodborne infectious disease caused by Hepatitis C virus. The symptoms include fever, fatigue, loss of appetite, nausea, vomiting, abdominal pain, clay-colored bowel movements, joint pain and jaundice.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0003047	IAO:0000115	A viral hepatitis and is_a Hepacivirus infectious disease, that results_in inflammation located_in liver, has_agent Hepatitis C virus, which is transmitted_by blood from an infected person enters the body of an uninfected person. The infection has_symptom fever, has_symptom fatigue, has_symptom loss of appetite, has_symptom nausea, has_symptom vomiting, has_symptom abdominal pain, has_symptom clay-colored bowel movements, has_symptom joint pain, and has_symptom jaundice.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0003047	IAO:0000115	A viral infection caused by the hepatitis C virus.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0003919	IAO:0000115	An aspect of personal behavior or lifestyle, environmental exposure, or inborn or inherited characteristic, which, on the basis of epidemiologic evidence, is known to be associated with a health-related condition considered important to prevent.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0003919	IAO:0000115	Any aspect of an individual's life, behavior, an environmental exposure, or an inborn or inherited characteristic that increases the likelihood of a disease, condition or injury.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0004197	IAO:0000115	A viral infection caused by the hepatitis B virus.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0004197	IAO:0000115	INFLAMMATION of the LIVER in humans caused by a member of the ORTHOHEPADNAVIRUS genus, HEPATITIS B VIRUS. It is primarily transmitted by parenteral exposure, such as transfusion of contaminated blood or blood products, but can also be transmitted via sexual or intimate personal contact.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0004255	IAO:0000115	A collection of symptoms that include severe edema, proteinuria, and hypoalbuminemia; it is indicative of renal dysfunction.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0004255	IAO:0000115	A condition characterized by severe PROTEINURIA, greater than 3.5 g/day in an average adult. The substantial loss of protein in the urine results in complications such as HYPOPROTEINEMIA; generalized EDEMA; HYPERTENSION; and HYPERLIPIDEMIAS. Diseases associated with nephrotic syndrome generally cause chronic kidney dysfunction.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0004286	IAO:0000115	Obstruction of a vein or VEINS (embolism) by a blood clot ( THROMBUS) in the blood stream.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0004286	IAO:0000115	Occlusion of the lumen of a vein by a thrombus that has migrated from a distal site via the blood stream.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0005769	IAO:0000115	Disorders in the processing of calcium in the body: its absorption, transport, storage, and utilization.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0005769	IAO:0000115	Disorders of calcium metabolism occur when the body has too little or too much calcium. The serum level of calcium is closely regulated within a fairly limited range in the human body. In a healthy physiology, extracellular calcium levels are maintained within a tight range through the actions of parathyroid hormone, vitamin D and the calcium sensing receptor.[1] Disorders in calcium metabolism can lead to hypocalcemia, decreased plasma levels of calcium or hypercalcemia, elevated plasma calcium levels.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_1000627	IAO:0000115	A disease involving the thyroid gland.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_1000627	IAO:0000115	A thyroid disease is a medical condition impairing the function of the thyroid. Different thyroid diseases include Hashimoto's thyroiditis, hyperthyroidism and hypothyroidism. These diseases have a large range of symptoms and affect all ages.
+ERROR	multiple_definitions	oboInOwl:hasDbXref	IAO:0000115	A database cross-reference. An annotation which directs one to information contained within a database.
+ERROR	multiple_definitions	oboInOwl:hasDbXref	IAO:0000115	A property representing a reference to an identical or very similar object in another database.
+ERROR	multiple_definitions	oboInOwl:hasDbXref	IAO:0000115	Reference database or publication source.
+ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.
+ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	An alias in which the alias exhibits true synonymy. Example: ornithine cycle is an exact synonym of urea cycle.
+ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	An alternative label for a class or property which has the exact same meaning than the preferred name/primary label.
+ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	An alternative label for a given entity such as a commonly used abbreviation or synonym. 
+ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	Exact synonym.
+ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	Fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.
+ERROR	multiple_definitions	oboInOwl:hasRelatedSynonym	IAO:0000115	An alternative label for a class or property that has been used synonymously with the primary term name, but the usage is not strictly correct.
+ERROR	multiple_definitions	oboInOwl:hasRelatedSynonym	IAO:0000115	Has related synonym.
+ERROR	multiple_definitions	oboInOwl:id	IAO:0000115	An identifier for an individual entity.
+ERROR	multiple_definitions	oboInOwl:id	IAO:0000115	An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.
+ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.
+ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	In subset.
+ERROR	multiple_labels	GSSO:008334	rdfs:label	donor@da
+ERROR	multiple_labels	GSSO:008334	rdfs:label	donor@en
+ERROR	multiple_labels	IAO:0000111	rdfs:label	editor preferred label
+ERROR	multiple_labels	IAO:0000111	rdfs:label	editor preferred label@en
+ERROR	multiple_labels	IAO:0000111	rdfs:label	editor preferred term
+ERROR	multiple_labels	IAO:0000111	rdfs:label	editor preferred term@en
+ERROR	multiple_labels	IAO:0000111	rdfs:label	editor preferred term~editor preferred label
+ERROR	multiple_labels	IAO:0000112	rdfs:label	example of usage
+ERROR	multiple_labels	IAO:0000112	rdfs:label	example of usage@en
+ERROR	multiple_labels	IAO:0000114	rdfs:label	has curation status
+ERROR	multiple_labels	IAO:0000114	rdfs:label	has curation status@en
+ERROR	multiple_labels	IAO:0000115	rdfs:label	definition
+ERROR	multiple_labels	IAO:0000115	rdfs:label	definition@en
+ERROR	multiple_labels	IAO:0000115	rdfs:label	textual definition
+ERROR	multiple_labels	IAO:0000116	rdfs:label	editor note
+ERROR	multiple_labels	IAO:0000116	rdfs:label	editor note@en
+ERROR	multiple_labels	IAO:0000117	rdfs:label	definition editor
+ERROR	multiple_labels	IAO:0000117	rdfs:label	definition editor@en
+ERROR	multiple_labels	IAO:0000117	rdfs:label	definition_editor
+ERROR	multiple_labels	IAO:0000117	rdfs:label	term editor
+ERROR	multiple_labels	IAO:0000117	rdfs:label	term editor@en
+ERROR	multiple_labels	IAO:0000119	rdfs:label	definition source
+ERROR	multiple_labels	IAO:0000119	rdfs:label	definition source@en
+ERROR	multiple_labels	IAO:0000119	rdfs:label	definition_source
+ERROR	multiple_labels	IAO:0000232	rdfs:label	curator note
+ERROR	multiple_labels	IAO:0000232	rdfs:label	curator note@en
+ERROR	multiple_labels	IAO:0000232	rdfs:label	curator notes
+ERROR	multiple_labels	IAO:0000233	rdfs:label	term tracker item
+ERROR	multiple_labels	IAO:0000233	rdfs:label	term tracker item@en
+ERROR	multiple_labels	IAO:0000412	rdfs:label	imported from
+ERROR	multiple_labels	IAO:0000412	rdfs:label	imported from@en
+ERROR	multiple_labels	NCIT:A33	rdfs:label	Is_PCDC_GCT_Authorized_Value_For_Variable
+ERROR	multiple_labels	NCIT:A33	rdfs:label	Is_PCDC_GCT_Permissible_Value_For_Variable
+ERROR	multiple_labels	NCIT:A38	rdfs:label	Has_PCDC_OS_Authorized_Value
+ERROR	multiple_labels	NCIT:A38	rdfs:label	Has_PCDC_OS_Permissible_Value
+ERROR	multiple_labels	RO:0002161	rdfs:label	never in taxon
+ERROR	multiple_labels	RO:0002161	rdfs:label	never_in_taxon
+ERROR	multiple_labels	RO:0002171	rdfs:label	mutually spatially disjoint with@en
+ERROR	multiple_labels	RO:0002171	rdfs:label	mutually_spatially_disjoint_with
+ERROR	multiple_labels	RO:0002175	rdfs:label	present in taxon@en
+ERROR	multiple_labels	RO:0002175	rdfs:label	present_in_taxon
+ERROR	multiple_labels	RO:0002604	rdfs:label	is opposite of
+ERROR	multiple_labels	RO:0002604	rdfs:label	is_opposite_of
+ERROR	multiple_labels	dc11:creator	rdfs:label	creator
+ERROR	multiple_labels	dc11:creator	rdfs:label	dc:creator
+ERROR	multiple_labels	oboInOwl:creation_date	rdfs:label	creation date
+ERROR	multiple_labels	oboInOwl:creation_date	rdfs:label	creation_date
+ERROR	multiple_labels	oboInOwl:hasBroadSynonym	rdfs:label	has broad synonym@en
+ERROR	multiple_labels	oboInOwl:hasBroadSynonym	rdfs:label	has_broad_synonym
+ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	database cross reference
+ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	database cross reference@en
+ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	database_cross_reference
+ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	has database cross reference@en
+ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	xRef
+ERROR	multiple_labels	oboInOwl:hasExactSynonym	rdfs:label	has exact synonym
+ERROR	multiple_labels	oboInOwl:hasExactSynonym	rdfs:label	has exact synonym@en
+ERROR	multiple_labels	oboInOwl:hasExactSynonym	rdfs:label	hasExactSynonym
+ERROR	multiple_labels	oboInOwl:hasExactSynonym	rdfs:label	has_exact_synonym
+ERROR	multiple_labels	oboInOwl:hasNarrowSynonym	rdfs:label	has narrow synonym@en
+ERROR	multiple_labels	oboInOwl:hasNarrowSynonym	rdfs:label	has_narrow_synonym
+ERROR	multiple_labels	oboInOwl:hasRelatedSynonym	rdfs:label	has related synonym@en
+ERROR	multiple_labels	oboInOwl:hasRelatedSynonym	rdfs:label	has_related_synonym
+ERROR	multiple_labels	oboInOwl:inSubset	rdfs:label	in subset
+ERROR	multiple_labels	oboInOwl:inSubset	rdfs:label	in_subset
+ERROR	multiple_labels	skos:prefLabel	rdfs:label	preferred label
+ERROR	multiple_labels	skos:prefLabel	rdfs:label	skos:prefLabel
+WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] 
+WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] 
+WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] 
+WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] 
+WARN	annotation_whitespace	BFO:0000003	IAO:0000602	(forall (x) (if (Occurrent x) (exists (r) (and (SpatioTemporalRegion r) (occupiesSpatioTemporalRegion x r))))) // axiom label in BFO2 CLIF: [108-001] 
+WARN	annotation_whitespace	BFO:0000003	IAO:0000602	(forall (x) (iff (Occurrent x) (and (Entity x) (exists (y) (temporalPartOf y x))))) // axiom label in BFO2 CLIF: [079-001] 
+WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(forall (x t) (if (IndependentContinuant x) (exists (r) (and (SpatialRegion r) (locatedInAt x r t))))) // axiom label in BFO2 CLIF: [134-001] 
+WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] 
+WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] 
+WARN	annotation_whitespace	BFO:0000006	IAO:0000602	(forall (x y t) (if (and (SpatialRegion x) (continuantPartOfAt y x t)) (SpatialRegion y))) // axiom label in BFO2 CLIF: [036-001] 
+WARN	annotation_whitespace	BFO:0000006	IAO:0000602	(forall (x) (if (SpatialRegion x) (Continuant x))) // axiom label in BFO2 CLIF: [035-001] 
+WARN	annotation_whitespace	BFO:0000008	IAO:0000602	(forall (r) (if (TemporalRegion r) (occupiesTemporalRegion r r))) // axiom label in BFO2 CLIF: [119-002] 
+WARN	annotation_whitespace	BFO:0000008	IAO:0000602	(forall (x y) (if (and (TemporalRegion x) (occurrentPartOf y x)) (TemporalRegion y))) // axiom label in BFO2 CLIF: [101-001] 
+WARN	annotation_whitespace	BFO:0000008	IAO:0000602	(forall (x) (if (TemporalRegion x) (Occurrent x))) // axiom label in BFO2 CLIF: [100-001] 
+WARN	annotation_whitespace	BFO:0000009	IAO:0000602	(forall (x) (if (TwoDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [039-001] 
+WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (r) (if (SpatioTemporalRegion r) (occupiesSpatioTemporalRegion r r))) // axiom label in BFO2 CLIF: [107-002] 
+WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (x t) (if (SpatioTemporalRegion x) (exists (y) (and (SpatialRegion y) (spatiallyProjectsOntoAt x y t))))) // axiom label in BFO2 CLIF: [099-001] 
+WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (x y) (if (and (SpatioTemporalRegion x) (occurrentPartOf y x)) (SpatioTemporalRegion y))) // axiom label in BFO2 CLIF: [096-001] 
+WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (x) (if (SpatioTemporalRegion x) (Occurrent x))) // axiom label in BFO2 CLIF: [095-001] 
+WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (x) (if (SpatioTemporalRegion x) (exists (y) (and (TemporalRegion y) (temporallyProjectsOnto x y))))) // axiom label in BFO2 CLIF: [098-001] 
+WARN	annotation_whitespace	BFO:0000015	IAO:0000602	(iff (Process a) (and (Occurrent a) (exists (b) (properTemporalPartOf b a)) (exists (c t) (and (MaterialEntity c) (specificallyDependsOnAt a c t))))) // axiom label in BFO2 CLIF: [083-003] 
+WARN	annotation_whitespace	BFO:0000016	IAO:0000602	(forall (x t) (if (and (RealizableEntity x) (existsAt x t)) (exists (y) (and (MaterialEntity y) (specificallyDepends x y t))))) // axiom label in BFO2 CLIF: [063-002] 
+WARN	annotation_whitespace	BFO:0000016	IAO:0000602	(forall (x) (if (Disposition x) (and (RealizableEntity x) (exists (y) (and (MaterialEntity y) (bearerOfAt x y t)))))) // axiom label in BFO2 CLIF: [062-002] 
+WARN	annotation_whitespace	BFO:0000017	IAO:0000602	(forall (x t) (if (RealizableEntity x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (bearerOfAt y x t))))) // axiom label in BFO2 CLIF: [060-002] 
+WARN	annotation_whitespace	BFO:0000017	IAO:0000602	(forall (x) (if (RealizableEntity x) (and (SpecificallyDependentContinuant x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (inheresIn x y)))))) // axiom label in BFO2 CLIF: [058-002] 
+WARN	annotation_whitespace	BFO:0000018	IAO:0000602	(forall (x) (if (ZeroDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [037-001] 
+WARN	annotation_whitespace	BFO:0000019	IAO:0000602	(forall (x) (if (Quality x) (SpecificallyDependentContinuant x))) // axiom label in BFO2 CLIF: [055-001] 
+WARN	annotation_whitespace	BFO:0000019	IAO:0000602	(forall (x) (if (exists (t) (and (existsAt x t) (Quality x))) (forall (t_1) (if (existsAt x t_1) (Quality x))))) // axiom label in BFO2 CLIF: [105-001] 
+WARN	annotation_whitespace	BFO:0000020	IAO:0000602	(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] 
+WARN	annotation_whitespace	BFO:0000023	IAO:0000602	(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] 
+WARN	annotation_whitespace	BFO:0000024	IAO:0000602	(forall (x) (if (FiatObjectPart x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y) (and (Object y) (properContinuantPartOfAt x y t)))))))) // axiom label in BFO2 CLIF: [027-004] 
+WARN	annotation_whitespace	BFO:0000026	IAO:0000602	(forall (x) (if (OneDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [038-001] 
+WARN	annotation_whitespace	BFO:0000027	IAO:0000116	An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects 
+WARN	annotation_whitespace	BFO:0000027	IAO:0000602	(forall (x) (if (ObjectAggregate x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y z) (and (Object y) (Object z) (memberPartOfAt y x t) (memberPartOfAt z x t) (not (= y z)))))) (not (exists (w t_1) (and (memberPartOfAt w x t_1) (not (Object w)))))))) // axiom label in BFO2 CLIF: [025-004] 
+WARN	annotation_whitespace	BFO:0000028	IAO:0000602	(forall (x) (if (ThreeDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [040-001] 
+WARN	annotation_whitespace	BFO:0000029	IAO:0000602	(forall (x) (if (Site x) (ImmaterialEntity x))) // axiom label in BFO2 CLIF: [034-002] 
+WARN	annotation_whitespace	BFO:0000031	IAO:0000602	(iff (GenericallyDependentContinuant a) (and (Continuant a) (exists (b t) (genericallyDependsOnAt a b t)))) // axiom label in BFO2 CLIF: [074-001] 
+WARN	annotation_whitespace	BFO:0000034	IAO:0000602	(forall (x) (if (Function x) (Disposition x))) // axiom label in BFO2 CLIF: [064-001] 
+WARN	annotation_whitespace	BFO:0000035	IAO:0000602	(forall (x) (if (ProcessBoundary x) (exists (y) (and (ZeroDimensionalTemporalRegion y) (occupiesTemporalRegion x y))))) // axiom label in BFO2 CLIF: [085-002] 
+WARN	annotation_whitespace	BFO:0000035	IAO:0000602	(iff (ProcessBoundary a) (exists (p) (and (Process p) (temporalPartOf a p) (not (exists (b) (properTemporalPartOf b a)))))) // axiom label in BFO2 CLIF: [084-001] 
+WARN	annotation_whitespace	BFO:0000038	IAO:0000602	(forall (x) (if (OneDimensionalTemporalRegion x) (TemporalRegion x))) // axiom label in BFO2 CLIF: [103-001] 
+WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] 
+WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] 
+WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] 
+WARN	annotation_whitespace	BFO:0000140	IAO:0000602	(iff (ContinuantFiatBoundary a) (and (ImmaterialEntity a) (exists (b) (and (or (ZeroDimensionalSpatialRegion b) (OneDimensionalSpatialRegion b) (TwoDimensionalSpatialRegion b)) (forall (t) (locatedInAt a b t)))) (not (exists (c t) (and (SpatialRegion c) (continuantPartOfAt c a t)))))) // axiom label in BFO2 CLIF: [029-001] 
+WARN	annotation_whitespace	BFO:0000142	IAO:0000602	(iff (OneDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (OneDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [032-001] 
+WARN	annotation_whitespace	BFO:0000144	IAO:0000602	(forall (x y) (if (processProfileOf x y) (and (properContinuantPartOf x y) (exists (z t) (and (properOccurrentPartOf z y) (TemporalRegion t) (occupiesSpatioTemporalRegion x t) (occupiesSpatioTemporalRegion y t) (occupiesSpatioTemporalRegion z t) (not (exists (w) (and (occurrentPartOf w x) (occurrentPartOf w z))))))))) // axiom label in BFO2 CLIF: [094-005] 
+WARN	annotation_whitespace	BFO:0000144	IAO:0000602	(iff (ProcessProfile a) (exists (b) (and (Process b) (processProfileOf a b)))) // axiom label in BFO2 CLIF: [093-002] 
+WARN	annotation_whitespace	BFO:0000145	IAO:0000602	(iff (RelationalQuality a) (exists (b c t) (and (IndependentContinuant b) (IndependentContinuant c) (qualityOfAt a b t) (qualityOfAt a c t)))) // axiom label in BFO2 CLIF: [057-001] 
+WARN	annotation_whitespace	BFO:0000146	IAO:0000602	(iff (TwoDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (TwoDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [033-001] 
+WARN	annotation_whitespace	BFO:0000147	IAO:0000602	(iff (ZeroDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (ZeroDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [031-001] 
+WARN	annotation_whitespace	BFO:0000148	IAO:0000602	(forall (x) (if (ZeroDimensionalTemporalRegion x) (TemporalRegion x))) // axiom label in BFO2 CLIF: [102-001] 
+WARN	annotation_whitespace	IAO:0000115	IAO:0000116	"2012-04-05:
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria.
+
+On the specifics of the proposed definition:
+
+We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition.
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable.
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  @en"
+WARN	annotation_whitespace	IAO:0000115	IAO:0000116	"2012-04-05: 
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. 
+
+On the specifics of the proposed definition:
+
+We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  @en"
+WARN	annotation_whitespace	OGG:0000000002	IAO:0000115	A gene is a material entity that represents the entire DNA sequence required for synthesis of a functional protein or RNA molecule. 
+WARN	annotation_whitespace	RO:0002161	IAO:0000425	Class: ?X DisjointWith: RO_0002162 some ?Y 
+WARN	annotation_whitespace	http://www.ebi.ac.uk/efo/EFO_0005769	rdfs:comment	Consider relocating this as a sibling of metabolic disease. 
+WARN	annotation_whitespace	oboInOwl:hasExactSynonym	IAO:0000115	An alternative label for a given entity such as a commonly used abbreviation or synonym. 
+WARN	duplicate_exact_synonym	obo:BMONT_0000015	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	NCIT:C142724	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	GO:0005577	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	NCIT:C25736	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	obo:BMONT_0000064	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	NCIT:C122778	oboInOwl:hasExactSynonym	
+WARN	duplicate_label_synonym	obo:BMONT_0000064	oboInOwl:hasExactSynonym	Creatine Kinase-MB
+WARN	duplicate_label_synonym	CHEBI:16113	oboInOwl:hasExactSynonym	cholesterol
+WARN	duplicate_label_synonym	CHEBI:16737	oboInOwl:hasExactSynonym	creatinine
+WARN	duplicate_label_synonym	CHEBI:17234	oboInOwl:hasExactSynonym	glucose
+WARN	duplicate_label_synonym	CHEBI:23367	oboInOwl:hasExactSynonym	molecular entity
+WARN	duplicate_label_synonym	CHEBI:24431	oboInOwl:hasExactSynonym	chemical entity
+WARN	duplicate_label_synonym	CHEBI:35143	oboInOwl:hasExactSynonym	hemoglobin
+WARN	duplicate_label_synonym	DOID:1287	oboInOwl:hasExactSynonym	cardiovascular system disease
+WARN	duplicate_label_synonym	MONDO:0000473	oboInOwl:hasExactSynonym	arterial disorder
+WARN	duplicate_label_synonym	MONDO:0001056	oboInOwl:hasExactSynonym	gastric cancer
+WARN	duplicate_label_synonym	MONDO:0001343	oboInOwl:hasExactSynonym	impaired renal function disease
+WARN	duplicate_label_synonym	MONDO:0004335	oboInOwl:hasExactSynonym	digestive system disorder
+WARN	duplicate_label_synonym	MONDO:0004975	oboInOwl:hasExactSynonym	Alzheimer disease
+WARN	duplicate_label_synonym	MONDO:0005070	oboInOwl:hasExactSynonym	neoplasm
+WARN	duplicate_label_synonym	MONDO:0005071	oboInOwl:hasExactSynonym	nervous system disorder
+WARN	duplicate_label_synonym	MONDO:0005113	oboInOwl:hasExactSynonym	bacterial infectious disease
+WARN	duplicate_label_synonym	MONDO:0005542	oboInOwl:hasExactSynonym	acute coronary syndrome
+WARN	duplicate_label_synonym	MONDO:0005559	oboInOwl:hasExactSynonym	neurodegenerative disease
+WARN	duplicate_label_synonym	MONDO:0007915	oboInOwl:hasExactSynonym	systemic lupus erythematosus
+WARN	duplicate_label_synonym	MONDO:0008383	oboInOwl:hasExactSynonym	rheumatoid arthritis
+WARN	duplicate_label_synonym	MONDO:0043510	oboInOwl:hasExactSynonym	brain injury
+WARN	duplicate_label_synonym	MP:0005331	oboInOwl:hasExactSynonym	insulin resistance
+WARN	duplicate_label_synonym	NCIT:A13	oboInOwl:hasExactSynonym	Related_To_Genetic_Biomarker
+WARN	duplicate_label_synonym	NCIT:A23	oboInOwl:hasExactSynonym	Has_PCDC_Data_Type
+WARN	duplicate_label_synonym	NCIT:A24	oboInOwl:hasExactSynonym	Is_PCDC_AML_Authorized_Value_For_Variable
+WARN	duplicate_label_synonym	NCIT:A28	oboInOwl:hasExactSynonym	Is_PCDC_EWS_Authorized_Value_For_Variable
+WARN	duplicate_label_synonym	NCIT:A29	oboInOwl:hasExactSynonym	Has_PCDC_EWS_Authorized_Value
+WARN	duplicate_label_synonym	NCIT:A31	oboInOwl:hasExactSynonym	Has_GDC_Value
+WARN	duplicate_label_synonym	NCIT:A32	oboInOwl:hasExactSynonym	Is_Value_For_GDC_Property
+WARN	duplicate_label_synonym	NCIT:A33	oboInOwl:hasExactSynonym	Is_PCDC_GCT_Authorized_Value_For_Variable
+WARN	duplicate_label_synonym	NCIT:A33	oboInOwl:hasExactSynonym	Is_PCDC_GCT_Permissible_Value_For_Variable
+WARN	duplicate_label_synonym	NCIT:A34	oboInOwl:hasExactSynonym	Has_PCDC_GCT_Permissible_Value
+WARN	duplicate_label_synonym	NCIT:A35	oboInOwl:hasExactSynonym	Is_PCDC_ALL_Authorized_Value_For_Variable
+WARN	duplicate_label_synonym	NCIT:A37	oboInOwl:hasExactSynonym	Has_SeroNet_Permissible_Value
+WARN	duplicate_label_synonym	NCIT:A38	oboInOwl:hasExactSynonym	Has_PCDC_OS_Authorized_Value
+WARN	duplicate_label_synonym	NCIT:A38	oboInOwl:hasExactSynonym	Has_PCDC_OS_Permissible_Value
+WARN	duplicate_label_synonym	NCIT:A39	oboInOwl:hasExactSynonym	Has_PCDC_HL_Authorized_Value
+WARN	duplicate_label_synonym	NCIT:A40	oboInOwl:hasExactSynonym	Has_DIPG_DMG_Authorized_Value
+WARN	duplicate_label_synonym	NCIT:A42	oboInOwl:hasExactSynonym	Has_OORO_PC_Value
+WARN	duplicate_label_synonym	NCIT:C106407	oboInOwl:hasExactSynonym	MicroRNA 124
+WARN	duplicate_label_synonym	NCIT:C112312	oboInOwl:hasExactSynonym	Human Epidermal Growth Factor Receptor 2 Measurement
+WARN	duplicate_label_synonym	NCIT:C113609	oboInOwl:hasExactSynonym	Chronic Liver Disease
+WARN	duplicate_label_synonym	NCIT:C116021	oboInOwl:hasExactSynonym	MicroRNA 181
+WARN	duplicate_label_synonym	NCIT:C116401	oboInOwl:hasExactSynonym	MicroRNA 9
+WARN	duplicate_label_synonym	NCIT:C116487	oboInOwl:hasExactSynonym	Diffusion Kurtosis Imaging
+WARN	duplicate_label_synonym	NCIT:C116753	oboInOwl:hasExactSynonym	Apparent Diffusion Coefficient
+WARN	duplicate_label_synonym	NCIT:C120540	oboInOwl:hasExactSynonym	Pupillometry
+WARN	duplicate_label_synonym	NCIT:C122778	oboInOwl:hasExactSynonym	Creatine Kinase MB
+WARN	duplicate_label_synonym	NCIT:C128056	oboInOwl:hasExactSynonym	Perfusion-Weighted Magnetic Resonance Imaging
+WARN	duplicate_label_synonym	NCIT:C129416	oboInOwl:hasExactSynonym	MicroRNA 16
+WARN	duplicate_label_synonym	NCIT:C142543	oboInOwl:hasExactSynonym	European Medicines Agency
+WARN	duplicate_label_synonym	NCIT:C142724	oboInOwl:hasExactSynonym	Surrogate Marker
+WARN	duplicate_label_synonym	NCIT:C15367	oboInOwl:hasExactSynonym	Risk Assessment
+WARN	duplicate_label_synonym	NCIT:C16199	oboInOwl:hasExactSynonym	Cancer Research
+WARN	duplicate_label_synonym	NCIT:C16234	oboInOwl:hasExactSynonym	Clinical Sensitivity
+WARN	duplicate_label_synonym	NCIT:C16809	oboInOwl:hasExactSynonym	Magnetic Resonance Imaging
+WARN	duplicate_label_synonym	NCIT:C16810	oboInOwl:hasExactSynonym	Magnetic Resonance Spectroscopy
+WARN	duplicate_label_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model
+WARN	duplicate_label_synonym	NCIT:C17007	oboInOwl:hasExactSynonym	Positron Emission Tomography
+WARN	duplicate_label_synonym	NCIT:C17204	oboInOwl:hasExactSynonym	Computed Tomography
+WARN	duplicate_label_synonym	NCIT:C17230	oboInOwl:hasExactSynonym	Ultrasound Imaging
+WARN	duplicate_label_synonym	NCIT:C17237	oboInOwl:hasExactSynonym	Food and Drug Administration
+WARN	duplicate_label_synonym	NCIT:C17369	oboInOwl:hasExactSynonym	Imaging Technique
+WARN	duplicate_label_synonym	NCIT:C174446	oboInOwl:hasExactSynonym	Body Temperature
+WARN	duplicate_label_synonym	NCIT:C175504	oboInOwl:hasExactSynonym	Smartphone
+WARN	duplicate_label_synonym	NCIT:C18000	oboInOwl:hasExactSynonym	Histologic Grade
+WARN	duplicate_label_synonym	NCIT:C19498	oboInOwl:hasExactSynonym	Document
+WARN	duplicate_label_synonym	NCIT:C201303	oboInOwl:hasExactSynonym	Response Biomarker
+WARN	duplicate_label_synonym	NCIT:C201362	oboInOwl:hasExactSynonym	Monitoring Biomarker
+WARN	duplicate_label_synonym	NCIT:C201365	oboInOwl:hasExactSynonym	Pharmacodynamic Biomarker
+WARN	duplicate_label_synonym	NCIT:C201367	oboInOwl:hasExactSynonym	Safety Biomarker
+WARN	duplicate_label_synonym	NCIT:C21051	oboInOwl:hasExactSynonym	Epigenetic Process
+WARN	duplicate_label_synonym	NCIT:C25736	oboInOwl:hasExactSynonym	Fibrinogen
+WARN	duplicate_label_synonym	NCIT:C28234	oboInOwl:hasExactSynonym	Progression-free Survival
+WARN	duplicate_label_synonym	NCIT:C28378	oboInOwl:hasExactSynonym	Proliferation
+WARN	duplicate_label_synonym	NCIT:C2902	oboInOwl:hasExactSynonym	Coagulation Disorder
+WARN	duplicate_label_synonym	NCIT:C38101	oboInOwl:hasExactSynonym	X-Ray Imaging
+WARN	duplicate_label_synonym	NCIT:C41389	oboInOwl:hasExactSynonym	Positive Predictive Value of Diagnostic Test
+WARN	duplicate_label_synonym	NCIT:C41390	oboInOwl:hasExactSynonym	Negative Predictive Value of Diagnostic Test
+WARN	duplicate_label_synonym	NCIT:C53249	oboInOwl:hasExactSynonym	Spearman Correlation Test
+WARN	duplicate_label_synonym	NCIT:C61256	oboInOwl:hasExactSynonym	Monitoring
+WARN	duplicate_label_synonym	NCIT:C64862	oboInOwl:hasExactSynonym	Diffusion Tensor Imaging
+WARN	duplicate_label_synonym	NCIT:C686	oboInOwl:hasExactSynonym	Neuropeptide
+WARN	duplicate_label_synonym	NCIT:C68771	oboInOwl:hasExactSynonym	Clinical Endpoint
+WARN	duplicate_label_synonym	NCIT:C75944	oboInOwl:hasExactSynonym	Predictor
+WARN	duplicate_label_synonym	NCIT:C82669	oboInOwl:hasExactSynonym	Center for Drug Evaluation and Research
+WARN	duplicate_label_synonym	NCIT:C82670	oboInOwl:hasExactSynonym	Center for Devices and Radiological Health
+WARN	duplicate_label_synonym	NCIT:C88227	oboInOwl:hasExactSynonym	Serum Creatinine Assay
+WARN	duplicate_label_synonym	NCIT:C94342	oboInOwl:hasExactSynonym	Healthy Control
+WARN	duplicate_label_synonym	NCIT:C94416	oboInOwl:hasExactSynonym	Sleep Stage
+WARN	duplicate_label_synonym	NCIT:C94515	oboInOwl:hasExactSynonym	Tumor Volume
+WARN	duplicate_label_synonym	NCIT:NHC0	oboInOwl:hasExactSynonym	code
+WARN	duplicate_label_synonym	NCIT:P106	oboInOwl:hasExactSynonym	Semantic_Type
+WARN	duplicate_label_synonym	NCIT:P107	oboInOwl:hasExactSynonym	Display_Name
+WARN	duplicate_label_synonym	NCIT:P108	oboInOwl:hasExactSynonym	Preferred_Name
+WARN	duplicate_label_synonym	NCIT:P207	oboInOwl:hasExactSynonym	UMLS_CUI
+WARN	duplicate_label_synonym	NCIT:P208	oboInOwl:hasExactSynonym	NCI_META_CUI
+WARN	duplicate_label_synonym	NCIT:P317	oboInOwl:hasExactSynonym	FDA_Table
+WARN	duplicate_label_synonym	NCIT:P322	oboInOwl:hasExactSynonym	Contributing_Source
+WARN	duplicate_label_synonym	NCIT:P325	oboInOwl:hasExactSynonym	ALT_DEFINITION
+WARN	duplicate_label_synonym	NCIT:P362	oboInOwl:hasExactSynonym	miRBase_ID
+WARN	duplicate_label_synonym	NCIT:P366	oboInOwl:hasExactSynonym	Legacy Concept Name
+WARN	duplicate_label_synonym	NCIT:P375	oboInOwl:hasExactSynonym	Maps_To
+WARN	duplicate_label_synonym	NCIT:P98	oboInOwl:hasExactSynonym	DesignNote
+WARN	duplicate_label_synonym	OMIT:0003470	oboInOwl:hasExactSynonym	Calcium Metabolism Disorders
+WARN	duplicate_label_synonym	UBERON:0000463	oboInOwl:hasExactSynonym	organism substance
+WARN	duplicate_label_synonym	http://www.ebi.ac.uk/efo/EFO_0000319	oboInOwl:hasExactSynonym	cardiovascular disease
+WARN	duplicate_label_synonym	http://www.ebi.ac.uk/efo/EFO_0000384	oboInOwl:hasExactSynonym	Crohn's disease
+WARN	duplicate_label_synonym	http://www.ebi.ac.uk/efo/EFO_0000401	oboInOwl:hasExactSynonym	diabetic nephropathy
+WARN	duplicate_label_synonym	http://www.ebi.ac.uk/efo/EFO_0001361	oboInOwl:hasExactSynonym	pulmonary arterial hypertension
+WARN	duplicate_label_synonym	http://www.ebi.ac.uk/efo/EFO_0002618	oboInOwl:hasExactSynonym	pancreatic carcinoma
+WARN	duplicate_label_synonym	http://www.ebi.ac.uk/efo/EFO_0003047	oboInOwl:hasExactSynonym	hepatitis C virus infection
+WARN	duplicate_label_synonym	http://www.ebi.ac.uk/efo/EFO_0003144	oboInOwl:hasExactSynonym	heart failure
+WARN	duplicate_label_synonym	http://www.ebi.ac.uk/efo/EFO_0004197	oboInOwl:hasExactSynonym	hepatitis B virus infection
+WARN	duplicate_label_synonym	http://www.ebi.ac.uk/efo/EFO_0004255	oboInOwl:hasExactSynonym	nephrotic syndrome
+WARN	duplicate_label_synonym	http://www.ebi.ac.uk/efo/EFO_0004286	oboInOwl:hasExactSynonym	venous thromboembolism
+WARN	duplicate_label_synonym	http://www.ebi.ac.uk/efo/EFO_0004517	oboInOwl:hasExactSynonym	arterial stiffness measurement
+WARN	duplicate_label_synonym	http://www.ebi.ac.uk/efo/EFO_0005769	oboInOwl:hasExactSynonym	calcium metabolic disease
+WARN	duplicate_label_synonym	http://www.ebi.ac.uk/efo/EFO_0009709	oboInOwl:hasExactSynonym	metastatic neoplasm
+WARN	duplicate_label_synonym	http://www.ebi.ac.uk/efo/EFO_1000627	oboInOwl:hasExactSynonym	thyroid disease
+WARN	duplicate_label_synonym	oboInOwl:hasDbXref	oboInOwl:hasExactSynonym	database_cross_reference
+WARN	duplicate_scoped_synonym	CHEBI:17855	oboInOwl:hasExactSynonym	triglycerides
+WARN	duplicate_scoped_synonym	CHEBI:17855	oboInOwl:hasRelatedSynonym	triglycerides
+WARN	duplicate_scoped_synonym	IAO:0000115	IAO:0000118	DEFINITION
+WARN	duplicate_scoped_synonym	IAO:0000115	oboInOwl:hasExactSynonym	DEFINITION
+WARN	duplicate_scoped_synonym	http://www.ebi.ac.uk/efo/EFO_0000319	oboInOwl:hasExactSynonym	circulatory system disease
+WARN	duplicate_scoped_synonym	http://www.ebi.ac.uk/efo/EFO_0000319	oboInOwl:hasRelatedSynonym	circulatory system disease
+WARN	duplicate_scoped_synonym	http://www.ebi.ac.uk/efo/EFO_0005769	oboInOwl:hasExactSynonym	calcium metabolism disease
+WARN	duplicate_scoped_synonym	http://www.ebi.ac.uk/efo/EFO_0005769	oboInOwl:hasExactSynonym	calcium metabolism disorder
+WARN	duplicate_scoped_synonym	http://www.ebi.ac.uk/efo/EFO_0005769	oboInOwl:hasRelatedSynonym	calcium metabolism disease
+WARN	duplicate_scoped_synonym	http://www.ebi.ac.uk/efo/EFO_0005769	oboInOwl:hasRelatedSynonym	calcium metabolism disorder
+WARN	equivalent_class_axiom_no_genus	obo:BMONT_0000070	obo:BMONT_0000066	DOID:4
+WARN	equivalent_class_axiom_no_genus	obo:BMONT_0000072	obo:BMONT_0000067	DOID:4
+WARN	equivalent_class_axiom_no_genus	obo:BMONT_0000073	obo:BMONT_0000065	DOID:4
+WARN	equivalent_class_axiom_no_genus	obo:BMONT_0000074	obo:BMONT_0000071	DOID:4
+WARN	equivalent_class_axiom_no_genus	obo:BMONT_0000098	obo:BMONT_0000097	DOID:4
+WARN	equivalent_class_axiom_no_genus	obo:BMONT_0000100	obo:BMONT_0000099	DOID:4
+WARN	invalid_xref	OBCS:0000054	oboInOwl:hasDbXref	STATO_0000182
+WARN	invalid_xref	http://www.ebi.ac.uk/efo/EFO_0000714	oboInOwl:hasDbXref	PERSON: James Malone
+WARN	missing_definition	http://purl.allotrope.org/ontologies/property#AFX_0002808	IAO:0000115	
+WARN	missing_definition	http://purl.allotrope.org/ontologies/property#AFX_0002865	IAO:0000115	
+WARN	missing_definition	http://purl.allotrope.org/ontologies/realizable#AFRE_0000002	IAO:0000115	
+WARN	missing_definition	BFO:0000141	IAO:0000115	
+WARN	missing_definition	obo:BMONT_0000048	IAO:0000115	
+WARN	missing_definition	obo:BMONT_0000057	IAO:0000115	
+WARN	missing_definition	obo:BMONT_0000065	IAO:0000115	
+WARN	missing_definition	obo:BMONT_0000066	IAO:0000115	
+WARN	missing_definition	obo:BMONT_0000067	IAO:0000115	
+WARN	missing_definition	obo:BMONT_0000070	IAO:0000115	
+WARN	missing_definition	obo:BMONT_0000071	IAO:0000115	
+WARN	missing_definition	obo:BMONT_0000072	IAO:0000115	
+WARN	missing_definition	obo:BMONT_0000073	IAO:0000115	
+WARN	missing_definition	obo:BMONT_0000074	IAO:0000115	
+WARN	missing_definition	obo:BMONT_0000097	IAO:0000115	
+WARN	missing_definition	obo:BMONT_0000098	IAO:0000115	
+WARN	missing_definition	obo:BMONT_0000099	IAO:0000115	
+WARN	missing_definition	obo:BMONT_0000100	IAO:0000115	
+WARN	missing_definition	CHEBI:35143	IAO:0000115	
+WARN	missing_definition	DOID:2351	IAO:0000115	
+WARN	missing_definition	DOID:409	IAO:0000115	
+WARN	missing_definition	DOID:5082	IAO:0000115	
+WARN	missing_definition	IAO:0000114	IAO:0000115	
+WARN	missing_definition	IAO:0000425	IAO:0000115	
+WARN	missing_definition	IAO:0000600	IAO:0000115	
+WARN	missing_definition	IAO:0000601	IAO:0000115	
+WARN	missing_definition	IAO:0000602	IAO:0000115	
+WARN	missing_definition	IAO:0010000	IAO:0000115	
+WARN	missing_definition	ICO:0000321	IAO:0000115	
+WARN	missing_definition	NCIT:C16234	IAO:0000115	
+WARN	missing_definition	NCIT:C28234	IAO:0000115	
+WARN	missing_definition	NCIT:C53249	IAO:0000115	
+WARN	missing_definition	NCIT:C94416	IAO:0000115	
+WARN	missing_definition	OMIT:0030323	IAO:0000115	
+WARN	missing_definition	OMIT:0033136	IAO:0000115	
+WARN	missing_definition	OMIT:0033342	IAO:0000115	
+WARN	missing_definition	OMIT:0033345	IAO:0000115	
+WARN	missing_definition	OMIT:0036686	IAO:0000115	
+WARN	missing_definition	OMIT:0036840	IAO:0000115	
+WARN	missing_definition	OMIT:0043247	IAO:0000115	
+WARN	missing_definition	OPMI:0000446	IAO:0000115	
+WARN	missing_definition	OPMI:0000447	IAO:0000115	
+WARN	missing_definition	OPMI:0000448	IAO:0000115	
+WARN	missing_definition	OPMI:0000452	IAO:0000115	
+WARN	missing_definition	OPMI:0000454	IAO:0000115	
+WARN	missing_definition	OPMI:0000463	IAO:0000115	
+WARN	missing_definition	OPMI:0000464	IAO:0000115	
+WARN	missing_definition	obo:UBPROP_0000007	IAO:0000115	
+WARN	missing_definition	obo:UBPROP_0000202	IAO:0000115	
+WARN	missing_definition	obo:mondo#excluded_subClassOf	IAO:0000115	
+WARN	missing_definition	dc11:identifier	IAO:0000115	
+WARN	missing_definition	dc:contributor	IAO:0000115	
+WARN	missing_definition	http://semanticscience.org/resource/SIO_000027	IAO:0000115	
+WARN	missing_definition	http://semanticscience.org/resource/SIO_000075	IAO:0000115	
+WARN	missing_definition	http://semanticscience.org/resource/SIO_000144	IAO:0000115	
+WARN	missing_definition	http://semanticscience.org/resource/SIO_000307	IAO:0000115	
+WARN	missing_definition	http://semanticscience.org/resource/SIO_000554	IAO:0000115	
+WARN	missing_definition	http://semanticscience.org/resource/SIO_000555	IAO:0000115	
+WARN	missing_definition	http://semanticscience.org/resource/SIO_000640	IAO:0000115	
+WARN	missing_definition	http://semanticscience.org/resource/SIO_000751	IAO:0000115	
+WARN	missing_definition	http://semanticscience.org/resource/SIO_000923	IAO:0000115	
+WARN	missing_definition	http://semanticscience.org/resource/SIO_001215	IAO:0000115	
+WARN	missing_definition	http://semanticscience.org/resource/SIO_010048	IAO:0000115	
+WARN	missing_definition	http://semanticscience.org/resource/SIO_010052	IAO:0000115	
+WARN	missing_definition	http://www.ebi.ac.uk/efo/EFO_0002721	IAO:0000115	
+WARN	missing_definition	http://www.ebi.ac.uk/efo/EFO_0003786	IAO:0000115	
+WARN	missing_definition	http://www.ebi.ac.uk/efo/branch_class	IAO:0000115	
+WARN	missing_definition	oboInOwl:consider	IAO:0000115	
+WARN	missing_definition	oboInOwl:hasSynonym	IAO:0000115	
+WARN	missing_definition	oboInOwl:shorthand	IAO:0000115	
+WARN	missing_definition	skos:changeNote	IAO:0000115	
+WARN	missing_definition	skos:definition	IAO:0000115	
+WARN	missing_definition	skos:note	IAO:0000115	
+WARN	missing_definition	skos:scopeNote	IAO:0000115	
+WARN	missing_definition	foaf:depicted_by	IAO:0000115	
+WARN	missing_definition	https://schema.org/alternateName	IAO:0000115	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C101858	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118464	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132009	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132262	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132263	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142799	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142800	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156952	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156953	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157531	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C158034	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C158520	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159416	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159417	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159419	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159501	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159503	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C160911	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C165451	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C166372	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C166373	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173232	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174019	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174237	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174239	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174261	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177383	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177384	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177393	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177394	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177396	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177407	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177536	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177537	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C178115	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C178127	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C178718	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C179026	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C179478	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C179481	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C179490	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C181172	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C183088	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C183095	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C183096	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C183101	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C183102	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186317	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186320	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186325	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186333	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186341	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186342	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186764	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C189762	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C192234	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193181	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193245	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C201267	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54447	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54450	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C62596	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C65047	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66741	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67153	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67154	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C85492	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C88088	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C89506	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C99147	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/cl#blood_and_immune_upper_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_AGR_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_CFDE_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_FlyBase_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_GXD_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_MGI_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#TopNodes_DOcancerslim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pombe	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#disease_grouping	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#gard_rare	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#merged_class	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#mondo_rare	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#nord_rare	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#ordo_disease	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#ordo_group_of_disorders	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#orphanet_rare	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#rare	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#rare_grouping	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#attribute_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#disposition_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#hpo_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#mpath_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#relational_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#scalar_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#value_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/so#SOFA	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#common_anatomy	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#grouping_class	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#major_organ	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#upper_level	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/ubprop#_upper_level	rdfs:subPropertyOf	
+INFO	lowercase_definition	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en
+INFO	lowercase_definition	BFO:0000015	IAO:0000115	p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en
+INFO	lowercase_definition	BFO:0000016	IAO:0000600	b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])@en
+INFO	lowercase_definition	BFO:0000019	IAO:0000600	a quality is a specifically dependent continuant that, in contrast to roles and dispositions, does not require any further process in order to be realized. (axiom label in BFO2 Reference: [055-001])@en
+INFO	lowercase_definition	BFO:0000020	IAO:0000115	b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])@en
+INFO	lowercase_definition	BFO:0000023	IAO:0000600	b is a role means: b is a realizable entity & b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be& b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed. (axiom label in BFO2 Reference: [061-001])@en
+INFO	lowercase_definition	BFO:0000024	IAO:0000600	b is a fiat object part = Def. b is a material entity which is such that for all times t, if b exists at t then there is some object c such that b proper continuant_part of  c at t and c is demarcated from the remainder of c by a two-dimensional continuant fiat boundary. (axiom label in BFO2 Reference: [027-004])@en
+INFO	lowercase_definition	BFO:0000027	IAO:0000600	b is an object aggregate means: b is a material entity consisting exactly of a plurality of objects as member_parts at all times at which b exists. (axiom label in BFO2 Reference: [025-004])@en
+INFO	lowercase_definition	BFO:0000029	IAO:0000600	b is a site means: b is a three-dimensional immaterial entity that is (partially or wholly) bounded by a material entity or it is a three-dimensional immaterial part thereof. (axiom label in BFO2 Reference: [034-002])@en
+INFO	lowercase_definition	BFO:0000030	IAO:0000600	b is an object means: b is a material entity which manifests causal unity of one or other of the types CUn listed above & is of a type (a material universal) instances of which are maximal relative to this criterion of causal unity. (axiom label in BFO2 Reference: [024-001])@en
+INFO	lowercase_definition	BFO:0000031	IAO:0000115	b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])@en
+INFO	lowercase_definition	BFO:0000035	IAO:0000115	p is a process boundary =Def. p is a temporal part of a process & p has no proper temporal parts. (axiom label in BFO2 Reference: [084-001])@en
+INFO	lowercase_definition	BFO:0000140	IAO:0000115	b is a continuant fiat boundary = Def. b is an immaterial entity that is of zero, one or two dimensions and does not include a spatial region as part. (axiom label in BFO2 Reference: [029-001])@en
+INFO	lowercase_definition	BFO:0000142	IAO:0000600	a one-dimensional continuant fiat boundary is a continuous fiat line whose location is defined in relation to some material entity. (axiom label in BFO2 Reference: [032-001])@en
+INFO	lowercase_definition	BFO:0000144	IAO:0000115	b is a process_profile =Def. there is some process c such that b process_profile_of c (axiom label in BFO2 Reference: [093-002])@en
+INFO	lowercase_definition	BFO:0000144	IAO:0000600	b process_profile_of c holds when b proper_occurrent_part_of c& there is some proper_occurrent_part d of c which has no parts in common with b & is mutually dependent on b& is such that b, c and d occupy the same temporal region (axiom label in BFO2 Reference: [094-005])@en
+INFO	lowercase_definition	BFO:0000145	IAO:0000115	b is a relational quality = Def. for some independent continuants c, d and for some time t: b quality_of c at t & b quality_of d at t. (axiom label in BFO2 Reference: [057-001])@en
+INFO	lowercase_definition	BFO:0000146	IAO:0000600	a two-dimensional continuant fiat boundary (surface) is a self-connected fiat surface whose location is defined in relation to some material entity. (axiom label in BFO2 Reference: [033-001])@en
+INFO	lowercase_definition	BFO:0000147	IAO:0000600	a zero-dimensional continuant fiat boundary is a fiat point whose location is defined in relation to some material entity. (axiom label in BFO2 Reference: [031-001])@en
+INFO	lowercase_definition	CHEBI:18059	IAO:0000115	'Lipids' is a loosely defined term for substances of biological origin that are soluble in nonpolar solvents. They consist of saponifiable lipids, such as glycerides (fats and oils) and phospholipids, as well as nonsaponifiable lipids, principally steroids.
+INFO	lowercase_definition	CTO:0000220	IAO:0000115	a clinical trial is a medical interventional study where participants are assigned prospectively to an intervention or interventions according to a protocol to evaluate the safety and efficacy of the intervention(s) on biomedical or other health related outcomes. The Interventions include but are not restricted to drugs, cells and other biological products, surgical procedures, radiologic procedures, devices, behavioral treatments, process-of-care changes, preventive care, etc.
+INFO	lowercase_definition	IAO:0000119	IAO:0000115	formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en
+INFO	lowercase_definition	MP:0003674	IAO:0000115	condition characterized by an accumulation of free radical groups in the body, which creates a potentially unstable and damaging cellular environment linked to tissue damage, accelerated aging, and degenerative disease; can result from many factors, including exposure to alcohol, medications, poor nutrition, trauma, cold or toxins; may be indicated by low antioxidant levels measured in blood plasma
+INFO	lowercase_definition	MP:0005331	IAO:0000115	diminished effectiveness of insulin in lowering plasma glucose levels
+INFO	lowercase_definition	OAE:0000001	IAO:0000115	a pathological bodily process that occurs after a medical intervention. An adverse event is likely caused by the medical intervention; however, such a causal association is not required to be an adverse event.
+INFO	lowercase_definition	OBI:0000066	IAO:0000115	a planned process that consists of parts: planning, study design execution, documentation and which produce conclusion(s).@en
+INFO	lowercase_definition	OBI:0000075	IAO:0000115	diagnosis is an assessment of a disease or injury, its likely prognosis and treatment.@en
+INFO	lowercase_definition	OBI:0000093	IAO:0000115	a role which inheres in a person and is realized by the process of being under the care of a physician or health care provider@en
+INFO	lowercase_definition	OBI:0000169	IAO:0000115	a negative reference substance is a reference role in which the substance playing the reference substance role is physically similar in appearance to the test substance
+INFO	lowercase_definition	OBI:0000181	IAO:0000115	a population is a collection of individuals from the same taxonomic class living, counted or sampled at a particular site or in a particular area@en
+INFO	lowercase_definition	OBI:0000278	IAO:0000115	a part of an occurrence of a disease process which is associated with position in the normal progression of the disease@en
+INFO	lowercase_definition	OBI:0000655	IAO:0000115	a material entity derived from a portion of blood collected from an organism
+INFO	lowercase_definition	OBI:0001305	IAO:0000115	a genetic characteristics information that is about the genetic material of an organism and minimally includes information about the genetic background and can in addition contain information about specific alleles, genetic modifications, etc.@en
+INFO	lowercase_definition	OBI:0200103	IAO:0000115	"multiple linear regression is a regression method that models the relationship between a dependent variable Y, independent variables Xi, i = 1, ..., p, and a random term epsilon. The model can be written as
+    Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \cdots +\beta_p X_p + \varepsilon
+where \beta_0 =  0 is the intercept (\""constant\"" term), the \beta_i s  are the respective parameters of independent variables, and p is the number of parameters to be estimated in the linear regression.@en"
+INFO	lowercase_definition	OBI:0302911	IAO:0000115	a planned process with objective to check that the accuracy or the quality of a claim or prediction  satisfies some criteria and which is assessed by comparing with independent results@en
+INFO	lowercase_definition	OBI:1110122	IAO:0000115	abnormal, harmful processes caused by or associated with a disease@en
+INFO	lowercase_definition	OMIT:0019447	IAO:0000115	"definition
+A CELL CYCLE and tumor growth marker which can be readily detected using IMMUNOCYTOCHEMISTRY methods. Ki-67 is a nuclear antigen present only in the nuclei of cycling cells."
+INFO	lowercase_definition	RO:0002161	IAO:0000115	"x never in taxon T if and only if T is a class, and x does not instantiate the class expression \""in taxon some T\"". Note that this is a shortcut relation, and should be used as a hasValue restriction in OWL."
+INFO	lowercase_definition	RO:0002604	IAO:0000115	x is the opposite of y if there exists some distance metric M, and there exists no z such as M(x,z) <= M(x,y) or M(y,z) <= M(y,x).
+INFO	lowercase_definition	STATO:0000412	IAO:0000115	prevalence is a ratio formed by the number of subjects diagnosed with a disease divided by the total population size.@en
+INFO	lowercase_definition	STATO:0000415	IAO:0000115	"in the context of binary classification, accuracy is defined as the proportion of true results (both true positives and true negatives) to the total number of cases examined (the sum of true positive, true negative, false positive and false negative).
+
+It can be understood as a measure of the proximity of measurement results to the true value.@en"
+INFO	lowercase_definition	STATO:0000416	IAO:0000115	precision or positive predictive value is defined as the proportion of the true positives against all the positive results (both true positives and false positives)@en
+INFO	lowercase_definition	http://www.ebi.ac.uk/efo/EFO_0005208	IAO:0000115	measurement of the flow rate of filtered fluid through the kidney, calculated either by comparative measurements of substances in the blood and urine, or estimated from a blood test
+INFO	lowercase_definition	http://www.ebi.ac.uk/efo/EFO_0005271	IAO:0000115	duration of sleep, measured either via a self-reporting questionnaire, interview or through obversation in a sleep lab
+INFO	lowercase_definition	http://www.ebi.ac.uk/efo/EFO_0005272	IAO:0000115	quantification of some aspect of sleep quality, such as number of awakenings during a sleep interval or time taken to get to sleep. Sleep quality can be evaluated either through self-reporting, observation in a sleep lab or using a sleep monitoring device
+INFO	lowercase_definition	http://www.ebi.ac.uk/efo/EFO_0005273	IAO:0000115	self-reported assessment of how difficult an individual is to wake
+INFO	lowercase_definition	http://www.ebi.ac.uk/efo/EFO_0005274	IAO:0000115	measurement of the time at which sleep begins
+INFO	lowercase_definition	http://www.ebi.ac.uk/efo/EFO_0005280	IAO:0000115	amount of time, usually recorded in minutes, between going to bed and falling asleep
+INFO	lowercase_definition	http://www.ebi.ac.uk/efo/EFO_0005527	IAO:0000115	quantification of the volumetric fraction of blood pumped out of the left and right ventricle with each heartbeat or cardiac cycle
+INFO	lowercase_definition	http://www.ebi.ac.uk/efo/EFO_0006866	IAO:0000115	quantification of the change in the heat and electricity passed through the skin by nerves and sweat. Skin conduction increases in certain emotional states and during hot flashes that happen with menopause.
+INFO	lowercase_definition	http://www.ebi.ac.uk/efo/EFO_0006890	IAO:0000115	the formation of excess fibrous connective tissue in an organ or tissue in a reparative or reactive process. This can be a reactive, benign, or pathological state.
+INFO	lowercase_definition	http://www.ebi.ac.uk/efo/EFO_0006925	IAO:0000115	quantification of some lipoprotein A in a sample
+INFO	lowercase_definition	http://www.ebi.ac.uk/efo/EFO_0007827	IAO:0000115	quantification of some aspect of nighttime rest such as duration or quality
+INFO	lowercase_definition	http://www.ebi.ac.uk/efo/EFO_0007828	IAO:0000115	quantification of some aspect of daytime rest such as duration, frequency or quality
+INFO	lowercase_definition	http://www.ebi.ac.uk/efo/EFO_0007875	IAO:0000115	quantification of excessive daytime sleepiness such as how often it occurs and its severity
+INFO	lowercase_definition	http://www.ebi.ac.uk/efo/EFO_0007876	IAO:0000115	quantification of insomnia such as how often it occurs and its severity
+INFO	lowercase_definition	http://www.ebi.ac.uk/efo/EFO_0008328	IAO:0000115	quantification of some aspect of chronotype such as ease of getting up in the morning
+INFO	lowercase_definition	http://www.ebi.ac.uk/efo/EFO_0008341	IAO:0000115	quantification of some aspect of snoring such as frequency or severity
+INFO	lowercase_definition	http://www.ebi.ac.uk/efo/EFO_0008351	IAO:0000115	quantification of some aspect of the deposition of amyloid proteins in an organ
+INFO	missing_superclass	obo:BMONT_0000070	rdfs:subClassOf	
+INFO	missing_superclass	obo:BMONT_0000072	rdfs:subClassOf	
+INFO	missing_superclass	obo:BMONT_0000073	rdfs:subClassOf	
+INFO	missing_superclass	obo:BMONT_0000074	rdfs:subClassOf	
+INFO	missing_superclass	obo:BMONT_0000098	rdfs:subClassOf	
+INFO	missing_superclass	obo:BMONT_0000100	rdfs:subClassOf	
