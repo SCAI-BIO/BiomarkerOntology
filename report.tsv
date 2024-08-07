@@ -250,9 +250,6 @@ WARN	duplicate_exact_synonym	obo:BMONT_0000015	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	NCIT:C142724	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	GO:0005577	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	NCIT:C25736	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	obo:BMONT_0000064	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	NCIT:C122778	oboInOwl:hasExactSynonym	
-WARN	duplicate_label_synonym	obo:BMONT_0000064	oboInOwl:hasExactSynonym	Creatine Kinase-MB
 WARN	duplicate_label_synonym	CHEBI:16113	oboInOwl:hasExactSynonym	cholesterol
 WARN	duplicate_label_synonym	CHEBI:16737	oboInOwl:hasExactSynonym	creatinine
 WARN	duplicate_label_synonym	CHEBI:17234	oboInOwl:hasExactSynonym	glucose
@@ -260,6 +257,7 @@ WARN	duplicate_label_synonym	CHEBI:23367	oboInOwl:hasExactSynonym	molecular enti
 WARN	duplicate_label_synonym	CHEBI:24431	oboInOwl:hasExactSynonym	chemical entity
 WARN	duplicate_label_synonym	CHEBI:35143	oboInOwl:hasExactSynonym	hemoglobin
 WARN	duplicate_label_synonym	DOID:1287	oboInOwl:hasExactSynonym	cardiovascular system disease
+WARN	duplicate_label_synonym	HP:0100022	oboInOwl:hasExactSynonym	Abnormality of movement
 WARN	duplicate_label_synonym	MONDO:0000473	oboInOwl:hasExactSynonym	arterial disorder
 WARN	duplicate_label_synonym	MONDO:0001056	oboInOwl:hasExactSynonym	gastric cancer
 WARN	duplicate_label_synonym	MONDO:0001343	oboInOwl:hasExactSynonym	impaired renal function disease
@@ -413,6 +411,7 @@ WARN	missing_definition	CHEBI:35143	IAO:0000115
 WARN	missing_definition	DOID:2351	IAO:0000115	
 WARN	missing_definition	DOID:409	IAO:0000115	
 WARN	missing_definition	DOID:5082	IAO:0000115	
+WARN	missing_definition	HP:0002317	IAO:0000115	
 WARN	missing_definition	IAO:0000114	IAO:0000115	
 WARN	missing_definition	IAO:0000425	IAO:0000115	
 WARN	missing_definition	IAO:0000600	IAO:0000115	
@@ -642,6 +641,8 @@ INFO	lowercase_definition	OMIT:0019447	IAO:0000115	"definition
 A CELL CYCLE and tumor growth marker which can be readily detected using IMMUNOCYTOCHEMISTRY methods. Ki-67 is a nuclear antigen present only in the nuclei of cycling cells."
 INFO	lowercase_definition	RO:0002161	IAO:0000115	"x never in taxon T if and only if T is a class, and x does not instantiate the class expression \""in taxon some T\"". Note that this is a shortcut relation, and should be used as a hasValue restriction in OWL."
 INFO	lowercase_definition	RO:0002604	IAO:0000115	x is the opposite of y if there exists some distance metric M, and there exists no z such as M(x,z) <= M(x,y) or M(y,z) <= M(y,x).
+INFO	lowercase_definition	STATO:0000032	IAO:0000115	an alternative term used for STATO statistical ontology and ISA team@en
+INFO	lowercase_definition	STATO:0000220	IAO:0000115	the false negative rate is a data item which denotes the proportion of missed detection of elements known to be meeting the detection criteria@en
 INFO	lowercase_definition	STATO:0000412	IAO:0000115	prevalence is a ratio formed by the number of subjects diagnosed with a disease divided by the total population size.@en
 INFO	lowercase_definition	STATO:0000415	IAO:0000115	"in the context of binary classification, accuracy is defined as the proportion of true results (both true positives and true negatives) to the total number of cases examined (the sum of true positive, true negative, false positive and false negative).
 

@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/q2u6h7yb.owl" uri="STATO_2.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/vsymwmn2.owl" uri="MPATH_2.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/5fqrgyqq.owl" uri="NCIT_2.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/5yibsnde.owl" uri="HP_2.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/jf69hmqp.owl" uri="HP_2.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/exj0xz6c.owl" uri="HP_2.owl"/>
     <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/pxo3tjbw.owl" uri="file:/home/astghik/Documents/Ontology%20update/CMO_1.owl"/>
     <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/i8s742zr.owl" uri="file:/home/astghik/Documents/Ontology%20update/OMIT_1.owl"/>
     <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/7b6ga2ax.owl" uri="file:/home/astghik/Documents/Ontology%20update/NCIT_1.owl"/>
@@ -251,6 +257,10 @@
     <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/aqamzhtw.owl" uri="Output/CTO_1.owl"/>
     <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/g6jwje4s.owl" uri="Output/CL_1.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1721691125105" name="http://purl.obolibrary.org/obo/bmo.owl" uri="BMO-merged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1723062467678" name="http://ontofox.hegroup.org/5fqrgyqq.owl" uri="NCIT_2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1723062467678" name="http://ontofox.hegroup.org/5yibsnde.owl" uri="HP_2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1723062467678" name="http://ontofox.hegroup.org/q2u6h7yb.owl" uri="STATO_2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1723062467678" name="http://ontofox.hegroup.org/vsymwmn2.owl" uri="MPATH_2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1723062467678" name="http://purl.obolibrary.org/obo/bmo.owl" uri="BMONT-merged.owl"/>
     </group>
 </catalog>

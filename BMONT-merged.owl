@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/bmo.owl#"
-     xml:base="http://purl.obolibrary.org/obo/bmo.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/bmont.owl#"
+     xml:base="http://purl.obolibrary.org/obo/bmont.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:bmo="http://purl.obolibrary.org/obo/bmo.owl/"
      xmlns:efo="http://www.ebi.ac.uk/efo/"
@@ -22,13 +22,13 @@
      xmlns:resource="http://semanticscience.org/resource/"
      xmlns:owlready_ontology="http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bmont.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bmont/releases/2024-05-26/bmont.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bmont/releases/2024-08-08/bmont.owl"/>
         <dc:contributor>Marc Jacobs</dc:contributor>
-        <dc:contributor>Tim Adams</dc:contributor>
         <dc:contributor>Martin Hofmann Aptius</dc:contributor>
         <dc:contributor>Negin Babaiha</dc:contributor>
+        <dc:contributor>Tim Adams</dc:contributor>
         <dc:creator>Astghik Sargsyan</dc:creator>
-        <dc:title>Biomarker Ontology (BMO)</dc:title>
+        <dc:title>Biomarker Ontology (BMONT)</dc:title>
         <terms:description>The Biomarker Ontology (BMONT) is a comprehensive knowledge representation involving a variety of fields of medical and biological aspects. BMONT is built in line with Basic Formal Ontology (BFO) and Open Biological and Biomedical Ontology (OBO) principles.
 Entities and definitions are added by reviewing the old biomarker terminology that was created by Fraunhofer SCAI 10 years ago  and was used for mining biomarker information in biomedical literature. In addition, related terms were collected from scientific publications and books capturing various disease fields. 
 
@@ -46,7 +46,7 @@ indicate if any changes were made. You may do so in any reasonable
 manner, but not in any way that suggests the licensor endorses you or
 your use.</rdfs:comment>
         <owl:versionInfo>2024-02-21</owl:versionInfo>
-        <owl:versionInfo>Version Release: 0.5.5</owl:versionInfo>
+        <owl:versionInfo>Version Release: 0.5.6</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1153,6 +1153,18 @@ WHERE {
         <obo:IAO_0000115>Used to record the identifier that had been used previously but is no longer in use.</obo:IAO_0000115>
         <dc:creator>SCDO (Jade Hotchkiss)</dc:creator>
         <rdfs:label>previous identifier</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000032 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/STATO_0000032">
+        <obo:IAO_0000115 xml:lang="en">an alternative term used for STATO statistical ontology and ISA team</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000117>Orlaith Burke</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">STATO alternative term</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -3651,29 +3663,6 @@ WHERE {
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BMONT_0000022 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BMONT_0000022">
-        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000144"/>
-        <obo:IAO_0000115>False negatives occur when no change or a small observed change in a biomarker fails to signal a positive, meaningful change in a clinical endpoint; for instance a tumor that does not express PD-L1 but does respond to anti-PD-L1 immunotherapy is a false negative.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/27891226/</obo:IAO_0000119>
-        <oboInOwl:hasExactSynonym>false negative rate</oboInOwl:hasExactSynonym>
-        <rdfs:label>probability of false negatives</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BMONT_0000023 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BMONT_0000023">
-        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000144"/>
-        <obo:IAO_0000115>False positives occur when a desired change in a biomarker is not reflected by a positive change in a clinical endpoint or even worse, is associated with a negative change in a clinical endpoint. An example of a false positive is the detection of elevated levels of the functional or biochemical marker in the absence of clinical response to treatment. For example, a tumor that has expressed PD-L1 on the tumor cells, but does not respond to targeted anti-PD-L1 immunotherapy, is a false positive.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/27891226/</obo:IAO_0000119>
-        <rdfs:label>probability of false positives</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BMONT_0000024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BMONT_0000024">
@@ -4083,31 +4072,6 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BMONT_0000064 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BMONT_0000064">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_5844"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>An isoenzyme of creatine kinase found in the CARDIAC MUSCLE.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/?term=Creatine+kinase-MB</obo:IAO_0000119>
-        <oboInOwl:hasExactSynonym>CK-MB</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Creatine Kinase, MB Form</oboInOwl:hasExactSynonym>
-        <rdfs:label>Creatine Kinase-MB</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BMONT_0000068 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BMONT_0000068">
@@ -4139,7 +4103,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <terms:description>The concept of the &apos;diagnostic biomarker TM_BIN&apos; allows for the compilation of diverse concepts related to diagnostic biomarkers in a specific disease via the axiom &apos;isDiagnosticBiomarkerFor some disease&apos;. This enables the adaptation of the ontology for text mining purposes, facilitating the retrieval and extraction of information related to diagnostic biomarkers within a specific disease.</terms:description>
+        <dc:description>The concept of the &apos;diagnostic biomarker TM_BIN&apos; allows for the compilation of diverse concepts related to diagnostic biomarkers in a specific disease via the axiom &apos;isDiagnosticBiomarkerFor some disease&apos;. This enables the adaptation of the ontology for text mining purposes, facilitating the retrieval and extraction of information related to diagnostic biomarkers within a specific disease.</dc:description>
         <rdfs:label>diagnostic biomarker TM_BIN</rdfs:label>
     </owl:Class>
     
@@ -4992,7 +4956,7 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
     <!-- http://purl.obolibrary.org/obo/BMONT_0000127 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BMONT_0000127">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000093"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
         <obo:IAO_0000115>Gait speed, also known as walking speed, is a crucial parameter in the study of human locomotion and biomechanics. It is defined as the distance covered per unit of time while walking. Gait speed is often measured in meters per second (m/s) or feet per second (ft/s) and is an important indicator of overall health, functional status, and mobility.</obo:IAO_0000115>
         <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>walking speed</oboInOwl:hasExactSynonym>
@@ -5005,7 +4969,7 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
     <!-- http://purl.obolibrary.org/obo/BMONT_0000128 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BMONT_0000128">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000093"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
         <obo:IAO_0000115>Stride length is a key parameter in the study of human gait and biomechanics. It refers to the distance covered between two successive placements of the same foot. Essentially, it is the distance traveled during one complete gait cycle, involving both the left and right foot.</obo:IAO_0000115>
         <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
         <rdfs:label>stride length</rdfs:label>
@@ -5017,23 +4981,10 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
     <!-- http://purl.obolibrary.org/obo/BMONT_0000129 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BMONT_0000129">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000093"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
         <obo:IAO_0000115>Gait cycle time is an important parameter in the study of human locomotion and biomechanics. It refers to the duration of a complete gait cycle, which encompasses all the phases of walking from one foot making contact with the ground to the same foot making contact again.</obo:IAO_0000115>
         <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
         <rdfs:label>gait cycle time</rdfs:label>
-        <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/33971647/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BMONT_0000130 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BMONT_0000130">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000093"/>
-        <obo:IAO_0000115>Gait unsteadiness, also known as unsteady gait or ataxic gait, refers to a lack of coordination and stability while walking, resulting in an irregular or unsteady walking pattern. This condition can arise from various underlying causes and can significantly impact a person&apos;s mobility and quality of life. It is often characterized by a wide-based stance, irregular steps, and a tendency to stagger or lose balance.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>ataxic gait</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>unsteady gait</oboInOwl:hasExactSynonym>
-        <rdfs:label>gait unsteadiness</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/33971647/</rdfs:seeAlso>
     </owl:Class>
     
@@ -7723,6 +7674,22 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0002317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100022"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:22631008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:394616008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0231686</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Gait instability</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Unsteady walk</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0002317</oboInOwl:id>
+        <rdfs:label>Unsteady gait</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0004934 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004934">
@@ -7772,6 +7739,27 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <terms:creator rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
         <oboInOwl:hasExactSynonym>Intermittent</oboInOwl:hasExactSynonym>
         <rdfs:label>Recurrent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115>An abnormality of movement with a neurological basis characterized by changes in coordination and speed of voluntary movements.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:creator rdf:resource="https://orcid.org/0009-0006-4530-3154"/>
+        <oboInOwl:creation_date>2010-05-28T11:48:50Z</oboInOwl:creation_date>
+        <oboInOwl:hasAlternativeId>HP:0001294</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:60342002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0026650</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Abnormality of movement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Movement disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Unusual movement</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0100022</oboInOwl:id>
+        <rdfs:comment>Movement disorders are characterized by the phenotypic abnormalities including abnormal involuntary movements, akathisia, akinesia, athetosis, ataxia, ballismus, bradykinesia, chorea, dyskinesia, dystonia, and myoclonus tics, tremor, spasms, and stereotypy.</rdfs:comment>
+        <rdfs:label>Abnormality of movement</rdfs:label>
     </owl:Class>
     
 
@@ -9087,6 +9075,12 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C122778">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032991"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>An isoenzyme complex comprised of a heterodimer of creatine kinase M-type and B-type.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C122778</obo:NCIT_NHC0>
@@ -12750,6 +12744,25 @@ A CELL CYCLE and tumor growth marker which can be readily detected using IMMUNOC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/STATO_0000220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000220">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">the false negative rate is a data item which denotes the proportion of missed detection of elements known to be meeting the detection criteria</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000117>Orlaith Burke</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119>STATO, adapted from</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/stato.owl"/>
+        <obo:STATO_0000032 xml:lang="en">type II error rate</obo:STATO_0000032>
+        <obo:STATO_0000032 xml:lang="en">β</obo:STATO_0000032>
+        <oboInOwl:hasExactSynonym>probability of false negatives</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">false negative rate</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/STATO_0000412 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000412">
@@ -15219,7 +15232,7 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
     <!-- http://www.ebi.ac.uk/efo/EFO_0005272 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005272">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004870"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000115>quantification of some aspect of sleep quality, such as number of awakenings during a sleep interval or time taken to get to sleep. Sleep quality can be evaluated either through self-reporting, observation in a sleep lab or using a sleep monitoring device</obo:IAO_0000115>
         <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
