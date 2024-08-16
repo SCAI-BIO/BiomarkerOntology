@@ -1,4 +1,4 @@
-# BMO (BiomarkerOntology)
+# BMONT (Biomarker Ontology)
 
 The ontology is proposed to be used for improving biomarker identification tasks, as well as a supportive integratable tool for abundant AI techniques, such as Machine Learning (ML) and Large Learning Model (LLM).
 
@@ -9,19 +9,19 @@ The ontology is proposed to be used for improving biomarker identification tasks
 - OutputModules
   - contains Ontofox output files
   - automatically generated
--BMO.owl
+-BMONT.owl
   - main development file, imports module
   - manually created
 - catalog-v001.xml
   - Prtege catalog file that links IRIs from imported modules to relative file paths
   - manually created
-- BMO-merged.owl
+- BMONT-merged.owl
    - most recent release (merged main devlopement file with all imported modules)
    - automatically generated
  
 ## Contact
 
-Please use this GitHub repository's [Issue tracker](https://github.com/Astghik-S/BMO/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+Please use this GitHub repository's [Issue tracker](https://github.com/SCAI-BIO/BiomarkerOntology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
 ## Maintenance 
 
