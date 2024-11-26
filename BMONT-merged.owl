@@ -4187,21 +4187,10 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BMONT_0000078 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BMONT_0000078">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <obo:IAO_0000115>A digital device refers to any electronic tool, gadget, or hardware that utilizes digital technology to perform specific functions or tasks. These devices are prevalent in various aspects of modern life, including communication, entertainment, productivity, health, and education. Digital devices encompass a wide range of technologies, from computers and smartphones to wearables and smart home appliances.</obo:IAO_0000115>
-        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
-        <rdfs:label>digital device</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BMONT_0000079 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BMONT_0000079">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000078"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
         <obo:IAO_0000115>Wearables are electronic devices that can be worn on the body, typically as accessories or clothing items, to provide functionality, collect data, and offer convenience and connectivity. These devices have gained popularity in recent years for their ability to track health metrics, provide notifications, and integrate with smartphones and other digital platforms, enhancing users&apos; lifestyles and well-being.</obo:IAO_0000115>
         <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>wearable device</oboInOwl:hasExactSynonym>
@@ -9746,7 +9735,7 @@ Previous. An information content entity is a non-realizable information entity t
     <!-- http://purl.obolibrary.org/obo/NCIT_C175504 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C175504">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000078"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
         <obo:IAO_0000115>A mobile cellular telephone that has an integrated computer with an operating system capable of web browsing and running downloaded applications.  Smartphones typically have touchscreen interfaces, video calling capabilities, and other advanced built-in features and applications.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C175504</obo:NCIT_NHC0>
