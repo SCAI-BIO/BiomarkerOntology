@@ -22,11 +22,10 @@
      xmlns:resource="http://semanticscience.org/resource/"
      xmlns:owlready_ontology="http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bmont.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bmont/releases/2024-08-08/bmont.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bmont/releases/2024-10-10/bmont.owl"/>
         <dc:contributor>Marc Jacobs</dc:contributor>
         <dc:contributor>Martin Hofmann Aptius</dc:contributor>
         <dc:contributor>Negin Babaiha</dc:contributor>
-        <dc:contributor>Tim Adams</dc:contributor>
         <dc:creator>Astghik Sargsyan</dc:creator>
         <dc:title>Biomarker Ontology (BMONT)</dc:title>
         <terms:description>The Biomarker Ontology (BMONT) is a comprehensive knowledge representation involving a variety of fields of medical and biological aspects. BMONT is built in line with Basic Formal Ontology (BFO) and Open Biological and Biomedical Ontology (OBO) principles.
@@ -45,8 +44,8 @@ term IRIs for individual terms), provide a link to the license, and
 indicate if any changes were made. You may do so in any reasonable
 manner, but not in any way that suggests the licensor endorses you or
 your use.</rdfs:comment>
-        <owl:versionInfo>2024-02-21</owl:versionInfo>
-        <owl:versionInfo>Version Release: 0.5.6</owl:versionInfo>
+        <owl:versionInfo>2024-10-10</owl:versionInfo>
+        <owl:versionInfo>Version Release: 0.5.7</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -134,8 +133,11 @@ your use.</rdfs:comment>
         <obo:IAO_0000111>editor preferred term</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
         <obo:IAO_0000111>editor preferred term~editor preferred label</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="zh">编辑首选术语</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="zh">编辑首选标签</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="zh">对于一类或属性的简洁的、有意义的、与人类友好的名称由本体开发商首选。 （美国英语）</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
@@ -144,6 +146,12 @@ your use.</rdfs:comment>
         <rdfs:label>editor preferred term</rdfs:label>
         <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
         <rdfs:label>editor preferred term~editor preferred label</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred term~editor preferred label</rdfs:label>
+        <rdfs:label>编辑首选术语</rdfs:label>
+        <rdfs:label xml:lang="zh">编辑首选术语</rdfs:label>
+        <rdfs:label>编辑首选术语~编辑首选标签</rdfs:label>
+        <rdfs:label>编辑首选标签</rdfs:label>
+        <rdfs:label xml:lang="zh">编辑首选标签</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -172,12 +180,15 @@ your use.</rdfs:comment>
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
         <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="zh">有管理状态</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">OBI_0000281</obo:IAO_0000119>
         <rdfs:label>has curation status</rdfs:label>
         <rdfs:label xml:lang="en">has curation status</rdfs:label>
+        <rdfs:label>有管理状态</rdfs:label>
+        <rdfs:label xml:lang="zh">有管理状态</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -188,13 +199,17 @@ your use.</rdfs:comment>
         <obo:IAO_0000111>definition</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
         <obo:IAO_0000111>textual definition</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">textual definition</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="zh">定义</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
         <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="zh">OBI的官方定义，解释类或属性的含义。应该是亚里士多德式的，形式化和规范化的。 可以通过口语定义进行扩充。</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <obo:IAO_0000115>The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <obo:IAO_0000115>The official definition.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="zh">官方的定义，解释类或属性的含义。应该是亚里士多德式的，形式化和规范化的。 可以通过口语定义进行扩充。</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">2012-04-05:
 Barry Smith
 
@@ -215,6 +230,26 @@ We don&apos;t have definitions of &apos;meaning&apos; or &apos;expression&apos; 
 Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable.
 
 We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">2012-04-05: 
+Barry Smith
+
+OBI的官方定义解释了一个类或属性的含义：&apos;应该是亚里士多德式的，形式化和规范化的。可以用口语定义&apos;是糟糕的。
+
+您能解决这样的问题吗？
+
+解释关于类或属性的表达含义的必要和充分条件的陈述。
+
+Alan Ruttenberg
+
+您提出的定义是一个合理的备选，除非它很常见，没有给出必要和充分的条件。大多数情况下它们是必要的，偶尔是必要的，充分的或者仅仅仅充分的。它们通常使用不是自己定义的术语，因此它们实际上不能通过这些标准进行评估。
+
+关于拟议定义的具体内容：
+
+我们没有“含义”，或“表达”或“属性”的定义。对于在预期意义上的“参考”，我认为我们使用术语“指示”。对于&apos;表达&apos;，我认为我们和你的意思是符号，或标识符。对于“含义”，它不同于类和属性。对于类，我们希望文档能够让读者确定一个实体是否是该类的实例。对于属性，让我们的目标读者决定，给定一对潜在的关系，判断关系成立的断言正确与否。 “目标读者”部分表明我们也指定了我们期望的能够理解定义的人，并且概括了人类和计算机读者以包含文本和逻辑定义。
+
+就我个人而言，我更愿意削弱对文档的定义，并指出什么是可取的。
+
+我们还有一个悬而未决的问题，就是如何针对不同的受众定位不同的定义。临床读者阅读chebi需要来自受过化学训练的受众的不同类型的定义文档/定义，同样需要一个适合本体工作者的定义。 </obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">2012-04-05: 
 Barry Smith
 
@@ -265,6 +300,11 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>definition</rdfs:label>
         <rdfs:label xml:lang="en">definition</rdfs:label>
         <rdfs:label>textual definition</rdfs:label>
+        <rdfs:label xml:lang="en">textual definition</rdfs:label>
+        <rdfs:label>定义</rdfs:label>
+        <rdfs:label xml:lang="zh">定义</rdfs:label>
+        <rdfs:label>文本定义</rdfs:label>
+        <rdfs:label xml:lang="zh">文本定义</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -273,25 +313,40 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
         <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="zh">编者注</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="zh">管理者注释用于其编辑器。它可能不包含在本体的出版版本中，所以它应该不包含最终用户了解本体所需的信息。</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obfoundry.org/obo/obi&gt;</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obofoundry.org/obo/obi&gt;</obo:IAO_0000119>
         <obo:hasDbXref>IAO:0000116</obo:hasDbXref>
+        <obo:hasDbXref xml:lang="en">IAO:0000116</obo:hasDbXref>
         <obo:hasOBONamespace>uberon</obo:hasOBONamespace>
+        <obo:hasOBONamespace xml:lang="en">uberon</obo:hasOBONamespace>
         <obo:id>editor_note</obo:id>
+        <obo:id xml:lang="en">editor_note</obo:id>
+        <obo:id xml:lang="zh">编辑_注释</obo:id>
         <obo:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:is_metadata_tag>
         <obo:shorthand>editor_note</obo:shorthand>
+        <obo:shorthand xml:lang="en">editor_note</obo:shorthand>
+        <obo:shorthand xml:lang="zh">编辑_注释</obo:shorthand>
         <oboInOwl:hasDbXref>IAO:0000116</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref xml:lang="en">IAO:0000116</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace xml:lang="en">uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>editor_note</oboInOwl:id>
+        <oboInOwl:id xml:lang="en">editor_note</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</oboInOwl:is_metadata_tag>
         <oboInOwl:shorthand>editor_note</oboInOwl:shorthand>
+        <oboInOwl:shorthand xml:lang="en">editor_note</oboInOwl:shorthand>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label>editor note</rdfs:label>
         <rdfs:label xml:lang="en">editor note</rdfs:label>
+        <rdfs:label>编者注</rdfs:label>
+        <rdfs:label xml:lang="zh">编者注</rdfs:label>
+        <rdfs:seeAlso>IAO:0000116</rdfs:seeAlso>
     </owl:AnnotationProperty>
     
 
@@ -301,11 +356,14 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
         <obo:IAO_0000111 xml:lang="en">definition editor</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">term editor</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="zh">术语编辑者</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Name of editor entering the definition in the file. The definition editor is a point of contact for information regarding the term. The definition editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="zh">输入文件中术语编辑者的名称。术语编辑者是有关术语的信息交汇点。术语编辑者可以是，但并不总是，定义的作者，这可能是由几个人完成</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See http://code.google.com/p/information-artifact-ontology/issues/detail?id=115.</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See https://github.com/information-artifact-ontology/IAO/issues/115.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="zh">20110707，MC：术语编辑和定义进行相应的修改。见http://code.google.com/p/information-artifact-ontology/issues/detail?id=115。</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
@@ -314,6 +372,8 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>definition_editor</rdfs:label>
         <rdfs:label>term editor</rdfs:label>
         <rdfs:label xml:lang="en">term editor</rdfs:label>
+        <rdfs:label>术语编辑者</rdfs:label>
+        <rdfs:label xml:lang="zh">术语编辑者</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -322,15 +382,21 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
         <obo:IAO_0000111 xml:lang="en">alternative label</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">alternative term</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="zh">替代术语</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115 xml:lang="en">A label for a class or property that can be used to refer to the class or property instead of the preferred rdfs:label. Alternative labels should be used to indicate community- or context-specific labels, abbreviations, shorthand forms and the like.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="zh">一类或属性的替代名称，这意味着与所述首选名称同样的事物（语义上等价）</obo:IAO_0000115>
         <obo:IAO_0000117>OBO Operations committee</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <rdfs:comment>Consider re-defing to: An alternative name for a class or property which can mean the same thing as the preferred name (semantically equivalent, narrow, broad or related).</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label>alternative term</rdfs:label>
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+        <rdfs:label>替代术语</rdfs:label>
+        <rdfs:label xml:lang="zh">替代术语</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -339,17 +405,22 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
         <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="zh">定义来源</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="zh">正式引用，例如在外部数据库中的标识符，用于表示/定义的属性源（S）。自由文本表示/为定义属性源（S）。实例：在2007年1月31日的作者姓名，URI，MeSH术语C04，PUBMEDID，维基uri</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119>Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="zh">论OBO-讨论邮件-列表，请参阅http://bit.ly/hgm99w</obo:IAO_0000119>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label>definition source</rdfs:label>
         <rdfs:label xml:lang="en">definition source</rdfs:label>
         <rdfs:label>definition_source</rdfs:label>
+        <rdfs:label>定义来源</rdfs:label>
+        <rdfs:label xml:lang="zh">定义来源</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -732,6 +803,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106">
         <obo:IAO_0000115>A property that represents a description of the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.</obo:IAO_0000115>
+        <obo:IAO_0000115>The semantic type describes the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.</obo:IAO_0000115>
         <obo:NCIT_NHC0>P106</obo:NCIT_NHC0>
         <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
         <obo:NCIT_P107>Semantic Type</obo:NCIT_P107>
@@ -747,6 +819,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P107">
         <obo:IAO_0000115>A property representing an alternative Preferred Name for use in some NCI systems.</obo:IAO_0000115>
+        <obo:IAO_0000115>Provides an alternative Preferred Name for use in some NCI systems.</obo:IAO_0000115>
         <obo:NCIT_NHC0>P107</obo:NCIT_NHC0>
         <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
         <obo:NCIT_P107>Display Name</obo:NCIT_P107>
@@ -762,6 +835,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108">
         <obo:IAO_0000115>A property representing the word or phrase that NCI uses by preference to refer to the concept.</obo:IAO_0000115>
+        <obo:IAO_0000115>The word or phrase that NCI uses by preference to refer to the concept.</obo:IAO_0000115>
         <obo:NCIT_NHC0>P108</obo:NCIT_NHC0>
         <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
         <obo:NCIT_P107>Preferred Name</obo:NCIT_P107>
@@ -889,6 +963,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P98">
         <obo:IAO_0000115>A property representing notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.</obo:IAO_0000115>
+        <obo:IAO_0000115>Design notes are notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.</obo:IAO_0000115>
         <obo:NCIT_NHC0>P98</obo:NCIT_NHC0>
         <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
         <obo:NCIT_P107>DesignNote</obo:NCIT_P107>
@@ -926,6 +1001,126 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <obo:IAO_0000119>IEDB</obo:IAO_0000119>
         <rdfs:label>IEDB alternative term</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000004 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000004">
+        <obo:IAO_0000115>the symbol assigned by the nomenclature authority</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">symbol from nomenclature authority</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000005 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000005">
+        <obo:IAO_0000115>the full name assigned by the nomenclature authority</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">full name from nomenclature authority</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000006 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000006">
+        <obo:IAO_0000115>A GeneID in the NCBI Gene database </obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">NCBI GeneID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000007 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000007">
+        <obo:IAO_0000115>the NCBI LocusTag name of a gene </obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">NCBI LocusTag</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000008 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000008">
+        <obo:IAO_0000115>the map location of a gene</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">gene map location</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000009 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000009">
+        <obo:IAO_0000115>a date of content modification</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">modification date</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000015 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000015">
+        <obo:IAO_0000115>The NCBITaxon ontology ID of an organism.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">organism NCBITaxon ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000017 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000017">
+        <obo:IAO_0000115>A chromosome ID where a gene is located.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chromosome ID of gene</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000018 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000018">
+        <obo:IAO_0000115>an annotation property that specifies the type of a gene</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">type of gene</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000019 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000019">
+        <obo:IAO_0000115>an annotation property that specifies a nomenclature status</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">nomenclature status</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000029 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000029">
+        <obo:IAO_0000115>an annotation property that shows the GO information associated with a specific gene. </obo:IAO_0000115>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has GO association</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000030 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000030">
+        <obo:IAO_0000115>An annotation property that represents a gene&apos;s association with PubMed publication(s). </obo:IAO_0000115>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has PubMed association</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -1405,11 +1600,18 @@ WHERE {
         <obo:SCDO_0000340 rdf:resource="http://purl.org/dc/terms/creator"/>
         <obo:SCDO_0000363>no</obo:SCDO_0000363>
         <obo:SCDO_0000929>ready for release</obo:SCDO_0000929>
+        <dc:description xml:lang="en-us">Examples of a Creator include a person, an organisation,
+         or a service.  Typically, the name of a Creator should 
+         be used to indicate the entity.</dc:description>
         <oboInOwl:hasDbXref>http://purl.org/dc/elements/1.1/creator</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>dc-creator</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <oboInOwl:shorthand>dc-creator</oboInOwl:shorthand>
+        <rdfs:comment xml:lang="en-us">An entity primarily responsible for making the content 
+         of the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+        <rdfs:label xml:lang="en-us">Creator</rdfs:label>
         <rdfs:label>creator</rdfs:label>
         <rdfs:label>dc:creator</rdfs:label>
         <skos:prefLabel>Creator</skos:prefLabel>
@@ -1425,7 +1627,22 @@ WHERE {
 
     <!-- http://purl.org/dc/elements/1.1/description -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description">
+        <dc:description xml:lang="en-us">Description may include but is not limited to: an abstract,
+         table of contents, reference to a graphical representation
+         of content or a free-text account of the content.</dc:description>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.org/dc/elements/1.1/description"/>
+        <oboInOwl:hasDbXref>http://purl.org/dc/elements/1.1/description</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>dc-description</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:shorthand>dc-description</oboInOwl:shorthand>
+        <rdfs:comment xml:lang="en-us">An account of the content of the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+        <rdfs:label>Description</rdfs:label>
+        <rdfs:label xml:lang="en-us">Description</rdfs:label>
+        <rdfs:label>description</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -1618,6 +1835,7 @@ WHERE {
         <obo:NCIT_P108>xRef</obo:NCIT_P108>
         <obo:SCDO_0000340 rdf:resource="http://www.ebi.ac.uk/sbo/main/SBO:0000554"/>
         <obo:SCDO_0000929>metadata complete - requires restrictions and relationships</obo:SCDO_0000929>
+        <oboInOwl:hasDbXref>IAO:0100001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SBO:0000554</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>DbXref</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Xref</oboInOwl:hasExactSynonym>
@@ -1628,8 +1846,11 @@ WHERE {
         <rdfs:label>database cross reference</rdfs:label>
         <rdfs:label xml:lang="en">database cross reference</rdfs:label>
         <rdfs:label>database_cross_reference</rdfs:label>
+        <rdfs:label xml:lang="en">database_cross_reference</rdfs:label>
         <rdfs:label xml:lang="en">has database cross reference</rdfs:label>
         <rdfs:label>xRef</rdfs:label>
+        <rdfs:label>数据库_交叉_引用</rdfs:label>
+        <rdfs:label xml:lang="zh">数据库_交叉_引用</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -1648,6 +1869,7 @@ WHERE {
         <obo:SCDO_0000340 rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <obo:SCDO_0000363>no</obo:SCDO_0000363>
         <obo:SCDO_0000929>pending vetting by the SCDO developers</obo:SCDO_0000929>
+        <oboInOwl:hasDbXref>IAO:0100001</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>FULL_SYN</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Synonym with Source Data</oboInOwl:hasExactSynonym>
         <rdfs:label>has exact synonym</rdfs:label>
@@ -1676,8 +1898,12 @@ WHERE {
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
         <obo:IAO_0000115>Name space of the ontology.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>IAO:0100001</oboInOwl:hasDbXref>
         <rdfs:comment>disease_ontology</rdfs:comment>
         <rdfs:label>has_obo_namespace</rdfs:label>
+        <rdfs:label xml:lang="en">has_obo_namespace</rdfs:label>
+        <rdfs:label>有_obo_命名空间</rdfs:label>
+        <rdfs:label xml:lang="zh">有_obo_命名空间</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -1742,7 +1968,9 @@ WHERE {
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
         <obo:IAO_0000111>shorthand</obo:IAO_0000111>
+        <oboInOwl:hasDbXref>IAO:0100001</oboInOwl:hasDbXref>
         <rdfs:label>shorthand</rdfs:label>
+        <rdfs:label xml:lang="en">shorthand</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -1792,6 +2020,7 @@ WHERE {
         <rdfs:label>label</rdfs:label>
         <rdfs:label xml:lang="en">label</rdfs:label>
         <rdfs:label>rdfs:label</rdfs:label>
+        <rdfs:label>标签</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -1799,13 +2028,19 @@ WHERE {
     <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+        <oboInOwl:hasDbXref rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
         <oboInOwl:hasDbXref>http://www.w3.org/2000/01/rdf-schema#seeAlso</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>seeAlso</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
         <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>seeAlso</oboInOwl:id>
+        <oboInOwl:is_class_level rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_class_level>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <oboInOwl:shorthand>seeAlso</oboInOwl:shorthand>
+        <owlready_ontology:python_name xml:lang="en">see_also_rdf_schema</owlready_ontology:python_name>
         <rdfs:label>see also</rdfs:label>
+        <rdfs:label xml:lang="en">see also</rdfs:label>
+        <rdfs:label>seeAlso</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -1845,7 +2080,6 @@ WHERE {
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
         <rdfs:label>definition</rdfs:label>
         <skos:definition>A statement or formal explanation of the meaning of a concept.</skos:definition>
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#note"/>
     </owl:AnnotationProperty>
     
 
@@ -2012,6 +2246,14 @@ WHERE {
     
 
 
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137">
+        <rdfs:label xml:lang="en">isBiomarkerOfAging</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.w3.org/2000/01/rdf-schema#subClassOf -->
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
@@ -2042,6 +2284,42 @@ WHERE {
         <rdfs:label>procedure</rdfs:label>
         <skos:definition>A procedure is plan containing multiple activities that are intended to be executed in an order following a procedure specification. [Allotrope]</skos:definition>
         <skos:prefLabel>procedure</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ADO_0000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ADO_0000090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A protein that is regarded as a general marker of neurodegeneration for evaluation in future population-based studies and represents the total tau concentration in a given sample.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ado.owl"/>
+        <obo:hasDbXref>https://pubmed.ncbi.nlm.nih.gov/15178952/</obo:hasDbXref>
+        <rdfs:label>total tau</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ADO_0000091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ADO_0000091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A protein that is phosphorylated through post-translational modification. Its accumulation reflects the formation of neurofibrillary tangles, synaptic impairment, and neuronal dysfunction.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ado.owl"/>
+        <obo:hasDbXref>https://pubmed.ncbi.nlm.nih.gov/32812023/</obo:hasDbXref>
+        <rdfs:label>phosphorylated tau</rdfs:label>
     </owl:Class>
     
 
@@ -2102,6 +2380,18 @@ WHERE {
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/009-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/126-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
         <owl:annotatedTarget>(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] </owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/008-002"/>
     </owl:Axiom>
@@ -2140,18 +2430,6 @@ WHERE {
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
         <owl:annotatedTarget xml:lang="en">if b is a material entity, then there is some temporal interval (referred to below as a one-dimensional temporal region) during which b exists. (axiom label in BFO2 Reference: [011-002])</owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/011-002"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
-        <owl:annotatedTarget>(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] </owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/009-002"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
-        <owl:annotatedTarget>(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] </owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/126-001"/>
     </owl:Axiom>
     
 
@@ -3184,6 +3462,18 @@ WHERE {
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/021-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/020-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000600"/>
         <owl:annotatedTarget xml:lang="en">A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])</owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/019-002"/>
@@ -3205,18 +3495,6 @@ WHERE {
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
         <owl:annotatedTarget>(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] </owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/019-002"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
-        <owl:annotatedTarget>(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] </owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/021-002"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
-        <owl:annotatedTarget>(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] </owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/020-002"/>
     </owl:Axiom>
     
 
@@ -4187,10 +4465,21 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BMONT_0000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BMONT_0000078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <obo:IAO_0000115>A digital device refers to any electronic tool, gadget, or hardware that utilizes digital technology to perform specific functions or tasks. These devices are prevalent in various aspects of modern life, including communication, entertainment, productivity, health, and education. Digital devices encompass a wide range of technologies, from computers and smartphones to wearables and smart home appliances.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
+        <rdfs:label>digital device</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BMONT_0000079 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BMONT_0000079">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000078"/>
         <obo:IAO_0000115>Wearables are electronic devices that can be worn on the body, typically as accessories or clothing items, to provide functionality, collect data, and offer convenience and connectivity. These devices have gained popularity in recent years for their ability to track health metrics, provide notifications, and integrate with smartphones and other digital platforms, enhancing users&apos; lifestyles and well-being.</obo:IAO_0000115>
         <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>wearable device</oboInOwl:hasExactSynonym>
@@ -4992,6 +5281,35 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BMONT_0000136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BMONT_0000136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0252"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Leukocyte telomere length (LTL) is a complex genetic trait. It shortens with age and is associated with a host of aging-related disorders.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/18282113/</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>LTL</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">leukocyte telomere length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BMONT_0000137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BMONT_0000137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Mitochondrial function refers to the various vital processes performed by mitochondria, which are the energy-producing organelles in cells.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 19․08․24</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">mitochondrial function</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CARO_0000043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000043">
@@ -5193,6 +5511,67 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17347">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35341"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An androstanoid having 17beta-hydroxy and 3-oxo groups, together with unsaturation at C-4-C-5..</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C19H28O2</chebi:formula>
+        <chebi:inchi>InChI=1S/C19H28O2/c1-18-9-7-13(20)11-12(18)3-4-14-15-5-6-17(21)19(15,2)10-8-16(14)18/h11,14-17,21H,3-10H2,1-2H3/t14-,15-,16-,17-,18-,19-/m0/s1</chebi:inchi>
+        <chebi:inchikey>MUMGGOZAMZWBJJ-DYKIIFRCSA-N</chebi:inchikey>
+        <chebi:mass>288.42440</chebi:mass>
+        <chebi:monoisotopicmass>288.20893</chebi:monoisotopicmass>
+        <chebi:smiles>[H][C@@]12CCC3=CC(=O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H](O)CC[C@@]21[H]</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:15214</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:26883</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:45798</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:9461</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Beilstein:1915399</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Beilstein:3653705</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:58-22-0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DrugBank:DB00624</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Drug_Central:2607</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Gmelin:538843</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HMDB:HMDB0000234</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C00535</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D00075</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KNApSAcK:C00003675</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>LIPID_MAPS_instance:LMST02020002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PDBeChem:TES</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:10438974</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11786693</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18900503</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24498482</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:1915399</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Testosterone</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>17beta-hydroxyandrost-4-en-3-one</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TESTOSTERONE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Testosterone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>testosterone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>17beta-Hydroxy-4-androsten-3-one</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>17beta-hydroxy-4-androsten-3-one</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>4-androsten-17beta-ol-3-one</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Androderm</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Testosteron</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>testosterona</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>testosterone</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>testosteronum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:17347</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>testosterone</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_17855 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17855">
@@ -5347,6 +5726,39 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
         <oboInOwl:id>CHEBI:23367</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23965 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23965">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35341"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A 3-hydroxy steroid that is estra-1,3,5(10)-triene substituted by hydroxy groups at positions 3 and 17.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C18H24O2</chebi:formula>
+        <chebi:inchi>InChI=1S/C18H24O2/c1-18-9-8-14-13-5-3-12(19)10-11(13)2-4-15(14)16(18)6-7-17(18)20/h3,5,10,14-17,19-20H,2,4,6-9H2,1H3/t14-,15-,16+,17?,18+/m1/s1</chebi:inchi>
+        <chebi:inchikey>VOXZDWNPVJITMN-WKUFJEKOSA-N</chebi:inchikey>
+        <chebi:mass>272.38196</chebi:mass>
+        <chebi:monoisotopicmass>272.17763</chebi:monoisotopicmass>
+        <chebi:smiles>[H][C@]12CC[C@]3(C)C(O)CC[C@@]3([H])[C@]1([H])CCc1cc(O)ccc21</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:42364</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>PMID:10696569</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24084694</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Estradiol</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>estra-1,3,5(10)-triene-3,17-diol</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>oestradiol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:23965</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>estradiol</rdfs:label>
     </owl:Class>
     
 
@@ -5562,6 +5974,33 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35341">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18059"/>
+        <obo:IAO_0000115>Any of naturally occurring compounds and synthetic analogues, based on the cyclopenta[a]phenanthrene carbon skeleton, partially or completely hydrogenated; there are usually methyl groups at C-10 and C-13, and often an alkyl group at C-17. By extension, one or more bond scissions, ring expansions and/or ring contractions of the skeleton may have occurred. Natural steroids are derived biogenetically from squalene which is a triterpene.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C19H31R</chebi:formula>
+        <chebi:mass>259.450</chebi:mass>
+        <chebi:monoisotopicmass>259.24258</chebi:monoisotopicmass>
+        <chebi:smiles>C12C(C3C(C(CC3)*)(C)CC1)CCC4C2(CCCC4)C</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:13687</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:26768</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:9263</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>KEGG:C00377</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MetaCyc:Steroids</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Steroid</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>steroids</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>a steroid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:35341</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>steroid</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_35664 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35664">
@@ -5702,6 +6141,108 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
         <oboInOwl:id>CHEBI:5931</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>insulin (human)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_64645 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_64645">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16670"/>
+        <obo:IAO_0000115>A peptide of 36-43 amino acids that is processed from the amyloid precursor protein. Appears to be the main constituent of amyloid plaques (deposits found in the brains of Alzheimer&apos;s disease patients).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasAlternativeId>CHEBI:53002</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>KEGG:C16514</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C16515</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21892760</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22226401</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22457725</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22459190</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22561032</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22569063</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Beta_amyloid</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>amyloid beta</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>beta amyloid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>beta-amyloid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>beta-amyloids</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:64645</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>amyloid-beta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_64646 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_64646">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64645"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A beta-amyloid that is a 40 amino acid polypeptide of sequence Asp Ala Glu Phe Arg His Asp Ser Gly Tyr Glu Val His His Gln Lys Leu Val Phe Phe Ala Glu Asp Val Gly Ser Asn Lys Gly Ala Ile Ile Gly Leu Met Val Gly Gly Val Val.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C194H295N53O58S</chebi:formula>
+        <chebi:inchi>InChI=1S/C194H295N53O58S/c1-25-102(19)158(188(299)211-87-143(256)218-124(67-94(3)4)174(285)228-123(62-66-306-24)172(283)241-152(96(7)8)186(297)209-83-140(253)206-84-145(258)240-154(98(11)12)191(302)245-157(101(17)18)193(304)305)247-192(303)159(103(20)26-2)246-162(273)104(21)215-141(254)85-207-164(275)116(47-36-38-63-195)223-181(292)133(77-139(199)252)234-185(296)137(90-249)220-144(257)88-210-187(298)153(97(9)10)242-184(295)135(79-151(269)270)235-170(281)121(56-60-147(261)262)222-161(272)106(23)217-173(284)127(69-107-41-30-27-31-42-107)231-177(288)129(71-109-45-34-29-35-46-109)237-189(300)156(100(15)16)244-183(294)125(68-95(5)6)229-166(277)117(48-37-39-64-196)224-168(279)119(54-58-138(198)251)226-178(289)130(73-111-80-202-91-212-111)233-180(291)132(75-113-82-204-93-214-113)238-190(301)155(99(13)14)243-171(282)122(57-61-148(263)264)227-175(286)126(72-110-50-52-114(250)53-51-110)219-142(255)86-208-165(276)136(89-248)239-182(293)134(78-150(267)268)236-179(290)131(74-112-81-203-92-213-112)232-167(278)118(49-40-65-205-194(200)201)225-176(287)128(70-108-43-32-28-33-44-108)230-169(280)120(55-59-146(259)260)221-160(271)105(22)216-163(274)115(197)76-149(265)266/h27-35,41-46,50-53,80-82,91-106,115-137,152-159,248-250H,25-26,36-40,47-49,54-79,83-90,195-197H2,1-24H3,(H2,198,251)(H2,199,252)(H,202,212)(H,203,213)(H,204,214)(H,206,253)(H,207,275)(H,208,276)(H,209,297)(H,210,298)(H,211,299)(H,215,254)(H,216,274)(H,217,284)(H,218,256)(H,219,255)(H,220,257)(H,221,271)(H,222,272)(H,223,292)(H,224,279)(H,225,287)(H,226,289)(H,227,286)(H,228,285)(H,229,277)(H,230,280)(H,231,288)(H,232,278)(H,233,291)(H,234,296)(H,235,281)(H,236,290)(H,237,300)(H,238,301)(H,239,293)(H,240,258)(H,241,283)(H,242,295)(H,243,282)(H,244,294)(H,245,302)(H,246,273)(H,247,303)(H,259,260)(H,261,262)(H,263,264)(H,265,266)(H,267,268)(H,269,270)(H,304,305)(H4,200,201,205)/t102-,103-,104-,105-,106-,115-,116-,117-,118-,119-,120-,121-,122-,123-,124-,125-,126-,127-,128-,129-,130-,131-,132-,133-,134-,135-,136-,137-,152-,153-,154-,155-,156-,157-,158-,159-/m0/s1</chebi:inchi>
+        <chebi:inchikey>FEWOUVRMGWFWIH-ILZZQXMPSA-N</chebi:inchikey>
+        <chebi:mass>4329.80300</chebi:mass>
+        <chebi:monoisotopicmass>4327.14843</chebi:monoisotopicmass>
+        <chebi:smiles>CC[C@H](C)[C@H](NC(=O)[C@@H](NC(=O)[C@H](C)NC(=O)CNC(=O)[C@H](CCCCN)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@@H](NC(=O)[C@H](CC(O)=O)NC(=O)[C@H](CCC(O)=O)NC(=O)[C@H](C)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@H](Cc1c[nH]cn1)NC(=O)[C@H](Cc1c[nH]cn1)NC(=O)[C@@H](NC(=O)[C@H](CCC(O)=O)NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)CNC(=O)[C@H](CO)NC(=O)[C@H](CC(O)=O)NC(=O)[C@H](Cc1c[nH]cn1)NC(=O)[C@H](CCCNC(N)=N)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CCC(O)=O)NC(=O)[C@H](C)NC(=O)[C@@H](N)CC(O)=O)C(C)C)C(C)C)C(C)C)[C@@H](C)CC)C(=O)NCC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCSC)C(=O)N[C@@H](C(C)C)C(=O)NCC(=O)NCC(=O)N[C@@H](C(C)C)C(=O)N[C@@H](C(C)C)C(O)=O</chebi:smiles>
+        <oboInOwl:hasDbXref>KEGG:C16514</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11444969</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15541300</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:16137568</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:17446087</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18571334</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:21949886</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>L-alpha-aspartyl-L-alanyl-L-alpha-glutamyl-L-phenylalanyl-L-arginyl-L-histidyl-L-alpha-aspartyl-L-serylglycyl-L-tyrosyl-L-alpha-glutamyl-L-valyl-L-histidyl-L-histidyl-L-glutaminyl-L-lysyl-L-leucyl-L-valyl-L-phenylalanyl-L-phenylalanyl-L-alanyl-L-alpha-glutamyl-L-alpha-aspartyl-L-valylglycyl-L-seryl-L-asparaginyl-L-lysylglycyl-L-alanyl-L-isoleucyl-L-isoleucylglycyl-L-leucyl-L-methionyl-L-valylglycylglycyl-L-valyl-L-valine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Asp-Ala-Glu-Phe-Arg-His-Asp-Ser-Gly-Tyr-Glu-Val-His-His-Gln-Lys-Leu-Val-Phe-Phe-Ala-Glu-Asp-Val-Gly-Ser-Asn-Lys-Gly-Ala-Ile-Ile-Gly-Leu-Met-Val-Gly-Gly-Val-Val</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>DAEFRHDSGYEVHHQKLVFFAEDVGSNKGAIIGLMVGGVV</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>beta-amyloid 40</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>beta-amyloid polypeptide 40</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>beta-amyloid protein 40</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:64646</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>amyloid-beta polypeptide 40</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_64647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_64647">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64645"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A beta-amyloid that ia a 42 amino acid polypeptide of sequence Asp Ala Glu Phe Arg His Asp Ser Gly Tyr Glu Val His His Gln Lys Leu Val Phe Phe Ala Glu Asp Val Gly Ser Asn Lys Gly Ala Ile Ile Gly Leu Met Val Gly Gly Val Val Ile Ala.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C203H311N55O60S</chebi:formula>
+        <chebi:inchi>InChI=1S/C203H311N55O60S/c1-28-106(20)164(195(310)220-91-149(267)228-130(71-98(4)5)181(296)238-129(66-70-319-27)179(294)251-158(100(8)9)193(308)218-87-146(264)215-88-151(269)250-160(102(12)13)198(313)255-163(105(18)19)199(314)258-165(107(21)29-2)200(315)227-112(26)202(317)318)257-201(316)166(108(22)30-3)256-169(284)109(23)224-147(265)89-216-171(286)122(51-40-42-67-204)233-188(303)139(81-145(208)263)244-192(307)143(94-260)230-150(268)92-219-194(309)159(101(10)11)252-191(306)141(83-157(280)281)245-177(292)127(60-64-153(272)273)232-168(283)111(25)226-180(295)133(73-113-45-34-31-35-46-113)241-184(299)135(75-115-49-38-33-39-50-115)247-196(311)162(104(16)17)254-190(305)131(72-99(6)7)239-173(288)123(52-41-43-68-205)234-175(290)125(58-62-144(207)262)236-185(300)136(77-117-84-211-95-221-117)243-187(302)138(79-119-86-213-97-223-119)248-197(312)161(103(14)15)253-178(293)128(61-65-154(274)275)237-182(297)132(76-116-54-56-120(261)57-55-116)229-148(266)90-217-172(287)142(93-259)249-189(304)140(82-156(278)279)246-186(301)137(78-118-85-212-96-222-118)242-174(289)124(53-44-69-214-203(209)210)235-183(298)134(74-114-47-36-32-37-48-114)240-176(291)126(59-63-152(270)271)231-167(282)110(24)225-170(285)121(206)80-155(276)277/h31-39,45-50,54-57,84-86,95-112,121-143,158-166,259-261H,28-30,40-44,51-53,58-83,87-94,204-206H2,1-27H3,(H2,207,262)(H2,208,263)(H,211,221)(H,212,222)(H,213,223)(H,215,264)(H,216,286)(H,217,287)(H,218,308)(H,219,309)(H,220,310)(H,224,265)(H,225,285)(H,226,295)(H,227,315)(H,228,267)(H,229,266)(H,230,268)(H,231,282)(H,232,283)(H,233,303)(H,234,290)(H,235,298)(H,236,300)(H,237,297)(H,238,296)(H,239,288)(H,240,291)(H,241,299)(H,242,289)(H,243,302)(H,244,307)(H,245,292)(H,246,301)(H,247,311)(H,248,312)(H,249,304)(H,250,269)(H,251,294)(H,252,306)(H,253,293)(H,254,305)(H,255,313)(H,256,284)(H,257,316)(H,258,314)(H,270,271)(H,272,273)(H,274,275)(H,276,277)(H,278,279)(H,280,281)(H,317,318)(H4,209,210,214)/t106-,107-,108-,109-,110-,111-,112-,121-,122-,123-,124-,125-,126-,127-,128-,129-,130-,131-,132-,133-,134-,135-,136-,137-,138-,139-,140-,141-,142-,143-,158-,159-,160-,161-,162-,163-,164-,165-,166-/m0/s1</chebi:inchi>
+        <chebi:inchikey>DZHSAHHDTRWUTF-SIQRNXPUSA-N</chebi:inchikey>
+        <chebi:mass>4514.03900</chebi:mass>
+        <chebi:monoisotopicmass>4511.26960</chebi:monoisotopicmass>
+        <chebi:smiles>CC[C@H](C)[C@H](NC(=O)[C@@H](NC(=O)[C@H](C)NC(=O)CNC(=O)[C@H](CCCCN)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@@H](NC(=O)[C@H](CC(O)=O)NC(=O)[C@H](CCC(O)=O)NC(=O)[C@H](C)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@H](Cc1c[nH]cn1)NC(=O)[C@H](Cc1c[nH]cn1)NC(=O)[C@@H](NC(=O)[C@H](CCC(O)=O)NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)CNC(=O)[C@H](CO)NC(=O)[C@H](CC(O)=O)NC(=O)[C@H](Cc1c[nH]cn1)NC(=O)[C@H](CCCNC(N)=N)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CCC(O)=O)NC(=O)[C@H](C)NC(=O)[C@@H](N)CC(O)=O)C(C)C)C(C)C)C(C)C)[C@@H](C)CC)C(=O)NCC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCSC)C(=O)N[C@@H](C(C)C)C(=O)NCC(=O)NCC(=O)N[C@@H](C(C)C)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](C)C(O)=O</chebi:smiles>
+        <oboInOwl:hasDbXref>KEGG:C16515</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>L-alpha-aspartyl-L-alanyl-L-alpha-glutamyl-L-phenylalanyl-L-arginyl-L-histidyl-L-alpha-aspartyl-L-serylglycyl-L-tyrosyl-L-alpha-glutamyl-L-valyl-L-histidyl-L-histidyl-L-glutaminyl-L-lysyl-L-leucyl-L-valyl-L-phenylalanyl-L-phenylalanyl-L-alanyl-L-alpha-glutamyl-L-alpha-aspartyl-L-valylglycyl-L-seryl-L-asparaginyl-L-lysylglycyl-L-alanyl-L-isoleucyl-L-isoleucylglycyl-L-leucyl-L-methionyl-L-valylglycylglycyl-L-valyl-L-valyl-L-isoleucyl-L-alanine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Asp-Ala-Glu-Phe-Arg-His-Asp-Ser-Gly-Tyr-Glu-Val-His-His-Gln-Lys-Leu-Val-Phe-Phe-Ala-Glu-Asp-Val-Gly-Ser-Asn-Lys-Gly-Ala-Ile-Ile-Gly-Leu-Met-Val-Gly-Gly-Val-Val-Ile-Ala</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>DAEFRHDSGYEVHHQKLVFFAEDVGSNKGAIIGLMVGGVVIA</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>beta-amyloid 42</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>beta-amyloid polypeptide 42</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>beta-amyloid protein 42</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:64647</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>amyloid-beta polypeptide 42</rdfs:label>
     </owl:Class>
     
 
@@ -5889,6 +6430,19 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CMO_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000000">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <obo:IAO_0000115>A quantitative or qualitative value which is the result of an act of assessing a morphological or physiological state or property in a single individual or sample or a group of individuals or samples, based on direct observation or experimental manipulation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <oboInOwl:hasOBONamespace>clinical_measurement_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CMO:0000000</oboInOwl:id>
+        <rdfs:label>clinical measurement</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CMO_0000046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000046">
@@ -5904,6 +6458,30 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
         <oboInOwl:hasOBONamespace>clinical_measurement_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CMO:0000046</oboInOwl:id>
         <rdfs:label>blood glucose level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000765 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000765">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The clearance rate of creatinine, that is, the volume of plasma that is cleared of creatinine by the kidneys per unit time. Creatinine clearance is calculated using the level of creatinine in a sample of urine, usually one collected over a period of 24 hours, the corresponding plasma creatinine level, and the volume of urine excreted. It is used as an approximation of the glomerular filtration rate (GFR).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <oboInOwl:created_by>JSmith</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-03-28T10:49:24Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>CHEBI:16737</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0007934</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>creatinine clearance measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>clinical_measurement_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CMO:0000765</oboInOwl:id>
+        <rdfs:label>creatinine clearance</rdfs:label>
     </owl:Class>
     
 
@@ -7572,6 +8150,63 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0008152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008152">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The chemical reactions and pathways, including anabolism and catabolism, by which living organisms transform chemical substances. Metabolic processes typically transform small molecules, but also include macromolecular processes such as DNA repair and replication, and protein synthesis and degradation.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/26424</obo:IAO_0000233>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>jl</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-10-17T15:46:40Z</oboInOwl:creation_date>
+        <oboInOwl:hasAlternativeId>GO:0044236</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0044710</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Wikipedia:Metabolism</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>metabolic process resulting in cell growth</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>metabolism resulting in cell growth</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>multicellular organism metabolic process</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>single-organism metabolic process</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0008152</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_euk_cellular_processes_ribbon"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_prokaryote_ribbon"/>
+        <rdfs:comment>Note that metabolic processes do not include single functions or processes such as protein-protein interactions, protein-nucleic acids, nor receptor-ligand interactions.</rdfs:comment>
+        <rdfs:label>metabolic process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009987 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009987">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process that is carried out at the cellular level, but not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>jl</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-12-11T16:56:55Z</oboInOwl:creation_date>
+        <oboInOwl:hasAlternativeId>GO:0008151</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0044763</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0050875</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>cell physiology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cellular physiological process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>cell growth and/or maintenance</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>single-organism cellular process</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0009987</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <rdfs:comment>This term should not be used for direct annotation. It should be possible to make a more specific annotation to one of the children of this term.</rdfs:comment>
+        <rdfs:label>cellular process</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0010467 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0010467">
@@ -7609,6 +8244,73 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
         <rdfs:comment>A protein complex in this context is meant as a stable set of interacting proteins which can be co-purified by an acceptable method, and where the complex has been shown to exist as an isolated, functional unit in vivo. Acceptable experimental methods include stringent protein purification followed by detection of protein interaction. The following methods should be considered non-acceptable: simple immunoprecipitation, pull-down experiments from cell extracts without further purification, colocalization and 2-hybrid screening. Interactions that should not be captured as protein complexes include: 1) enzyme/substrate, receptor/ligand or any similar transient interactions, unless these are a critical part of the complex assembly or are required e.g. for the receptor to be functional; 2) proteins associated in a pull-down/co-immunoprecipitation assay with no functional link or any evidence that this is a defined biological entity rather than a loose-affinity complex; 3) any complex where the only evidence is based on genetic interaction data; 4) partial complexes, where some subunits (e.g. transmembrane ones) cannot be expressed as recombinant proteins and are excluded from experiments (in this case, independent evidence is necessary to find out the composition of the full complex, if known). Interactions that may be captured as protein complexes include: 1) enzyme/substrate or receptor/ligand if the complex can only assemble and become functional in the presence of both classes of subunits; 2) complexes where one of the members has not been shown to be physically linked to the other(s), but is a homologue of, and has the same functionality as, a protein that has been experimentally demonstrated to form a complex with the other member(s); 3) complexes whose existence is accepted based on localization and pharmacological studies, but for which experimental evidence is not yet available for the complex as a whole.</rdfs:comment>
         <rdfs:label>protein-containing complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042697 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042697">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Cessation of menstruation, occurring in (e.g.) the human female usually around the age of 50.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Wikipedia:Menopause</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0042697</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
+        <rdfs:comment>Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is &apos;regulation of x/y phase transition&apos; or to a process which occurs during the reported phase. To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).</rdfs:comment>
+        <rdfs:label>menopause</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0090398 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0090398">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009987"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A cell aging process stimulated in response to cellular stress, whereby normal cells lose the ability to divide through irreversible cell cycle arrest.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/22788</obo:IAO_0000233>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
+        <oboInOwl:created_by>tb</oboInOwl:created_by>
+        <oboInOwl:creation_date>2011-01-05T02:27:08Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0090398</oboInOwl:id>
+        <rdfs:label>cellular senescence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0090399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0090399">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009987"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A cell aging process associated with the dismantling of a cell as a response to telomere shortening and/or cellular aging.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/22788</obo:IAO_0000233>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>tb</oboInOwl:created_by>
+        <oboInOwl:creation_date>2011-01-05T02:32:29Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0090399</oboInOwl:id>
+        <rdfs:label>replicative senescence</rdfs:label>
     </owl:Class>
     
 
@@ -7735,7 +8437,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/HP_0100022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100022">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0252"/>
         <obo:IAO_0000115>An abnormality of movement with a neurological basis characterized by changes in coordination and speed of voluntary movements.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <terms:creator rdf:resource="https://orcid.org/0009-0006-4530-3154"/>
@@ -8055,6 +8757,20 @@ Previous. An information content entity is a non-realizable information entity t
         <oboInOwl:hasExactSynonym>sonography of heart</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>ultrasonography of heart</oboInOwl:hasExactSynonym>
         <rdfs:label>echocardiography</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MI_0252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115>Property of a subsequence that may be involved with or interfere with the binding of a molecule and are supported by experimental evidences.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mi.owl"/>
+        <oboInOwl:hasOBONamespace>PSI-MI</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MI:0252</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mi#PSI-MI_slim"/>
+        <rdfs:label>biological feature</rdfs:label>
     </owl:Class>
     
 
@@ -9735,7 +10451,7 @@ Previous. An information content entity is a non-realizable information entity t
     <!-- http://purl.obolibrary.org/obo/NCIT_C175504 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C175504">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000078"/>
         <obo:IAO_0000115>A mobile cellular telephone that has an integrated computer with an operating system capable of web browsing and running downloaded applications.  Smartphones typically have touchscreen interfaces, video calling capabilities, and other advanced built-in features and applications.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C175504</obo:NCIT_NHC0>
@@ -10687,25 +11403,6 @@ in contrast to the in-vivo data AT-III increased significantly from
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0000181 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000181">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000111 xml:lang="en">population</obo:IAO_0000111>
-        <obo:IAO_0000112 xml:lang="en">PMID12564891. Environ Sci Technol. 2003 Jan 15;37(2):223-8. Effects of historic PCB exposures on the reproductive success of the Hudson River striped bass population.</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-        <obo:IAO_0000115 xml:lang="en">a population is a collection of individuals from the same taxonomic class living, counted or sampled at a particular site or in a particular area</obo:IAO_0000115>
-        <obo:IAO_0000116>1/28/2013, BP, on the call it was raised that we may want to switch to an external ontology for all populatin terms: 
-http://code.google.com/p/popcomm-ontology/</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">PERSON: Philippe Rocca-Serra</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">adapted from Oxford English Dictionnary</obo:IAO_0000119>
-        <obo:IAO_0000232 xml:lang="en">rem1: collection somehow always involve a selection process</obo:IAO_0000232>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <rdfs:label xml:lang="en">population</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OBI_0000185 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000185">
@@ -11044,6 +11741,79 @@ where \beta_0 =  0 is the intercept (&quot;constant&quot; term), the \beta_i s  
         <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/books/NBK21640/</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
         <rdfs:label xml:lang="en">gene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000023411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000023411">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>SIR2L1</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000004>SIRT1</obo:OGG_0000000004>
+        <obo:OGG_0000000005>sirtuin 1</obo:OGG_0000000005>
+        <obo:OGG_0000000006>23411</obo:OGG_0000000006>
+        <obo:OGG_0000000007>RP11-57G10.3</obo:OGG_0000000007>
+        <obo:OGG_0000000008>10q21.3</obo:OGG_0000000008>
+        <obo:OGG_0000000009>20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000015>9606</obo:OGG_0000000015>
+        <obo:OGG_0000000017>10</obo:OGG_0000000017>
+        <obo:OGG_0000000018>protein-coding</obo:OGG_0000000018>
+        <obo:OGG_0000000019>Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:OGG_0000000029>GO_0000012 (EC: IMP); GO_0000122 (EC: IDA, PMID: 12535671); GO_0000122 (EC: IMP); GO_0000183 (EC: IDA, PMID: 18485871); GO_0000720 (EC: IMP); GO_0000731 (EC: ISS); GO_0000790 (EC: IDA, PMID: 17505061); GO_0001525 (EC: IDA); GO_0001542 (EC: IEA); GO_0001678 (EC: ISS); GO_0001934 (EC: ISS); GO_0002039 (EC: IPI, PMID: 11672523); GO_0002821 (EC: IDA); GO_0003714 (EC: IDA, PMID: 12535671); GO_0003714 (EC: ISS); GO_0003950 (EC: TAS, Qualifier: NOT, PMID: 17456799); GO_0004407 (EC: IDA); GO_0005515 (EC: IPI, PMID: 11672523); GO_0005634 (EC: IDA); GO_0005635 (EC: IDA, PMID: 15469825); GO_0005637 (EC: IDA, PMID: 15469825); GO_0005654 (EC: IDA, PMID: 16079181); GO_0005677 (EC: IDA, PMID: 18485871); GO_0005719 (EC: IDA, PMID: 15469825); GO_0005720 (EC: IDA, PMID: 15469825); GO_0005730 (EC: IDA, PMID: 15469825); GO_0005730 (EC: IDA, Qualifier: NOT); GO_0005737 (EC: IDA); GO_0005737 (EC: IDA, Qualifier: NOT, PMID: 15469825); GO_0005739 (EC: IDA); GO_0006260 (EC: TAS, PMID: 17317627); GO_0006281 (EC: TAS, PMID: 17317627); GO_0006342 (EC: TAS, PMID: 10381378); GO_0006343 (EC: IDA, PMID: 15469825); GO_0006344 (EC: IMP, PMID: 15469825); GO_0006346 (EC: TAS); GO_0006351 (EC: IEA); GO_0006364 (EC: IEA); GO_0006471 (EC: TAS, Qualifier: NOT, PMID: 17456799); GO_0006476 (EC: IDA, PMID: 18203716); GO_0006476 (EC: IMP, PMID: 11672523); GO_0006642 (EC: ISS); GO_0006974 (EC: IDA, PMID: 18203716); GO_0006979 (EC: IDA, PMID: 14976264); GO_0007283 (EC: IEA); GO_0007346 (EC: IDA, PMID: 15692560); GO_0007517 (EC: IEA); GO_0007569 (EC: TAS, PMID: 11672523); GO_0008022 (EC: IPI, PMID: 18203716); GO_0008284 (EC: IMP); GO_0009267 (EC: ISS); GO_0010875 (EC: ISS); GO_0010906 (EC: ISS); GO_0016032 (EC: IEA); GO_0016239 (EC: IDA, PMID: 18296641); GO_0016567 (EC: IDA); GO_0016575 (EC: IDA, PMID: 12006491); GO_0016605 (EC: IDA, PMID: 12006491); GO_0017136 (EC: IDA, PMID: 12006491); GO_0018394 (EC: IMP, PMID: 18004385); GO_0019213 (EC: IDA, PMID: 18203716); GO_0030308 (EC: IMP, PMID: 17505061); GO_0030512 (EC: ISS); GO_0031393 (EC: ISS); GO_0031648 (EC: ISS); GO_0031937 (EC: IMP, PMID: 15469825); GO_0032007 (EC: IMP); GO_0032071 (EC: IMP, PMID: 19934257); GO_0032088 (EC: IDA, PMID: 15152190); GO_0032868 (EC: ISS); GO_0033158 (EC: IMP, PMID: 18203716); GO_0033553 (EC: IDA, PMID: 18485871); GO_0033558 (EC: IDA, PMID: 19934257); GO_0034391 (EC: ISS); GO_0034979 (EC: IDA); GO_0034979 (EC: IMP, PMID: 11672523); GO_0034983 (EC: IDA, PMID: 15469825); GO_0035098 (EC: IDA, Qualifier: colocalizes_with, PMID: 15684044); GO_0035356 (EC: ISS); GO_0035358 (EC: ISS); GO_0042127 (EC: IMP, PMID: 12006491); GO_0042326 (EC: IMP, PMID: 17612497); GO_0042393 (EC: IPI, PMID: 15469825); GO_0042542 (EC: IDA, PMID: 19934257); GO_0042632 (EC: ISS); GO_0042771 (EC: IMP); GO_0042802 (EC: IPI, PMID: 15469825); GO_0043065 (EC: IDA, PMID: 15152190); GO_0043065 (EC: IMP, PMID: 19047049); GO_0043066 (EC: IMP, PMID: 16892051); GO_0043124 (EC: IDA, PMID: 17680780); GO_0043161 (EC: IMP); GO_0043280 (EC: IMP, PMID: 19047049); GO_0043398 (EC: IPI, PMID: 12535671); GO_0043425 (EC: IPI, PMID: 12535671); GO_0043433 (EC: IDA, PMID: 11672523); GO_0043433 (EC: IMP, PMID: 17505061); GO_0043518 (EC: IDA, PMID: 11672523); GO_0045348 (EC: IDA); GO_0045599 (EC: ISS); GO_0045739 (EC: IMP, PMID: 19934257); GO_0045892 (EC: IDA, PMID: 11672523); GO_0045944 (EC: IDA); GO_0046628 (EC: IDA); GO_0046872 (EC: IEA); GO_0046969 (EC: ISS); GO_0050872 (EC: ISS); GO_0051019 (EC: IPI); GO_0051097 (EC: IDA, PMID: 18203716); GO_0051898 (EC: IMP); GO_0055089 (EC: ISS); GO_0060766 (EC: IMP, PMID: 17505061); GO_0070301 (EC: IDA); GO_0070403 (EC: IEA); GO_0070857 (EC: ISS); GO_0070932 (EC: IDA); GO_0070932 (EC: IMP, PMID: 17505061); GO_0071356 (EC: IDA, PMID: 15152190); GO_0071456 (EC: IMP); GO_0071479 (EC: ISS); GO_1902166 (EC: ISS, PMID: 11672522); GO_1902176 (EC: IMP, PMID: 17317627); GO_2000111 (EC: ISS); GO_2000480 (EC: IDA); GO_2000481 (EC: IMP, PMID: 18687677); GO_2000655 (EC: IMP, PMID: 17505061); GO_2000757 (EC: IDA); GO_2000773 (EC: IDA); GO_2000774 (EC: IDA, PMID: 18687677)</obo:OGG_0000000029>
+        <obo:OGG_0000000030>PMID: 10381378; 10873683; 11230166; 11672522; 11672523; 12006491; 12297502; 12413881; 12477932; 12535671; 12930829; 12939617; 14702039; 14976264; 14980222; 15126506; 15152190; 15164054; 15175761; 15205477; 15302935; 15469825; 15489334; 15632193; 15639232; 15640142; 15684044; 15692560; 15719057; 15744310; 15749705; 15780941; 16079181; 16154098; 16166628; 16183991; 16207712; 16257164; 16269335; 16288004; 16328012; 16344560; 16354677; 16385451; 16628003; 16751189; 16892051; 16923962; 16959573; 16964243; 16998474; 16998810; 17041012; 17081983; 17098745; 17099246; 17112576; 17172643; 17180656; 17213307; 17283066; 17317627; 17334224; 17373700; 17456799; 17487425; 17505061; 17516504; 17581637; 17601350; 17612497; 17624472; 17638871; 17680780; 17785417; 17806102; 17895433; 17901049; 17916362; 17934453; 17936707; 17937892; 17964266; 17996922; 18004385; 18029348; 18174544; 18184747; 18193082; 18203716; 18230337; 18235501; 18235502; 18296641; 18329615; 18342601; 18344999; 18414679; 18438697; 18482975; 18485871; 18485895; 18556572; 18563176; 18573234; 18636124; 18660489; 18662546; 18662547; 18681908; 18687677; 18689793; 18704159; 18723829; 18724249; 18755897; 18774777; 18800364; 18820948; 18821472; 18823944; 18829436; 18829956; 18834855; 18835033; 18838864; 18850005; 18922603; 18957417; 18977241; 19008647; 19014491; 19017485; 19047049; 19060927; 19071085; 19075016; 19104446; 19132007; 19149601; 19166820; 19167483; 19188449; 19218236; 19220062; 19229036; 19236849; 19244234; 19267881; 19285077; 19286634; 19289152; 19322201; 19343720; 19364925; 19376817; 19377286; 19404850; 19430421; 19433578; 19478080; 19491102; 19498162; 19509139; 19553684; 19555662; 19568959; 19578370; 19581416; 19615732; 19643082; 19649206; 19664641; 19680556; 19690166; 19713122; 19714620; 19716821; 19720090; 19741164; 19786632; 19819989; 19883617; 19887452; 19895790; 19923004; 19934257; 19934264; 19995796; 19996091; 20027304; 20033348; 20041875; 20042607; 20060806; 20068143; 20071779; 20089851; 20100829; 20102704; 20103737; 20107110; 20131294; 20157519; 20160399; 20167603; 20203304; 20217115; 20225204; 20335544; 20360068; 20375098; 20379614; 20412117; 20421294; 20426787; 20431927; 20439735; 20448046; 20451257; 20463039; 20479254; 20484414; 20488443; 20493163; 20503258; 20506278; 20555380; 20595232; 20617556; 20620956; 20627091; 20631301; 20633545; 20668205; 20668706; 20670893; 20689156; 20693263; 20702418; 20733005; 20803525; 20812964; 20813124; 20817729; 20819794; 20844277; 20869593; 20941378; 20955178; 20956937; 20966076; 20972425; 20977650; 20978007; 21030595; 21056897; 21067862; 21074897; 21098725; 21108727; 21118843; 21130087; 21139048; 21144831; 21149449; 21149730; 21163946; 21176092; 21212262; 21241768; 21245135; 21245319; 21277951; 21289058; 21329659; 21331741; 21337390; 21345792; 21349544; 21390332; 21414717; 21454709; 21471201; 21474819; 21501079; 21502801; 21502975; 21504832; 21505241; 21527554; 21533107; 21543634; 21555002; 21556116; 21567102; 21596753; 21604001; 21636977; 21697093; 21698133; 21700104; 21701047; 21703114; 21713995; 21719763; 21720722; 21745208; 21746786; 21760635; 21775285; 21778425; 21789216; 21807113; 21810449; 21813271; 21832856; 21852339; 21865267; 21871827; 21882241; 21890473; 21906983; 21915620; 21920899; 21947282; 21956116; 21963094; 21968188; 21972126; 21987377; 22000456; 22013015; 22017869; 22038097; 22050448; 22073865; 22094255; 22094256; 22121772; 22124156; 22133824; 22137654; 22146883; 22149272; 22152608; 22157007; 22157016; 22159506; 22169038; 22178470; 22190034; 22190494; 22197555; 22198152; 22200427; 22207735; 22219708; 22228742; 22230810; 22245592; 22249256; 22266962; 22272724; 22302044; 22306819; 22308024; 22312127; 22322739; 22328728; 22330808; 22333659; 22340598; 22355666; 22363646; 22364258; 22370592; 22378745; 22385246; 22389628; 22406815; 22410779; 22446626; 22448750; 22465953; 22479397; 22493485; 22510409; 22537175; 22542455; 22552445; 22553202; 22554968; 22564731; 22584570; 22586264; 22590959; 22613205; 22623155; 22628222; 22640743; 22661383; 22674476; 22683003; 22683888; 22689577; 22696478; 22700961; 22703651; 22728651; 22732402; 22735644; 22740055; 22773876; 22780949; 22789853; 22796962; 22807441; 22824213; 22833338; 22836009; 22863883; 22867969; 22885181; 22893703; 22902550; 22902626; 22934845; 22935421; 22939629; 22980663; 22986535; 22986747; 22990118; 22995302; 23024800; 23038275; 23045412; 23050959; 23056314; 23070058; 23075334; 23079621; 23133645; 23135526; 23137540; 23143889; 23169992; 23178529; 23209300; 23224247; 23224434; 23238746; 23247197; 23247634; 23248098; 23255128; 23257246; 23262029; 23267107; 23276927; 23305113; 23332867; 23340254; 23349863; 23354305; 23357110; 23361587; 23363613; 23365135; 23370328; 23382074; 23382833; 23390957; 23395904; 23417673; 23449222; 23450480; 23453030; 23473037; 23474493; 23475622; 23483263; 23505545; 23548308; 23561972; 23583951; 23602568; 23613875; 23661372; 23673452; 23702379; 23704280; 23754392; 23760629; 23768087; 23770291; 23797802; 23800577; 23814050; 23827175; 23855981; 23877372; 23892437; 23897426; 23922917; 23952905; 23993977; 24039251; 24126058; 24141423; 24147777; 24184811; 24211209; 24211575; 24218438; 24507186</obo:OGG_0000000030>
+        <dc:description>sirtuin 1</dc:description>
+        <oboInOwl:hasDbXref>Ensembl:ENSG00000096717</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HGNC:14929</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HPRD:08381</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:604479</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Vega:OTTHUMG00000018340</oboInOwl:hasDbXref>
+        <rdfs:label>SIRT1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000051547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000051547">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>SIR2L7</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000004>SIRT7</obo:OGG_0000000004>
+        <obo:OGG_0000000005>sirtuin 7</obo:OGG_0000000005>
+        <obo:OGG_0000000006>51547</obo:OGG_0000000006>
+        <obo:OGG_0000000008>17q25</obo:OGG_0000000008>
+        <obo:OGG_0000000009>20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000015>9606</obo:OGG_0000000015>
+        <obo:OGG_0000000017>17</obo:OGG_0000000017>
+        <obo:OGG_0000000018>protein-coding</obo:OGG_0000000018>
+        <obo:OGG_0000000019>Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:OGG_0000000029>GO_0000122 (EC: IDA); GO_0003682 (EC: IDA); GO_0005515 (EC: IPI, PMID: 19174463); GO_0005730 (EC: IDA, PMID: 16079181); GO_0005731 (EC: IDA, PMID: 19174463); GO_0005737 (EC: IEA); GO_0007072 (EC: IMP, PMID: 19174463); GO_0009303 (EC: IMP, PMID: 19174463); GO_0046872 (EC: IEA); GO_0070403 (EC: IEA); GO_0070932 (EC: IDA); GO_0070933 (EC: IDA); GO_0097372 (EC: IDA)</obo:OGG_0000000029>
+        <obo:OGG_0000000030>PMID: 9776767; 10873683; 11953824; 12454780; 12477932; 14702039; 15489334; 16079181; 16169070; 16525639; 16618798; 17003781; 19174463; 20375098; 21832049; 22147730; 22586326; 22722849; 23079745; 23680022; 23750001; 24207024; 24250222</obo:OGG_0000000030>
+        <dc:description>sirtuin 7</dc:description>
+        <oboInOwl:hasDbXref>Ensembl:ENSG00000187531</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HGNC:14935</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HPRD:12094</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:606212</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Vega:OTTHUMG00000177957</oboInOwl:hasDbXref>
+        <rdfs:label>SIRT7</rdfs:label>
     </owl:Class>
     
 
@@ -11951,6 +12721,20 @@ A CELL CYCLE and tumor growth marker which can be readily detected using IMMUNOC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0001486 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001486">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000011"/>
+        <obo:IAO_0000115>An age quality that exists by virtue of the time (years and months) that the bearer has existed.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001486</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#attribute_slim"/>
+        <rdfs:label>chronological age</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001818 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001818">
@@ -12269,6 +13053,28 @@ A CELL CYCLE and tumor growth marker which can be readily detected using IMMUNOC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000005423 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005423">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of the human CHI3L1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasExactSynonym>39 kDa synovial protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BRP39 protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CGP-39</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CHI3L1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>GP-39</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>YKL-40</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cartilage glycoprotein 39</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Brp39</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:000005423</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>chitinase-3-like protein 1</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000005615 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005615">
@@ -12469,6 +13275,21 @@ A CELL CYCLE and tumor growth marker which can be readily detected using IMMUNOC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000007939 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007939">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of the human GFAP gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasExactSynonym>GFAP</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000007939</oboInOwl:id>
+        <rdfs:comment>Category=gene. Requested by=CL.</rdfs:comment>
+        <rdfs:label>glial fibrillary acidic protein</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000009725 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009725">
@@ -12508,6 +13329,23 @@ A CELL CYCLE and tumor growth marker which can be readily detected using IMMUNOC
         <oboInOwl:id>PR:000009758</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>leptin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011426 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011426">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of the human NRGN gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasExactSynonym>NRGN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Ng</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RC3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000011426</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>neurogranin</rdfs:label>
     </owl:Class>
     
 
@@ -13637,6 +14475,429 @@ last accessed: May 2016</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000135">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0252"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Cardiorespiratory fitness (CRF) refers to the capacity of the circulatory and respiratory systems to supply oxygen to skeletal muscle mitochondria for energy production needed during physical activity.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32686505/</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>CRF</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">cardiorespiratory fitness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000136">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <dc:description>The concept of the &apos;biomarker of aging TM_BIN&apos; allows for the compilation of diverse concepts related to aging biomarkersusinga the axiom &apos;isDiagnosticBiomarkerFor some disease&apos;. This enables the adaptation of the ontology for text mining purposes, facilitating the retrieval and extraction of information related to diagnostic biomarkers within a specific disease.</dc:description>
+        <rdfs:label xml:lang="en">biomarker of aging TM_BIN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Brain aging is a complex process that affects everything from the subcellular to the organ level, begins early in life, and accelerates with age. Morphologically, brain aging is primarily characterized by brain volume loss, cortical thinning, white matter degradation, loss of gyrification, and ventricular enlargement. Pathophysiologically, brain aging is associated with neuron cell shrinking, dendritic degeneration, demyelination, small vessel disease, metabolic slowing, microglial activation, and the formation of white matter lesions.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/34600936/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">brain aging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000154"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Epigenetic clocks are mathematically derived age estimators that are based on combinations of methylation values that change with age at specific CpGs in the genome.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/37034474/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">epigenetic clock</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000154"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A proteomic aging clock is a biological tool that estimates an individual&apos;s biological age based on the levels of specific proteins in the body. These proteins serve as biomarkers of aging, reflecting underlying processes such as inflammation, metabolism, immune function, and cellular repair mechanisms.</obo:IAO_0000115>
+        <obo:IAO_0000115>generated with ChatGPT version 4,0 on 19․08․24</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">proteomic clock</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000139"/>
+        <obo:IAO_0000115>The Hannum Clock is one of the early and widely recognized epigenetic clocks designed to estimate biological age by analyzing DNA methylation patterns. It was developed by Dr. Gregory Hannum and his colleagues in 2013 and represents a key advancement in the field of aging research.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 19․08․24</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">hannum clock</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000139"/>
+        <obo:IAO_0000115>The Horvath Clock, developed by Dr. Steve Horvath in 2013, is a groundbreaking epigenetic clock that estimates biological age based on DNA methylation patterns. This clock is widely regarded as one of the most accurate and versatile tools for measuring biological aging across different tissues and cell types. The Horvath Clock uses the methylation levels at specific CpG sites (regions of DNA where a cytosine nucleotide is followed by a guanine nucleotide) to estimate an individual’s biological age. Methylation at these sites tends to correlate strongly with chronological age, but it can also reveal biological age, reflecting an individual&apos;s health status and aging rate.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/38486063/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Horvath clock</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000139"/>
+        <obo:IAO_0000115>DNAm PhenoAge is an epigenetic clock that allows for an estimate of phenotypic age from a single array, obviating the need for multiple assays to measure the nine blood-based components of phenotypic age.</obo:IAO_0000115>
+        <obo:IAO_0000115>https://pubmed.ncbi.nlm.nih.gov/31780646/</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Levine clock</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">DNAm PhenoAge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000011"/>
+        <obo:IAO_0000115>Phenotypic age refers to an individual’s biological age, which is determined by their physical characteristics and functioning rather than their chronological age</obo:IAO_0000115>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/38486063/</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>PhenoAge</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">phenotypic age</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000145">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000139"/>
+        <obo:IAO_0000115>An epigenetic clock called DNA methylation GrimAge (DNAmGrimAge) was specifically designed to connect the relationship between “grim” events such as death and biological age and its derivation was based on smoking pack-years and multiple inflammatory proteins associated with mortality.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/35944348/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">GrimAge clock</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000154"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>A mitotic clock refers to a biological mechanism that tracks the number of times a cell has divided (or undergone mitosis) during its lifespan. This concept is primarily based on the idea that each cell has a finite number of divisions it can undergo, which is associated with cellular aging, senescence, and the potential for cancer development.</obo:IAO_0000119>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 19․08․24</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">mitotic clock</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0252"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The decline in stem cell function is a well-established feature of the aging process and plays a crucial role in the overall degeneration of tissues and organs as we age. Stem cells are responsible for tissue regeneration, repair, and maintaining homeostasis in the body. As we age, the function of these stem cells diminishes, leading to impaired tissue repair, reduced regeneration capacity, and an increased risk of age-related diseases.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 19․08․24</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">decline in stem cell function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000148">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0252"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The decline in stem cell function is a well-established feature of the aging process and plays a crucial role in the overall degeneration of tissues and organs as we age. Stem cells are responsible for tissue regeneration, repair, and maintaining homeostasis in the body. As we age, the function of these stem cells diminishes, leading to impaired tissue repair, reduced regeneration capacity, and an increased risk of age-related diseases.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 19․08․24</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">stem cell quantity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000149">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0252"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Regenerative capacity is a complex trait dependent on the ability to access high-fidelity morphogenetic programmes after injury. It is distributed unequally among species and, within individuals, among their tissues.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 19․08․24</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">regenerative capacity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0252"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>ELOVL2 hypermethylation refers to an increase in DNA methylation at the ELOVL2 gene, which has been consistently associated with aging. The ELOVL2 gene encodes an enzyme involved in the elongation of very long-chain fatty acids. It has emerged as one of the most reliable epigenetic biomarkers of aging.</obo:IAO_0000115>
+        <obo:IAO_0000115>Hayflick limit</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 19․08․24</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">ELOVL2 hypermethilation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000155"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The Hayflick limit refers to the discovery by Leonard Hayflick that normal human cells grown in culture can only divide a finite number of times before entering a state of senescence, where they cease to divide.
+It describes a limit on the process of cell division and is related to the concept of cellular senescence.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/11413492/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Hayflick limit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000152">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000139"/>
+        <obo:IAO_0000119>generated with ChatGPT-4 on 09․10․24</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">BloodAge</rdfs:label>
+        <skos:definition>BloodAge refers to a biological age estimation method that uses a blood-based proteomic signature to assess how old a person is biologically, as opposed to their chronological age. By analyzing the levels of specific proteins in the blood, this method predicts a person&apos;s biological aging and potential risk for age-related diseases.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000153">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000011"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/37944549/</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>bAge</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">biological age</rdfs:label>
+        <skos:definition>Biological age is a measure of health that offers insights into ageing.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000154">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16866"/>
+        <rdfs:label xml:lang="en">age estimator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000155">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <obo:IAO_0000119>generated with ChatGPT version 3,5 on 23.08.24</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">biological principle</rdfs:label>
+        <skos:definition>A biological principle is a fundamental concept or theory that underpins and explains biological phenomena and processes. It provides a foundational understanding of how biological systems function and guides research, experimentation, and interpretation in the field of biology.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000156">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000139"/>
+        <obo:IAO_0000119>generated with ChatGPT-4 on 09․10․24</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">GrimAge2</rdfs:label>
+        <skos:definition>GrimAge2 is an updated version of the original GrimAge, which is a DNA methylation-based biological clock developed to estimate biological age and predict mortality risk.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000157">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>generated with ChatGPT-4 on 09․10․24</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>DNAmRS</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">DNA Methylation Risk Score</rdfs:label>
+        <skos:definition>DNA methylation-based risk score is a relatively recent metric used in research to assess biological age and associated health risks based on DNA methylation patterns. It evaluates the methylation levels at specific sites in the genome that are linked to various health outcomes, effectively providing a score that reflects the biological age of an individual as opposed to their chronological age.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000158">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>generated with ChatGPT-4 on 09․10․24</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>DunedinPACE</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Pace of Aging Computed from the Epigenome</rdfs:label>
+        <skos:definition>Pace of Aging Computed from the Epigenome is a biomarker developed to assess the biological aging process based on DNA methylation patterns. Unlike other aging measures that focus on chronological age, DunedinPACE specifically evaluates how quickly or slowly an individual is aging by analyzing chemical tags (methylation marks) on DNA in white blood cells.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000159">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>generated with ChatGPT-4 on 09․10․24</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>M-metabo-score</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">MetaboHealth score</rdfs:label>
+        <skos:definition>The MetaboHealth score is a metabolomics-based health assessment that utilizes a panel of serum metabolic markers to evaluate an individual&apos;s metabolic health and its association with health outcomes.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>generated with ChatGPT-4 on 09․10․24</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">MetaboAge score</rdfs:label>
+        <skos:definition>The MetaboAge score is a biological age predictor based on metabolomic biomarkers. It is calculated using a model that analyzes 63 metabolites in the blood, allowing researchers to estimate an individual’s biological age as opposed to their chronological age. A key feature of MetaboAge is the difference between the predicted metabolomic age and the actual chronological age (referred to as ΔMetaboAge). A positive ΔMetaboAge may suggest accelerated biological aging and a higher risk of mortality. This score has been validated in various studies and is often used to study aging and its relation to mortality and other health outcomes​.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000161">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>generated with ChatGPT-4 on 09․10․24</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">integrative biomarker</rdfs:label>
+        <skos:definition>An integrative biomarker refers to a biological marker that combines multiple types of data or molecular measurements to provide a more comprehensive assessment of a biological process, disease state, or health outcome. These biomarkers integrate data from various domains, such as genomics, proteomics, metabolomics, and epigenetics, along with clinical and demographic information. The goal is to create a more holistic view of an individual&apos;s health status, particularly for complex conditions such as aging, cancer, cardiovascular diseases, or metabolic disorders.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000162">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>generated with ChatGPT-4 on 09․10․24</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>IEAA</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Intrinsic Epigenetic Age Acceleration</rdfs:label>
+        <skos:definition>Intrinsic Epigenetic Age Acceleration refers to a metric used to assess biological aging, independent of age-related changes in blood cell composition. It is calculated using DNA methylation data and reflects &quot;cell-intrinsic&quot; aging processes. This measure is derived by regressing DNA methylation age (calculated through Horvath&apos;s epigenetic clock) on chronological age, but without factoring in shifts in blood cell types that typically occur with age. Because IEAA does not include these immune system-related factors, it is considered a measure of fundamental, internal cellular aging.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>generated with ChatGPT-4 on 09․10․24</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>EEAA</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Extrinsic Epigenetic Age Acceleration</rdfs:label>
+        <skos:definition>Extrinsic Epigenetic Age Acceleration is a metric used to estimate biological aging by incorporating both DNA methylation patterns and changes in blood cell composition. This measure reflects the combined effects of intrinsic cellular aging (similar to IEAA) and the aging of the immune system, which involves shifts in certain immune cell types, such as T cells and B cells.</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- http://semanticscience.org/resource/SIO_000027 -->
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000027">
@@ -14104,6 +15365,25 @@ last accessed: May 2016</obo:IAO_0000119>
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000513 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000513">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004554"/>
+        <obo:IAO_0000115>The total sum of the genetic information of an organism that is known and relevant to the experiment being performed, including chromosomal, plasmid, viral or other genetic material which has been introduced into the organism either prior to or during the experiment.</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <oboInOwl:hasDbXref>MO:51</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D005838</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C16631</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NIFSTD:birnlex_2023</oboInOwl:hasDbXref>
+        <rdfs:comment>Information, making the distinction between the actual physical material (e.g. a cell) and the information about the genetic content (genotype).</rdfs:comment>
+        <rdfs:label>genotype</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0000714 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000714">
@@ -14488,6 +15768,45 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003892 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003892">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <obo:IAO_0000115>Measurement of the various processes involved in the act of respiration: inspiration, expiration, oxygen and carbon dioxide exchange, lung volume and compliance, etc.</obo:IAO_0000115>
+        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MeSH:D012129</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C38081</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>FUNCTION TEST PULM</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>FUNCTION TESTS PULM</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Function Test, Lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Function Test, Pulmonary</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Function Test, Respiratory</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Function Tests, Lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Function Tests, Pulmonary</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Function Tests, Respiratory</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lung Function Test</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lung Function Tests</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PULM FUNCTION TEST</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PULM FUNCTION TESTS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Pulmonary Function Tests</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Respiratory Function Test</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Respiratory Function Tests</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TEST PULM FUNCTION</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TESTS PULM FUNCTION</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Test, Lung Function</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Test, Pulmonary Function</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Test, Respiratory Function</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tests, Lung Function</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tests, Pulmonary Function</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tests, Respiratory Function</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pulmonary function test</oboInOwl:hasExactSynonym>
+        <rdfs:label>pulmonary function measurement</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0003919 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003919">
@@ -14749,17 +16068,55 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
     
 
 
-    <!-- http://www.ebi.ac.uk/efo/EFO_0004297 -->
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004312 -->
 
-    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004297">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
-        <obo:BMONT_0000048>yes</obo:BMONT_0000048>
-        <obo:IAO_0000115>A clinical laboratory measurement is a measurement of some entity e.g. erythrocyte count or metabolite panel which is used in the process of clinical diagnosis in human patients</obo:IAO_0000115>
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004312">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003892"/>
+        <obo:IAO_0000115>The volume of air that is exhaled by a maximal expiration following a maximal inspiration.</obo:IAO_0000115>
         <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
         <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
-        <oboInOwl:hasExactSynonym>clinical laboratory techniques</oboInOwl:hasExactSynonym>
-        <rdfs:label>clinical laboratory measurement</rdfs:label>
+        <oboInOwl:hasDbXref>MeSH:D014797</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10047579</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C111361</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:268379003</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>FVC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>forced vital capacity</oboInOwl:hasExactSynonym>
+        <rdfs:label>vital capacity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004313 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004313">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003892"/>
+        <obo:IAO_0000115>Measurement of rate of airflow over the middle half of aÂ FORCED VITAL CAPACITYÂ determination (from the 25 percent level to the 75 percent level). Common abbreviations areÂ MMFRÂ and FEF 25%-75%.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MeSH:D008450</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>FEF25-75%</oboInOwl:hasExactSynonym>
+        <rdfs:label>maximal midexpiratory flow rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004314 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004314">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003892"/>
+        <obo:IAO_0000115>Measure of the maximum amount of air that can be expelled in a given number of seconds during aÂ FORCED VITAL CAPACITYÂ determination . It is usually given asÂ FEVÂ followed by a subscript indicating the number of seconds over which the measurement is made, although it is sometimes given as a percentage of forced vital capacity.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MeSH:D005541</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10016984</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C120933</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>FEV1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>FEVt</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>timed vital capacity</oboInOwl:hasExactSynonym>
+        <rdfs:label>forced expiratory volume</rdfs:label>
     </owl:Class>
     
 
@@ -14847,6 +16204,27 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004346 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004346">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Non-invasive methods of visualizing and measuring the CENTRAL NERVOUS SYSTEM, especially the brain, by various imaging modalities e.g. CT scan</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasExactSynonym>brain imaging</oboInOwl:hasExactSynonym>
+        <rdfs:comment>is about MeSH:D059906</rdfs:comment>
+        <rdfs:label>neuroimaging measurement</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0004352 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004352">
@@ -14915,6 +16293,47 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004505 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004505">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004554"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A measurement of telomere length measures the number of TTAGGG repeats at the end of the chromosome. As cell division proceeds telomeres shorten, telomere length is measure of cellular aging.</obo:IAO_0000115>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:definition_citation>http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3370421/</efo:definition_citation>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <rdfs:label>telomere length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004515 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004515">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A muscle mass measurement is the quantification of the mass of a muscle e.g. skeletal muscle for an individual.</obo:IAO_0000115>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasExactSynonym>muscle mass</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>muscle mass measurement</oboInOwl:hasExactSynonym>
+        <rdfs:label>muscle measurement</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0004517 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004517">
@@ -14938,6 +16357,18 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
         <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
         <oboInOwl:hasExactSynonym>arterial stiffness</oboInOwl:hasExactSynonym>
         <rdfs:label>arterial stiffness measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004554 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004554">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <obo:IAO_0000115>Is a quantification of some aspect of the genome, e.g. copy number variation at some locus.</obo:IAO_0000115>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label>genomic measurement</rdfs:label>
     </owl:Class>
     
 
@@ -14991,6 +16422,22 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004713 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004713">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003892"/>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:definition_citation>Is the measurement of the ratio of forced expiratory volume (FEV) to forced vital capacity (FVC), used as a measure of pulmonary function.</efo:definition_citation>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasExactSynonym>FEV/FEC ratio</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>FEV/FVC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>FEV1/FVC</oboInOwl:hasExactSynonym>
+        <rdfs:label>FEV/FVC ratio</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0004745 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004745">
@@ -15024,6 +16471,19 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004798 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004798">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004554"/>
+        <obo:IAO_0000115>A quantification of a genomic variation that increases or decreases the copy number of a given region.</obo:IAO_0000115>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:definition_citation>http://purl.org/obo/owl/SO#SO_0001019</efo:definition_citation>
+        <rdfs:label>copy number variation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0004807 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004807">
@@ -15034,6 +16494,22 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
         <efo:definition_citation>http://www.ncbi.nlm.nih.gov/pubmed/22322875</efo:definition_citation>
         <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
         <rdfs:label>short sleep</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004828 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004828">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004554"/>
+        <obo:IAO_0000115>The genetic variation of individuals in a population.</obo:IAO_0000115>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MeSH:D014644</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C17248</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:64195000</oboInOwl:hasDbXref>
+        <rdfs:label>genetic variation</rdfs:label>
     </owl:Class>
     
 
@@ -15072,6 +16548,19 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
         <efo:definition_citation>http://www.ncbi.nlm.nih.gov/pubmed/21810643</efo:definition_citation>
         <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
         <rdfs:label>cortical thickness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004863 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004863">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0005919"/>
+        <obo:IAO_0000115>Is the genome wide recombination rate.</obo:IAO_0000115>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <rdfs:label>recombination rate</rdfs:label>
     </owl:Class>
     
 
@@ -15122,6 +16611,24 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004887 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004887">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003892"/>
+        <obo:IAO_0000115>Is the quantification of is the maximum capacity of an individual&apos;s body to transport and use oxygen during incremental exercise, and is used as an indicator of physical fitness</obo:IAO_0000115>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasExactSynonym>VO2 max</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>maximal aerobic capacity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>maximal oxygen consumption</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>maximal oxygen uptake</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>peak oxygen uptake</oboInOwl:hasExactSynonym>
+        <rdfs:label>maximal oxygen uptake measurement</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0004952 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004952">
@@ -15134,6 +16641,49 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
         <oboInOwl:hasDbXref>MedDRA:10061819</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>relapse</oboInOwl:hasExactSynonym>
         <rdfs:label>disease recurrence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004972 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004972">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000513"/>
+        <obo:IAO_0000115>The total sum of the genetic information of an organism&apos;s somatic cells</obo:IAO_0000115>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label>somatic genotype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004973 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004973">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000513"/>
+        <obo:IAO_0000115>The total sum of the genetic information of an organism&apos;s germline</obo:IAO_0000115>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label>germline genotype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004982 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004982">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A collection or collectivity of microorganisms.</obo:IAO_0000115>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <oboInOwl:hasDbXref>NCIt:C68564</oboInOwl:hasDbXref>
+        <rdfs:label>microbiome</rdfs:label>
     </owl:Class>
     
 
@@ -15171,6 +16721,16 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
         <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
         <rdfs:label>hippocampal volume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0005168 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005168">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000513"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label>wild type genotype</rdfs:label>
     </owl:Class>
     
 
@@ -15221,7 +16781,7 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
     <!-- http://www.ebi.ac.uk/efo/EFO_0005272 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005272">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0252"/>
         <obo:IAO_0000115>quantification of some aspect of sleep quality, such as number of awakenings during a sleep interval or time taken to get to sleep. Sleep quality can be evaluated either through self-reporting, observation in a sleep lab or using a sleep monitoring device</obo:IAO_0000115>
         <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
@@ -15296,6 +16856,21 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0005682 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005682">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003892"/>
+        <obo:IAO_0000115>quantification of the relative amount of oxygen that is dissolved or carried in a given medium</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>NCIt:C60832</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:104847001</oboInOwl:hasDbXref>
+        <rdfs:label>oxygen saturation measurement</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0005769 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005769">
@@ -15339,6 +16914,33 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
         <rdfs:comment>Defined in terms of GO calcium ion homeostatis. Also consistent with HPO. Note advice from GO as calcium ions are neither created or destroyed is not metabolic process in terms of go, but name retained for purposes of consistency with e.g. Snomed and Mesh</rdfs:comment>
         <rdfs:comment>Defined in terms of GO calcium ion homeostatis. Also consistent with HPO. Note advice from GO as calcium ions are neither created or destroyed is not metabolic process in terms of go, but name retained for purposes of consistency with e.g. Snomed and Mesh, Consider relocating this as a sibling of metabolic disease.</rdfs:comment>
         <rdfs:label>calcium metabolic disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0005919 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005919">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004554"/>
+        <obo:IAO_0000115>quantification of any recombination-related factor, such as hotspot usage, African enchrichment and recombination rate</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <rdfs:label>recombination measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0005921 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005921">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003892"/>
+        <obo:IAO_0000115>quantification of the rate of change in FEV of an individual over the course of time, used as an indicator of improvement or decay of pulmonary function</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasExactSynonym>FEV1 change measurement</oboInOwl:hasExactSynonym>
+        <rdfs:label>FEV change measurement</rdfs:label>
     </owl:Class>
     
 
@@ -15413,6 +17015,34 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0006897 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0006897">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003892"/>
+        <obo:IAO_0000115>quantification of airway responsiveness, calculated as the concentration of methacholine at which a greater than 20% decresase in FEV1 is achieved during a bronchial challenge test</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>PMID:25514360</oboInOwl:hasDbXref>
+        <rdfs:label>airway responsiveness measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0006898 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0006898">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003892"/>
+        <obo:IAO_0000115>Quantification of the thickness of the walls of different parts of the respiratory tract, calculated from cross-sectional CT images. This measure can be used as an indicator of airway obstruction severity in COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>PMID:25517131</oboInOwl:hasDbXref>
+        <rdfs:label>airway wall thickness measurement</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0006925 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0006925">
@@ -15424,6 +17054,31 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
         <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
         <oboInOwl:hasExactSynonym>Lp(a) measurement</oboInOwl:hasExactSynonym>
         <rdfs:label>lipoprotein A measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0007593 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0007593">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004554"/>
+        <obo:IAO_0000115>Quantification of the level of DNA strand breaks in a cell, for example induced by an antineoplastic agent such a bleomycin. Chromatid breaks can be assessed under the microscope in dividing cells during metaphase.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <rdfs:label>chromatid break measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0007783 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0007783">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004554"/>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <rdfs:label>mosaic loss of chromosome Y measurement</rdfs:label>
     </owl:Class>
     
 
@@ -15533,6 +17188,21 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0008431 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0008431">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003892"/>
+        <obo:IAO_0000115>Qunatification of the maximum volume of air that an organism can breathe in and out during a specified period of time, often 1 minute.</obo:IAO_0000115>
+        <obo:IAO_0000117>Annalisa Buniello</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MedDRA:10026958</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:29095316</oboInOwl:hasDbXref>
+        <rdfs:label>maximal voluntary ventilation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0009367 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009367">
@@ -15549,6 +17219,23 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
         <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
         <oboInOwl:hasDbXref>PMID:29130521</oboInOwl:hasDbXref>
         <rdfs:label>glucose metabolism measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0009369 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009369">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003892"/>
+        <obo:IAO_0000115>A measurement of carbon monoxide (CO) transfer from inspired gas to pulmonary capillary blood. During the test, the subject inspires a gas containing CO and one or more tracer gases to allow determination of the gas exchanging capability of the lungs.</obo:IAO_0000115>
+        <obo:IAO_0000117>Laura Harris</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>PMID:30049742</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>carbon monoxide diffusing capacity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pulmonary diffusing capacity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>transfer factor of the lung for carbon monoxide</oboInOwl:hasExactSynonym>
+        <rdfs:label>diffusing capacity of the lung for carbon monoxide</rdfs:label>
     </owl:Class>
     
 
@@ -15594,6 +17281,83 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0009718 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009718">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003892"/>
+        <obo:IAO_0000115>The maximum rate of gas flow, beginning at the point of peak inspiratory capacity, that can be sustained during forced exhalation for a defined period of time.</obo:IAO_0000115>
+        <obo:IAO_0000115>The maximum rate of gas flow, beginning at the point of peak inspiratory capacity, that can be sustained during forced exhalation for a defined period of time. This test is most often used in combination with other studies of lung function to diagnose and monitor obstructive and restrictive lung disease(s). [ NCI ]</obo:IAO_0000115>
+        <obo:IAO_0000117>Maria Cerezo</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>NCIt:C41372</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:30804560</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>PEF</oboInOwl:hasExactSynonym>
+        <rdfs:label>peak expiratory flow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0009860 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009860">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004554"/>
+        <obo:IAO_0000115>Frequency of chromosomal aberrations in human peripheral blood.</obo:IAO_0000115>
+        <obo:IAO_0000117>Joannella Morales</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>PMID:30368896</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>CA</oboInOwl:hasExactSynonym>
+        <rdfs:label>chromosomal aberration frequency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0009861 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009861">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0009860"/>
+        <obo:IAO_0000115>Frequency of chromosome-type chromosomal aberrations in human peripheral blood (typically resulting in damage to both chromatids).</obo:IAO_0000115>
+        <obo:IAO_0000117>Joannella Morales</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>PMID:30368896</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>CSA</oboInOwl:hasExactSynonym>
+        <rdfs:label>chromosome-type aberration frequency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0009862 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009862">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0009860"/>
+        <obo:IAO_0000115>Frequency of chromatid-type chromosomal aberrations in human peripheral blood (typically resulting in damage to a single chromatid).</obo:IAO_0000115>
+        <obo:IAO_0000117>Joannella Morales</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>PMID:30368896</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>CTA</oboInOwl:hasExactSynonym>
+        <rdfs:label>chromatid-type aberration frequency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010339 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010339">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003892"/>
+        <obo:IAO_0000115>Quantification of the rate of change in forced vital capacity of an individual over the course of time, used as an indicator of improvement or decay of pulmonary function.</obo:IAO_0000115>
+        <obo:IAO_0000117>Laura Harris</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>PMID:31557306</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>forced vital capacity change meaurement</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">FVC change measurement</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0022597 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0022597">
@@ -15604,6 +17368,42 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-08T09:27:59Z</dc:date>
         <oboInOwl:hasDbXref>SNOMED:248280005</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">aging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0022599 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0022599">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The covalent transfer of a methyl group to either N-6 of adenine or C-5 or N-4 of cytosine.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <dc:creator>Zoe May Pendlington</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-12T13:21:16Z</dc:date>
+        <oboInOwl:hasDbXref>MeSH:D019175</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C17961</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:DNA_methylation</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">DNA methylation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0022842 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0022842">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004554"/>
+        <obo:IAO_0000115>It is the most common clonal somatic alteration in leukocytes of female individuals.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <dc:creator>Zoe May Pendlington</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-14T09:43:25Z</dc:date>
+        <oboInOwl:hasExactSynonym>mLOX</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">mosaic loss of chromosome X measurement</rdfs:label>
     </owl:Class>
     
 
