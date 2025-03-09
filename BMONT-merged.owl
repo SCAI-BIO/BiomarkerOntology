@@ -4103,8 +4103,9 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </owl:equivalentClass>
+        <obo:IAO_0000115>A placeholder for diagnostic biomarkers, organized based on the reasoning application &apos;isDiagnosticBiomarkerFor some disease&apos;, to facilitate text mining and information retrieval for specific diseases.</obo:IAO_0000115>
         <dc:description>The concept of the &apos;diagnostic biomarker TM_BIN&apos; allows for the compilation of diverse concepts related to diagnostic biomarkers in a specific disease via the axiom &apos;isDiagnosticBiomarkerFor some disease&apos;. This enables the adaptation of the ontology for text mining purposes, facilitating the retrieval and extraction of information related to diagnostic biomarkers within a specific disease.</dc:description>
-        <rdfs:label>diagnostic biomarker TM_BIN</rdfs:label>
+        <rdfs:label>diagnostic biomarker text mining bin</rdfs:label>
     </owl:Class>
     
 
@@ -4118,8 +4119,9 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </owl:equivalentClass>
+        <obo:IAO_0000115>A placeholder for monitoring biomarkers, organized based on the reasoning application &apos;isMonitoringBiomarkerFor some disease&apos;, to facilitate text mining and information retrieval for specific diseases.</obo:IAO_0000115>
         <dc:description>The concept of the &apos;monitoring biomarker TM_BIN&apos; allows for the compilation of diverse concepts related to monitoring biomarkers in a specific disease via the axiom &apos;isMonitoringBiomarkerFor some disease&apos;. This enables the adaptation of the ontology for text mining purposes, facilitating the retrieval and extraction of information related to monitoring biomarkers within a specific disease.</dc:description>
-        <rdfs:label>monitoring biomarker TM_BIN</rdfs:label>
+        <rdfs:label>monitoring biomarker  text mining bin</rdfs:label>
     </owl:Class>
     
 
@@ -4133,8 +4135,9 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </owl:equivalentClass>
+        <obo:IAO_0000115>A placeholder for prognostic biomarkers, organized based on the reasoning application &apos;isPrognosticBiomarkerFor some disease&apos;, to facilitate text mining and information retrieval for specific diseases.</obo:IAO_0000115>
         <dc:description>The concept of the &apos;prognostic biomarker TM_BIN&apos; allows for the compilation of diverse concepts related to prognostic biomarkers in a specific disease via the axiom &apos;isPrognosticBiomarkerFor some disease&apos;. This enables the adaptation of the ontology for text mining purposes, facilitating the retrieval and extraction of information related to prognostic biomarkers within a specific disease.</dc:description>
-        <rdfs:label>prognostic biomarker TM_BIN</rdfs:label>
+        <rdfs:label>prognostic biomarker  text mining bin</rdfs:label>
     </owl:Class>
     
 
@@ -4148,8 +4151,9 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </owl:equivalentClass>
+        <obo:IAO_0000115>A placeholder for predictive biomarkers, organized based on the reasoning application &apos;isPredictiveBiomarkerFor some disease&apos;, to facilitate text mining and information retrieval for specific diseases.</obo:IAO_0000115>
         <dc:description>The concept of the &apos;predictive biomarker TM_BIN&apos; allows for the compilation of diverse concepts related to predictive biomarkers in a specific disease via the axiom &apos;isPredictiveBiomarkerFor some disease&apos;. This enables the adaptation of the ontology for text mining purposes, facilitating the retrieval and extraction of information related to predictive biomarkers within a specific disease.</dc:description>
-        <rdfs:label>predictive biomarker TM_BIN</rdfs:label>
+        <rdfs:label>predictive biomarker  text mining bin</rdfs:label>
     </owl:Class>
     
 
@@ -4443,8 +4447,9 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </owl:equivalentClass>
+        <obo:IAO_0000115>A placeholder for digital biomarkers, organized based on the reasoning application &apos;isDigitalBiomarkerFor some disease&apos;, to facilitate text mining and information retrieval for specific diseases.</obo:IAO_0000115>
         <dc:description>The concept of the &apos;digital biomarker TM_BIN&apos; allows for the compilation of diverse concepts related to digital biomarkers in a specific disease via the axiom &apos;isDigitalBiomarkerFor some disease&apos;. This enables the adaptation of the ontology for text mining purposes, facilitating the retrieval and extraction of information related to digital biomarkers within a specific disease.</dc:description>
-        <rdfs:label>digital biomarker TM_BIN</rdfs:label>
+        <rdfs:label>digital biomarker text mining bin</rdfs:label>
     </owl:Class>
     
 
@@ -4458,8 +4463,9 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </owl:equivalentClass>
+        <obo:IAO_0000115>A placeholder for imaging biomarkers, organized based on the reasoning application &apos;isImagingBiomarkerFor some disease&apos;, to facilitate text mining and information retrieval for specific diseases.</obo:IAO_0000115>
         <dc:description>The concept of the &apos;imaging biomarker TM_BIN&apos; allows for the compilation of diverse concepts related to imaging biomarkers in a specific disease via the axiom &apos;isImagingBiomarkerFor some disease&apos;. This enables the adaptation of the ontology for text mining purposes, facilitating the retrieval and extraction of information related to imaging biomarkers within a specific disease.</dc:description>
-        <rdfs:label>imaging biomarker TM_BIN</rdfs:label>
+        <rdfs:label>imaging biomarker text mining bin</rdfs:label>
     </owl:Class>
     
 
