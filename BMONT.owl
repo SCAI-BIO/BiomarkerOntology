@@ -25,7 +25,6 @@
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bmont/releases/2025-06-20/bmont.owl"/>
         <dc:contributor>Marc Jacobs</dc:contributor>
         <dc:contributor>Martin Hofmann Aptius</dc:contributor>
-        <dc:contributor>Negin Babaiha</dc:contributor>
         <dc:creator>Astghik Sargsyan</dc:creator>
         <dc:title>Biomarker Ontology (BMONT)</dc:title>
         <terms:description>The Biomarker Ontology (BMONT) is a comprehensive knowledge representation involving a variety of fields of medical and biological aspects. BMONT is built in line with Basic Formal Ontology (BFO) and Open Biological and Biomedical Ontology (OBO) principles.
@@ -4197,6 +4196,12 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BMONT_0000049">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:BMONT_0000048>yes</obo:BMONT_0000048>
         <obo:IAO_0000115>Systolic function refers to the heart&apos;s ability to throw out a specific amount of blood in a certain amount of time.</obo:IAO_0000115>
         <obo:IAO_0000119>https://doi.org/10.53347/rID-85803</obo:IAO_0000119>
@@ -4495,6 +4500,12 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Activity level refers to the amount and intensity of physical activity an individual engages in over a specific period. It is an important factor in maintaining overall health, fitness, and well-being. Understanding and monitoring activity levels can help individuals achieve their health and fitness goals, manage weight, and reduce the risk of chronic diseases.</obo:IAO_0000115>
         <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22.05.2024</obo:IAO_0000119>
         <rdfs:label>activity level</rdfs:label>
@@ -4621,6 +4632,12 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Photoplethysmographic blood volume pulse (BVP) is a noninvasive sensor and is used to measure blood volume changes and vasodilator function in the microvessels of the finger. BVP is widely used to detect the peripheral pulse waveform that is converted to blood volume amplitude (BVA). Blood volume amplitude reflects arterial dilation and contraction that are controlled by the autonomic nervous system (ANS).</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/24842231/</obo:IAO_0000119>
         <rdfs:label>blood volume pulse</rdfs:label>
@@ -4703,6 +4720,12 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BMONT_0000103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Blood lipid levels refer to the concentration of various lipid molecules in the blood. These lipids include cholesterol (including LDL cholesterol, HDL cholesterol, and total cholesterol) and triglycerides.</obo:IAO_0000115>
         <obo:IAO_0000119>generated with ChatGPT version 3,5 on 03.05.2024</obo:IAO_0000119>
         <rdfs:label>blood lipid level</rdfs:label>
@@ -4735,6 +4758,12 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4781,6 +4810,12 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4837,6 +4872,12 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Lesion load codes the amount of damage to a given brain region of interest. Lesion load aims to reduce the complex 3D lesion information into a feature that can reflect both site of damage, defined by the location of the region of interest, and size of damage within that region of interest.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/36947181/</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>lesion burden</oboInOwl:hasExactSynonym>
@@ -4877,6 +4918,12 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4939,6 +4986,12 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Functional connectivity density (FCD) is a measure used in neuroimaging, particularly in functional magnetic resonance imaging (fMRI) studies, to quantify the strength and distribution of functional connections between different brain regions.</obo:IAO_0000115>
         <obo:IAO_0000119>generated with ChatGPT version 3,5 on 07.05.2024</obo:IAO_0000119>
         <rdfs:label>functional connectivity density</rdfs:label>
@@ -4986,6 +5039,12 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Axonal water fraction (AWF) is a metric used in diffusion MRI (dMRI) to characterize the microstructural properties of white matter in the brain. It quantifies the proportion of water molecules associated specifically with the axonal compartments within white matter tissue.</obo:IAO_0000115>
         <obo:IAO_0000119>generated with ChatGPT version 3,5 on 07.05.2024</obo:IAO_0000119>
         <rdfs:label>axonal water fraction</rdfs:label>
@@ -5000,6 +5059,12 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5038,6 +5103,12 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Fractional Anisotropy (FA) is a metric derived from diffusion tensor imaging (DTI), a magnetic resonance imaging (MRI) technique used to study the microstructural organization of tissues, particularly white matter in the brain. FA quantifies the degree of anisotropy of water diffusion within tissue. In white matter, water molecules tend to diffuse more easily along the direction of the fiber tracts (axonal bundles) than perpendicular to them. FA values range from 0 to 1, where higher values indicate greater directionality or organization of the tissue microstructure, typically reflecting intact white matter tracts.</obo:IAO_0000115>
         <obo:IAO_0000119>generated with ChatGPT version 3,5 on 07.05.2024</obo:IAO_0000119>
         <rdfs:label>fractional anisotropy</rdfs:label>
@@ -5070,6 +5141,12 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5130,6 +5207,12 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BMONT_0000127">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Gait speed, also known as walking speed, is a crucial parameter in the study of human locomotion and biomechanics. It is defined as the distance covered per unit of time while walking. Gait speed is often measured in meters per second (m/s) or feet per second (ft/s) and is an important indicator of overall health, functional status, and mobility.</obo:IAO_0000115>
         <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>walking speed</oboInOwl:hasExactSynonym>
@@ -5143,6 +5226,12 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BMONT_0000128">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Stride length is a key parameter in the study of human gait and biomechanics. It refers to the distance covered between two successive placements of the same foot. Essentially, it is the distance traveled during one complete gait cycle, involving both the left and right foot.</obo:IAO_0000115>
         <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>gait stride length</oboInOwl:hasExactSynonym>
@@ -5156,6 +5245,12 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BMONT_0000129">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Gait cycle time is an important parameter in the study of human locomotion and biomechanics. It refers to the duration of a complete gait cycle, which encompasses all the phases of walking from one foot making contact with the ground to the same foot making contact again.</obo:IAO_0000115>
         <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
         <rdfs:label>gait cycle time</rdfs:label>
@@ -5187,7 +5282,13 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
     <!-- http://purl.obolibrary.org/obo/BMONT_0000137 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BMONT_0000137">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Mitochondrial function refers to the various vital processes performed by mitochondria, which are the energy-producing organelles in cells.</obo:IAO_0000115>
         <obo:IAO_0000119>generated with ChatGPT version 4,0 on 19․08․24</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>mitochondrial behaviour</oboInOwl:hasExactSynonym>
@@ -5481,6 +5582,12 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:BMONT_0000048>yes</obo:BMONT_0000048>
         <obo:IAO_0000115>Any glyceride resulting from the condensation of all three hydroxy groups of glycerol (propane-1,2,3-triol) with fatty acids.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
@@ -5704,6 +5811,12 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000067"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6214,6 +6327,12 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000542">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000738"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A lymphocyte is a leukocyte commonly found in the blood and lymph that has the characteristics of a large nucleus, a neutral staining cytoplasm, and prominent heterochromatin.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -6233,6 +6352,12 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000576">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000738"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:BMONT_0000048>yes</obo:BMONT_0000048>
         <obo:IAO_0000115>Myeloid mononuclear recirculating leukocyte that can act as a precursor of tissue macrophages, osteoclasts and some populations of tissue dendritic cells.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -6316,6 +6441,12 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Measurement of the amount of glucose, the monosaccharide sugar, C6H12O6, occurring widely in plant and animal tissues which is one of the three dietary monosaccharides that are absorbed directly into the bloodstream during digestion, is the end product of carbohydrate metabolism, and is the chief source of energy for living organisms, in a specified volume of blood, the fluid that circulates through the heart, arteries, capillaries and veins carrying nutrients and oxygen to the body tissues and metabolites away from them.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
         <oboInOwl:created_by>mshimoyama</oboInOwl:created_by>
@@ -6347,6 +6478,7 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
         <oboInOwl:creation_date>2012-03-28T10:49:24Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CHEBI:16737</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>EFO:0007934</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>CrCl</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>creatinine clearance measurement</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>clinical_measurement_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CMO:0000765</oboInOwl:id>
@@ -6380,6 +6512,12 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6471,6 +6609,12 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Heart rate variability (HRV) is the physiological phenomenon of variation in the time interval between heartbeats. It is measured by the variation in the beat-to-beat interval.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
         <oboInOwl:created_by>sjwang</oboInOwl:created_by>
@@ -6547,6 +6691,12 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7943,6 +8093,12 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005577">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:BMONT_0000048>yes</obo:BMONT_0000048>
         <obo:IAO_0000115>A highly soluble, elongated protein complex found in blood plasma and involved in clot formation. It is converted into fibrin monomer by the action of thrombin. In the mouse, fibrinogen is a hexamer, 46 nm long and 9 nm maximal diameter, containing two sets of nonidentical chains (alpha, beta, and gamma) linked together by disulfide bonds.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -8143,6 +8299,12 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0090398">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009987"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A cell aging process stimulated in response to cellular stress, whereby normal cells lose the ability to divide through irreversible cell cycle arrest.</obo:IAO_0000115>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/22788</obo:IAO_0000233>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -8160,6 +8322,12 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0090399">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009987"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A cell aging process associated with the dismantling of a cell as a response to telomere shortening and/or cellular aging.</obo:IAO_0000115>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/22788</obo:IAO_0000233>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -8338,6 +8506,12 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0252"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>An abnormality of movement with a neurological basis characterized by changes in coordination and speed of voluntary movements.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <terms:creator rdf:resource="https://orcid.org/0009-0006-4530-3154"/>
@@ -9406,6 +9580,12 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_34">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_0"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Extracellular deposition of amyloid protein.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mpath.owl"/>
         <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
@@ -9420,7 +9600,13 @@ Previous. An information content entity is a non-realizable information entity t
     <!-- http://purl.obolibrary.org/obo/MP_0003674 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0003674">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_1110122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:BMONT_0000048>yes</obo:BMONT_0000048>
         <obo:IAO_0000115>condition characterized by an accumulation of free radical groups in the body, which creates a potentially unstable and damaging cellular environment linked to tissue damage, accelerated aging, and degenerative disease; can result from many factors, including exposure to alcohol, medications, poor nutrition, trauma, cold or toxins; may be indicated by low antioxidant levels measured in blood plasma</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mp.owl"/>
@@ -9493,6 +9679,12 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -9596,6 +9788,12 @@ Previous. An information content entity is a non-realizable information entity t
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A microRNA that has six isoforms that may play a role in the activity of phosphatidylinositol-4,5-bisphosphate 3-kinase and natural killer cells. The MIR181 isoforms have been implicated in a variety of cancers, including chronic lymphocytic leukemia, glioblastoma, multiple myeloma and hepatocellular carcinoma.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C116021</obo:NCIT_NHC0>
@@ -9625,6 +9823,12 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -9778,6 +9982,12 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -11018,6 +11228,12 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C88164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The ability of the heart and lungs to deliver blood and oxygen to the tissues during aerobic activity. It is a general measure of the relative conditioning of the heart and respiratory system.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C88164</obo:NCIT_NHC0>
@@ -11722,6 +11938,12 @@ where \beta_0 =  0 is the intercept (&quot;constant&quot; term), the \beta_i s  
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000023411">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>SIR2L1</obo:IAO_0000118>
         <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
@@ -11753,6 +11975,12 @@ where \beta_0 =  0 is the intercept (&quot;constant&quot; term), the \beta_i s  
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000051547">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>SIR2L7</obo:IAO_0000118>
         <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
@@ -12066,6 +12294,12 @@ Sagar Jain</obo:IAO_0000117>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0016017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026291"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Peroxidase catalyzed oxidation of lipids using hydrogen peroxide as an electron acceptor.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/68015227</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
@@ -12258,6 +12492,12 @@ A CELL CYCLE and tumor growth marker which can be readily detected using IMMUNOC
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
         <oboInOwl:hasDbXref>Entrez:3820</oboInOwl:hasDbXref>
         <rdfs:comment>killer cell lectin like receptor B1</rdfs:comment>
@@ -12273,6 +12513,12 @@ A CELL CYCLE and tumor growth marker which can be readily detected using IMMUNOC
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -12292,6 +12538,12 @@ A CELL CYCLE and tumor growth marker which can be readily detected using IMMUNOC
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -12773,6 +13025,12 @@ A CELL CYCLE and tumor growth marker which can be readily detected using IMMUNOC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001393">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004100"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:BMONT_0000048>yes</obo:BMONT_0000048>
         <obo:IAO_0000115>A protein that is a translation product of the human IL6 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
@@ -13021,6 +13279,12 @@ A CELL CYCLE and tumor growth marker which can be readily detected using IMMUNOC
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A neurotrophin that is a translation product of the human BDNF gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
         <oboInOwl:hasExactSynonym>BDNF</oboInOwl:hasExactSynonym>
@@ -13259,6 +13523,12 @@ A CELL CYCLE and tumor growth marker which can be readily detected using IMMUNOC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007939">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A protein that is a translation product of the human GFAP gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
         <oboInOwl:hasExactSynonym>GFAP</oboInOwl:hasExactSynonym>
@@ -13274,6 +13544,12 @@ A CELL CYCLE and tumor growth marker which can be readily detected using IMMUNOC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009725">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:BMONT_0000048>yes</obo:BMONT_0000048>
         <obo:IAO_0000115>A protein that is a translation product of the human LCN2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
@@ -13317,6 +13593,12 @@ A CELL CYCLE and tumor growth marker which can be readily detected using IMMUNOC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011426">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A protein that is a translation product of the human NRGN gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
         <oboInOwl:hasExactSynonym>NRGN</oboInOwl:hasExactSynonym>
@@ -13334,6 +13616,12 @@ A CELL CYCLE and tumor growth marker which can be readily detected using IMMUNOC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015561">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A protein that is a translation product of the human SPP1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
         <oboInOwl:hasExactSynonym>2AR</oboInOwl:hasExactSynonym>
@@ -13422,8 +13710,15 @@ A CELL CYCLE and tumor growth marker which can be readily detected using IMMUNOC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050369">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A protein-containing complex that is the remnant of fibrin mesh degradation (fibrinolysis) by plasmin in human.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasExactSynonym>D-dimer</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>hFDP/D-dimer</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
         <oboInOwl:id>PR:000050369</oboInOwl:id>
@@ -13446,6 +13741,12 @@ A CELL CYCLE and tumor growth marker which can be readily detected using IMMUNOC
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000067"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -14459,6 +14760,12 @@ last accessed: May 2016</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000134">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000119>generated with ChatGPT version 4,0 on 19.06.2025</obo:IAO_0000119>
         <rdfs:label xml:lang="en">knee extension strength</rdfs:label>
         <skos:definition>Knee extension strength refers to the amount of force that the muscles on the front of the thigh—primarily the quadriceps—can generate to straighten (extend) the knee joint.</skos:definition>
@@ -14487,7 +14794,7 @@ last accessed: May 2016</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000138 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000138">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0022597"/>
         <obo:IAO_0000115>Brain aging is a complex process that affects everything from the subcellular to the organ level, begins early in life, and accelerates with age. Morphologically, brain aging is primarily characterized by brain volume loss, cortical thinning, white matter degradation, loss of gyrification, and ventricular enlargement. Pathophysiologically, brain aging is associated with neuron cell shrinking, dendritic degeneration, demyelination, small vessel disease, metabolic slowing, microglial activation, and the formation of white matter lesions.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/34600936/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">brain aging</rdfs:label>
@@ -14611,6 +14918,12 @@ last accessed: May 2016</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000147">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0252"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The decline in stem cell function is a well-established feature of the aging process and plays a crucial role in the overall degeneration of tissues and organs as we age. Stem cells are responsible for tissue regeneration, repair, and maintaining homeostasis in the body. As we age, the function of these stem cells diminishes, leading to impaired tissue repair, reduced regeneration capacity, and an increased risk of age-related diseases.</obo:IAO_0000115>
         <obo:IAO_0000119>generated with ChatGPT version 4,0 on 19․08․24</obo:IAO_0000119>
         <rdfs:label xml:lang="en">decline in stem cell function</rdfs:label>
@@ -14622,6 +14935,12 @@ last accessed: May 2016</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000148">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0252"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The decline in stem cell function is a well-established feature of the aging process and plays a crucial role in the overall degeneration of tissues and organs as we age. Stem cells are responsible for tissue regeneration, repair, and maintaining homeostasis in the body. As we age, the function of these stem cells diminishes, leading to impaired tissue repair, reduced regeneration capacity, and an increased risk of age-related diseases.</obo:IAO_0000115>
         <obo:IAO_0000119>generated with ChatGPT version 4,0 on 19․08․24</obo:IAO_0000119>
         <rdfs:label xml:lang="en">stem cell quantity</rdfs:label>
@@ -14633,6 +14952,12 @@ last accessed: May 2016</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000149">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0252"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Regenerative capacity is a complex trait dependent on the ability to access high-fidelity morphogenetic programmes after injury. It is distributed unequally among species and, within individuals, among their tissues.</obo:IAO_0000115>
         <obo:IAO_0000119>generated with ChatGPT version 4,0 on 19․08․24</obo:IAO_0000119>
         <rdfs:label xml:lang="en">regenerative capacity</rdfs:label>
@@ -14679,6 +15004,12 @@ It describes a limit on the process of cell division and is related to the conce
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000152">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000154"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000119>generated with ChatGPT-4 on 09․10․24</obo:IAO_0000119>
         <rdfs:label xml:lang="en">BloodAge</rdfs:label>
         <skos:definition>BloodAge refers to a biological age estimation method that uses a blood-based proteomic signature to assess how old a person is biologically, as opposed to their chronological age. By analyzing the levels of specific proteins in the blood, this method predicts a person&apos;s biological aging and potential risk for age-related diseases.</skos:definition>
@@ -14765,6 +15096,7 @@ It describes a limit on the process of cell division and is related to the conce
         <oboInOwl:hasExactSynonym>DNAm pace of aging</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>DunedinPACE</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>epigenetic aging rate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pace of aging</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>rate of epigenetic aging</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">pace of aging computed from the epigenome</rdfs:label>
         <skos:definition>Pace of Aging Computed from the Epigenome is a biomarker developed to assess the biological aging process based on DNA methylation patterns. Unlike other aging measures that focus on chronological age, DunedinPACE specifically evaluates how quickly or slowly an individual is aging by analyzing chemical tags (methylation marks) on DNA in white blood cells.</skos:definition>
@@ -14864,6 +15196,12 @@ It describes a limit on the process of cell division and is related to the conce
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000164">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/34233405/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">handgrip strength</rdfs:label>
         <skos:definition>Handgrip strength (HGS) is a simple and reliable measurement of maximum voluntary muscle strength. It is an important tool for diagnosing sarcopenia and is widely used as a single indicator to represent overall muscle strength. HGS can predict not only muscle mass and physical activity, but also the incidence of chronic diseases, nutritional status, quality of life, independence of daily life, length of hospital stay, and even mortality.</skos:definition>
@@ -14875,6 +15213,12 @@ It describes a limit on the process of cell division and is related to the conce
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000167">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_1110122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000119>generated with ChatGPT version 4,0 on 19.06.2024</obo:IAO_0000119>
         <rdfs:label xml:lang="en">cortical thinning</rdfs:label>
         <skos:definition>Cortical thinning is the gradual reduction in the thickness of the brain’s cerebral cortex—the outer layer of neural tissue involved in functions such as perception, memory, and decision-making. It is commonly measured using neuroimaging techniques like MRI and is associated with normal aging, neurodegenerative diseases (e.g., Alzheimer’s), and certain psychiatric conditions.</skos:definition>
@@ -14886,6 +15230,12 @@ It describes a limit on the process of cell division and is related to the conce
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000168">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_1110122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000119>generated with ChatGPT version 4,0 on 19.06.2024</obo:IAO_0000119>
         <rdfs:label xml:lang="en">functional connectivity decline</rdfs:label>
         <skos:definition>Functional connectivity decline refers to a reduction in the coordinated activity or communication between different regions of the brain over time. It typically indicates weakened synchronization in neural signals, often observed in aging, neurodegenerative diseases (like Alzheimer’s), or brain injury. This decline can affect cognitive functions such as memory, attention, and executive processing.</skos:definition>
@@ -15862,6 +16212,12 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The amount of mineral per square centimeter of BONE. This is the definition used in clinical practice. Actual bone density would be expressed in grams per milliliter. It is most frequently measured by X-RAY ABSORPTIOMETRY or TOMOGRAPHY, X RAY COMPUTED. Bone density is an important predictor for OSTEOPOROSIS.</obo:IAO_0000115>
         <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
@@ -16031,6 +16387,12 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004285">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:BMONT_0000048>yes</obo:BMONT_0000048>
         <obo:IAO_0000115>The presence of albumin in the urine, an indicator of KIDNEY DISEASES.</obo:IAO_0000115>
         <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
@@ -16144,6 +16506,12 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:BMONT_0000048>yes</obo:BMONT_0000048>
         <obo:IAO_0000115>PRESSURE of the BLOOD on the ARTERIES and other BLOOD VESSELS.</obo:IAO_0000115>
         <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
@@ -16194,6 +16562,12 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000067"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -16268,6 +16642,12 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>An insulin sensitivity measurement is a measurement of insulin metabolism, which can be measured in a number of ways, for example using the HOMA model or via a glucose tolerance test.</obo:IAO_0000115>
         <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
@@ -16286,6 +16666,12 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000067"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -16357,6 +16743,12 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:BMONT_0000048>yes</obo:BMONT_0000048>
         <obo:IAO_0000115>An Arterial stiffness measurement is the information output of a non invasive pulse wave velocity assay. Arterial stiffness is a predictor of cardiovascular mortality</obo:IAO_0000115>
         <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
@@ -16419,12 +16811,19 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004580">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004100"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Interleukin-18 (IL18, also known as interferon-gamma inducing factor) is a protein which in humans is encoded by the IL18 gene.[1][2] The protein encoded by this gene is a proinflammatory cytokine.</obo:IAO_0000115>
         <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
         <efo:definition_citation>http://en.wikipedia.org/wiki/Interleukin_18</efo:definition_citation>
         <efo:definition_citation>http://www.uniprot.org/uniprot/Q14116</efo:definition_citation>
         <oboInOwl:hasExactSynonym>IL-18</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>interleukin 18</oboInOwl:hasExactSynonym>
         <rdfs:label>interleukin 18 (Homo sapiens)</rdfs:label>
     </owl:Class>
     
@@ -16552,6 +16951,12 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Is a quantification of the thickness of brain cortex, e.g. measured by MRI, used in the diagnosis of Alzheimer&apos;s disease and other neurological conditions</obo:IAO_0000115>
         <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
@@ -16597,6 +17002,12 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Is a quantification of some sleep parameter.</obo:IAO_0000115>
         <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
@@ -16610,6 +17021,12 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004872">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Is a quantification of any molecule involved in the process of inflammatory response.</obo:IAO_0000115>
         <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
@@ -16724,6 +17141,12 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -17102,6 +17525,19 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0007753 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0007753">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007874"/>
+        <obo:IAO_0000115>quantification of some aspect of the seasonal variation in the micrbiome of the gut</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <rdfs:label>seasonal gut microbiome measurement</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0007783 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0007783">
@@ -17142,6 +17578,20 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0007874 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0007874">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007882"/>
+        <obo:IAO_0000115>quantification of some aspect of an individual&apos;s micrbiome of the gut</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasRelatedSynonym>gut microbiome</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>gut microbiome measurement</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0007875 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0007875">
@@ -17164,6 +17614,49 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
         <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
         <rdfs:label>insomnia measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0007882 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0007882">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>quantification of some aspect of an individual&apos;s microbiome</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label>microbiome measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0007883 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0007883">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007882"/>
+        <obo:IAO_0000115>quantification of the taxonomic variation in a microbiome sample</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <rdfs:label>taxonomic microbiome measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0007884 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0007884">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007882"/>
+        <obo:IAO_0000115>quantification of the functional variation in a microbiome</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label>functional microbiome measurement</rdfs:label>
     </owl:Class>
     
 
@@ -17241,6 +17734,12 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -17333,6 +17832,12 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009860">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004554"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Frequency of chromosomal aberrations in human peripheral blood.</obo:IAO_0000115>
         <obo:IAO_0000117>Joannella Morales</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
@@ -17389,6 +17894,22 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0011013 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0011013">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007882"/>
+        <obo:IAO_0000115>Quantification of some aspect of an individual&apos;s microbiome of the vagina.</obo:IAO_0000115>
+        <obo:IAO_0000117>Aoife McMahon</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>PMID:32723796</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>vaginal flora measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>vaginal microbiota measurement</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">vaginal microbiome measurement</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0022597 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0022597">
@@ -17406,7 +17927,7 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
     <!-- http://www.ebi.ac.uk/efo/EFO_0022599 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0022599">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C21051"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmont.owl/BMONT_0000137"/>
@@ -17435,6 +17956,35 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-14T09:43:25Z</dc:date>
         <oboInOwl:hasExactSynonym>mLOX</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">mosaic loss of chromosome X measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0801228 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0801228">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007882"/>
+        <obo:IAO_0000115>Quantification of some aspect of an individual&apos;s microbiome of the skin.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>PMID:36261456</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>skin microbiota measurement</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">skin microbiome measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0801229 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0801229">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007882"/>
+        <obo:IAO_0000115>Quantification of some aspect of an individual&apos;s oral microbiome.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>PMID:34875929</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>oral microbiota measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>salivary microbiome measurement</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">oral microbiome measurement</rdfs:label>
     </owl:Class>
     
 
@@ -17530,5 +18080,5 @@ VEGF is a sub-family of growth factors, to be specific, the platelet-derived gro
 
 
 
-<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
